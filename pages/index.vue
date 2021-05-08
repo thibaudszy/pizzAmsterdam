@@ -12,12 +12,18 @@
           Our favourite pizzerias in Amsterdam
         </a>
       </div>
+      <GoogleMap />
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import GoogleMap from '@/components/GoogleMap.vue'
+export default {
+  components: {
+    GoogleMap,
+  },
+}
 </script>
 
 <style>
