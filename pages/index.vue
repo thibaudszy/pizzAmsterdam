@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">Pizza is life</h1>
-      <div class="links">
+      <h1 class="title">Amsterdam's best pizza</h1>
+      <div class="links mb-8">
         <a
           href="/"
           target="_blank"
@@ -46,7 +46,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 50px;
   color: #35495e;
   letter-spacing: 1px;
 }
