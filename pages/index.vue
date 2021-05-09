@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="min-w-full">
       <h1 class="title">Amsterdam's best pizza</h1>
       <div class="links mb-8">
         <a
@@ -9,9 +9,18 @@
           rel="noopener noreferrer"
           class="button--green"
         >
-          Our favourite pizzerias in Amsterdam
+          List view
+        </a>
+        <a
+          href="/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Map view
         </a>
       </div>
+      <restaurant-card />
       <GoogleMap />
     </div>
   </div>
@@ -19,9 +28,11 @@
 
 <script>
 import GoogleMap from '@/components/GoogleMap.vue'
+import RestaurantCard from '../components/RestaurantCard.vue'
 export default {
   components: {
     GoogleMap,
+    RestaurantCard,
   },
 }
 </script>
@@ -35,6 +46,7 @@ export default {
 .container {
   margin: 0 auto;
   min-height: 100vh;
+  min-width: 50em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +58,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 20px;
   color: #35495e;
   letter-spacing: 1px;
 }

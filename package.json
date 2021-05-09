@@ -9,6 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "child_process": "^1.0.2",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
     "vue2-google-maps": "^0.10.7"
