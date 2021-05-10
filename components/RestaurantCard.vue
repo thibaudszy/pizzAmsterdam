@@ -1,20 +1,19 @@
 <template>
-  <div class="rounded mb-5 p-2 border-2 shadow">
-    <h2>{{ selectedPizzeria }}</h2>
-    <p>address</p>
-    <p>phone number</p>
-    <p>x minutes away from you</p>
-  </div>
+  <v-card elevation="2">
+    <v-card-title> {{ selectedPizzeria }} </v-card-title>
+  </v-card>
 </template>
 
 <script>
-import { GOOGLE_MAPS_API_KEY } from '@/assets/secrets'
-import axios from 'axios'
+import { framework } from 'vuetify'
+import pizzeriasDetails from '@/assets/pizzeriasDetails'
 export default {
   name: 'RestaurantCard',
+  components: { ...framework },
   computed: {
     selectedPizzeria() {
-      return this.$route.query?.pizzeria || 'none selected'
+      const { pizzeriaId } = this.$route.query
+      return pizzeriaId ? pizzeriasDetails[pizzeriaId].name : 'none selected'
     },
   },
   mounted() {},

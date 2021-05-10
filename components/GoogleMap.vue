@@ -2,11 +2,11 @@
   <div>
     <GmapMap :center="center" :zoom="14" style="width: 100%; height: 400px">
       <GmapMarker
-        :key="index"
-        v-for="(m, index) in markers"
-        :position="m"
+        :key="location.id"
+        v-for="location in pizzeriasLocations"
+        :position="location.location"
         :clickable="true"
-        @click="handleMarkerClick(index)"
+        @click="handleMarkerClick(location.pizzeriaId)"
       />
       <GmapMarker
         v-if="userLocation"
@@ -18,23 +18,31 @@
 </template>
 
 <script>
-import list from '@/assets/pizzeriasList'
+import pizzeriasDetails from '@/assets/pizzeriasDetails'
 export default {
   name: 'GoogleMap',
+  documentTitle: "Amsterdam's best pizza",
   data() {
     return {
       userLocation: null,
       center: { lat: 52.3676, lng: 4.9041 },
-      markers: [],
     }
   },
   mounted() {
     this.geolocate()
   },
-  created() {
-    for (let id in list) {
-      this.markers.push(Object.values(list[id])[0].geometry.location)
-    }
+  computed: {
+    pizzeriasLocations() {
+      const markers = []
+      for (let pizzeriaId in pizzeriasDetails) {
+        markers.push({
+          pizzeriaId, // same as the googleId
+          location: pizzeriasDetails[pizzeriaId].geometry.location,
+          name: pizzeriasDetails[pizzeriaId].name,
+        })
+      }
+      return markers
+    },
   },
   methods: {
     geolocate: function () {
@@ -49,10 +57,10 @@ export default {
         }
       })
     },
-    handleMarkerClick(index) {
+    handleMarkerClick(pizzeriaId) {
       this.$router.push({
         path: `/`,
-        query: { pizzeria: this.markers[index].name },
+        query: { pizzeriaId },
       })
     },
   },
