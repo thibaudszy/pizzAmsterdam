@@ -1,6 +1,10 @@
 <template>
   <div>
-    <GmapMap :center="center" :zoom="14" style="width: 50%; height: 400px">
+    <GmapMap
+      :center="center"
+      :zoom="14"
+      style="width: 600px; max-width: 100vw; height: 400px"
+    >
       <GmapMarker
         :key="location.id"
         v-for="location in pizzeriasLocations"

@@ -19,10 +19,10 @@
         Map view
       </a>
     </div>
-    <div>
-      <RestaurantCard />
-      <GoogleMap />
-    </div>
+
+    <RestaurantCard class="max-w-xs" />
+
+    <GoogleMap />
   </div>
 </template>
 

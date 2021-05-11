@@ -1,17 +1,17 @@
 <template>
-  <v-card>
-    <v-card-title> {{ selectedPizzeria.name }} </v-card-title>
-    <v-card-subtitle class="text-left">
-      {{ isOpenNow() ? 'open now' : 'closed' }}</v-card-subtitle
-    >
-    <v-card-text>
+  <div elevation="2">
+    <h2>{{ selectedPizzeria.name }}</h2>
+    <h5 class="text-left">
+      {{ isOpenNow() ? 'open now' : 'closed' }}
+    </h5>
+    <p>
       An awesome review. Sed ut perspiciatis unde omnis iste natus error sit
       voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
       ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
       dicta sunt explicabo.
-    </v-card-text>
-    <v-card-actions> full review </v-card-actions>
-  </v-card>
+    </p>
+    <a> full review </a>
+  </div>
 </template>
 
 <script>
