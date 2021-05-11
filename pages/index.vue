@@ -1,26 +1,26 @@
 <template>
   <div class="container">
-    <div class="min-w-full">
-      <h1 class="title">Amsterdam's best pizza</h1>
-      <div class="links mb-8">
-        <a
-          href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          List view
-        </a>
-        <a
-          href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Map view
-        </a>
-      </div>
-      <restaurant-card />
+    <h1 class="title">Amsterdam's best pizza</h1>
+    <div class="links mb-8">
+      <a
+        href="/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button--green"
+      >
+        List view
+      </a>
+      <a
+        href="/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button--green"
+      >
+        Map view
+      </a>
+    </div>
+    <div>
+      <RestaurantCard />
       <GoogleMap />
     </div>
   </div>
@@ -44,13 +44,12 @@ export default {
 }
 */
 .container {
-  margin: 0 auto;
+  /* margin: 0 auto;
   min-height: 100vh;
-  min-width: 50em;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center; */
 }
 
 .title {
