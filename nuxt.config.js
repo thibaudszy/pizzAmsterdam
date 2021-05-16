@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'y',
+    title: 'pizzAmsterdam',
     htmlAttrs: {
       lang: 'en',
     },
@@ -42,4 +42,4 @@ export default {
     },
     transpile: [/^vue2-google-maps($|\/)/],
   },
-}
+};

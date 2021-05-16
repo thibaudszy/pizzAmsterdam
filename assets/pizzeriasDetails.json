@@ -11,7 +11,7 @@
     "international_phone_number": "+31 20 362 0834",
     "name": "nNea Pizza",
     "opening_hours": {
-      "open_now": false,
+      "open_now": true,
       "periods": [
         {
           "close": { "day": 0, "time": "2100" },
@@ -45,7 +45,8 @@
       ]
     },
     "rating": 4.7,
-    "website": "http://www.nneapizza.com/"
+    "website": "http://www.nneapizza.com/",
+    "company_name": "nNea_Pizza"
   },
   "ChIJjUFtdHXixUcR7sWMUWHLoQY": {
     "formatted_address": "Netherlands, De Clercqstraat 93III, 1053 AG Amsterdam, Netherlands",
@@ -59,7 +60,7 @@
     "international_phone_number": "+31 20 618 6333",
     "name": "Pazzi De Clercqstraat",
     "opening_hours": {
-      "open_now": false,
+      "open_now": true,
       "periods": [
         {
           "close": { "day": 0, "time": "2200" },
@@ -101,7 +102,8 @@
       ]
     },
     "rating": 4.5,
-    "website": "http://www.pazziamsterdam.nl/"
+    "website": "http://www.pazziamsterdam.nl/",
+    "company_name": "Pazzi"
   },
   "ChIJsfsUJd0JxkcRCztH_o2UIkI": {
     "formatted_address": "Eerste Looiersdwarsstraat 4, 1016 VM Amsterdam, Netherlands",
@@ -115,7 +117,7 @@
     "international_phone_number": "+31 20 320 2800",
     "name": "Pazzi Jordaan",
     "opening_hours": {
-      "open_now": false,
+      "open_now": true,
       "periods": [
         {
           "close": { "day": 0, "time": "2200" },
@@ -157,7 +159,8 @@
       ]
     },
     "rating": 4.4,
-    "website": "https://www.pazziamsterdam.nl/pazzi-jordaan"
+    "website": "https://www.pazziamsterdam.nl/pazzi-jordaan",
+    "company_name": "Pazzi"
   },
   "ChIJEz5OgOUJxkcRJXPqYRPpcKc": {
     "formatted_address": "Steve Bikoplein 12, 1092 GN Amsterdam, Netherlands",
@@ -171,7 +174,7 @@
     "international_phone_number": "+31 20 705 1008",
     "name": "Pazzi Oost",
     "opening_hours": {
-      "open_now": false,
+      "open_now": true,
       "periods": [
         {
           "close": { "day": 0, "time": "2200" },
@@ -212,8 +215,9 @@
         "Sunday: 4:00 – 10:00 PM"
       ]
     },
-    "rating": 4.2,
-    "website": "https://www.pazziamsterdam.nl/pazzi-oost"
+    "rating": 4.3,
+    "website": "https://www.pazziamsterdam.nl/pazzi-oost",
+    "company_name": "Pazzi"
   },
   "ChIJ8y0Ody4JxkcRfVXOKvf2eB8": {
     "formatted_address": "Middenweg 23, 1098 AB Amsterdam, Netherlands",
@@ -227,7 +231,7 @@
     "international_phone_number": "+31 20 211 1787",
     "name": "Pizza Beppe Amsterdam Oost",
     "opening_hours": {
-      "open_now": false,
+      "open_now": true,
       "periods": [
         {
           "close": { "day": 0, "time": "2200" },
@@ -269,7 +273,8 @@
       ]
     },
     "rating": 4,
-    "website": "https://pizzabeppe.nl/"
+    "website": "https://pizzabeppe.nl/",
+    "company_name": "Pizza_Beppe"
   },
   "ChIJtzfv8SAJxkcRkd2MIeXfCX8": {
     "formatted_address": "Nassaukade 379, 1054 AD Amsterdam, Netherlands",
@@ -283,7 +288,7 @@
     "international_phone_number": "+31 20 226 5448",
     "name": "Pizza Beppe Amsterdam West",
     "opening_hours": {
-      "open_now": false,
+      "open_now": true,
       "periods": [
         {
           "close": { "day": 0, "time": "2200" },
@@ -325,7 +330,8 @@
       ]
     },
     "rating": 4.3,
-    "website": "https://pizzabeppe.nl/"
+    "website": "https://pizzabeppe.nl/",
+    "company_name": "Pizza_Beppe"
   },
   "ChIJodUkVgQJxkcRZdtJfljQj4Q": {
     "formatted_address": "Roelof Hartstraat 27, 1071 VG Amsterdam, Netherlands",
@@ -339,7 +345,7 @@
     "international_phone_number": "+31 20 774 0670",
     "name": "Pizza Beppe",
     "opening_hours": {
-      "open_now": false,
+      "open_now": true,
       "periods": [
         {
           "close": { "day": 0, "time": "2200" },
@@ -381,6 +387,7 @@
       ]
     },
     "rating": 4.1,
-    "website": "http://www.pizzabeppe.nl/"
+    "website": "http://www.pizzabeppe.nl/",
+    "company_name": "Pizza_Beppe"
   }
 }

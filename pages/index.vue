@@ -19,22 +19,23 @@
         Map view
       </a>
     </div>
-
-    <RestaurantCard class="max-w-xs" />
-
-    <GoogleMap />
+    <div class="flex">
+      <pizzeria-list />
+      <GoogleMap />
+    </div>
   </div>
 </template>
 
 <script>
-import GoogleMap from '@/components/GoogleMap.vue'
-import RestaurantCard from '../components/RestaurantCard.vue'
+import GoogleMap from '@/components/GoogleMap.vue';
+import PizzeriaList from '~/components/pizzeria-list/pizzeria-list.vue';
+
 export default {
   components: {
     GoogleMap,
-    RestaurantCard,
+    PizzeriaList,
   },
-}
+};
 </script>
 
 <style>
@@ -45,6 +46,10 @@ export default {
 */
 .container {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .title {
@@ -67,5 +72,8 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+.height-80vh {
+  height: 80vh;
 }
 </style>
