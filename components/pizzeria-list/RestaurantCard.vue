@@ -11,7 +11,7 @@
       ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
       dicta sunt explicabo.
     </p>
-    <nuxt-link :to="`/full-review/:${pizzeriaInfo.company_name}`"
+    <nuxt-link :to="`/full-reviews/${pizzeriaInfo.company_name}`"
       >full review</nuxt-link
     >
   </div>
