@@ -1,28 +1,15 @@
 <template>
   <div class="container">
-    <h1 class="title">Amsterdam's best pizza</h1>
-    <div class="links mb-8">
-      <a
-        href="/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="button--green"
-      >
-        List view
-      </a>
-      <a
-        href="/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="button--green"
-      >
-        Map view
-      </a>
+    <div class="header">
+      <h1 class="title">Amsterdam's best pizzas</h1>
     </div>
     <div class="body">
       <pizzeria-list class="list-area" />
       <GoogleMap class="map-area" />
       <review class="review-area" />
+    </div>
+    <div class="footer">
+      <p>work with us</p>
     </div>
   </div>
 </template>
@@ -63,19 +50,17 @@ export default {
   width: 90vw;
 }
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 20px;
-  color: #35495e;
   letter-spacing: 1px;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
@@ -97,5 +82,14 @@ export default {
 }
 .list-area {
   flex: 1 1 2000px;
+}
+.footer {
+  background-color: rgba(0, 0, 255, 0.822);
+  height: 100px;
+  width: 100vw;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border-2 border-black flex flex-col align-items-center overflow-auto height-80vh direction-rtl"
+    class="flex flex-col align-items-center overflow-auto height-80vh direction-rtl"
   >
     <restaurant-card
       v-for="id in pizzeriasIdsToDisplay"

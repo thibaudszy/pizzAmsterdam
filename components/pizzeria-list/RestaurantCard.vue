@@ -1,19 +1,24 @@
 <template>
-  <div v-if="pizzeriaInfo" :class="cardClass" @click="handleCardClick">
-    <p class="text-lg">{{ pizzeriaInfo.name }}</p>
-    <span :class="isOpenNow() ? 'green-dot' : 'red-dot'"> </span>
-    <span class="font-semibold mb-2">
-      {{ isOpenNow() ? 'open now' : 'closed' }}
-    </span>
-    <p class="mb-2">
-      An awesome review. Sed ut perspiciatis unde omnis iste natus error sit
-      voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-      ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-      dicta sunt explicabo.
-    </p>
-    <nuxt-link :to="`/full-reviews/${pizzeriaInfo.company_name}`"
-      >full review</nuxt-link
-    >
+  <div
+    v-if="pizzeriaInfo"
+    :class="`${cardClass} card-class-general`"
+    @click="handleCardClick"
+  >
+    <div class="card-class-info">
+      <p class="text-lg">{{ pizzeriaInfo.name }}</p>
+      <span :class="isOpenNow() ? 'green-dot' : 'red-dot'"> </span>
+      <span class="font-semibold mb-2">
+        {{ isOpenNow() ? 'open now' : 'closed' }}
+      </span>
+      <p class="mb-2">A witty review.</p>
+      <button>full review</button>
+    </div>
+    <div class="card-class-image">
+      <img
+        src="https://lh3.googleusercontent.com/-CZXsyWYdfpc/AAAAAAAAAAI/AAAAAAAAAAA/QHSv9PE73cg/s88-p-k-no-ns-nd/photo.jpg"
+        class="w-15 h-15 rounded-full mx-auto"
+      />
+    </div>
   </div>
 </template>
 
@@ -35,7 +40,7 @@ export default {
     cardClass() {
       return this.pizzeriaId === this.selectedPizzeria
         ? 'p-2  border-2 border-yellow-300'
-        : 'p-2  border-2 border-black';
+        : 'p-2  border-2 border-gray';
     },
   },
   methods: {
@@ -84,5 +89,17 @@ export default {
   background-color: red;
   border-radius: 50%;
   display: inline-block;
+}
+.card-class-general {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.card-class-image {
+  width: 20%;
+}
+.card-class-info {
+  width: 80%;
 }
 </style>
