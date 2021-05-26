@@ -4,28 +4,28 @@
       ref="map"
       :center="center"
       :zoom="14"
-      style="width: 40vw; height: 80vh"
+      style="width: 30vw; height: 80vh"
       @zoom_changed="commitNewMapBounds"
       @center_changed="commitNewMapBounds"
     >
       <GmapMarker
-        :key="location.id"
+        :key="location.pizzeriaId"
         v-for="location in pizzeriasLocations"
         :position="location.location"
         :clickable="true"
         @click="handleMarkerClick(location.pizzeriaId)"
+        :icon="isSelectedPizzeria(location.pizzeriaId) ? redMarker : blueMarker"
       />
-      <GmapMarker
-        v-if="userLocation"
-        :position="userLocation"
-        icon="http://maps.google.com/mapfiles/ms/icons/orange-dot.png"
-      />
+      <GmapMarker v-if="userLocation" :position="userLocation" :icon="mapDot" />
     </GmapMap>
   </div>
 </template>
 
 <script>
 import pizzeriasDetails from '@/assets/pizzeriasDetails';
+import marker from '@/assets/images/marker-pin-google-blue';
+import mapDot from '@/assets/images/map-dot';
+
 export default {
   name: 'GoogleMap',
   documentTitle: "Amsterdam's best pizza",
@@ -34,11 +34,18 @@ export default {
       userLocation: null,
       center: { lat: 52.3676, lng: 4.9041 },
       bounds: {},
+      blueMarker: {},
+      redMarker: {},
+      mapDot: {},
     };
   },
   mounted() {
     this.geolocate();
+    this.blueMarker = { ...marker, fillColor: 'blue' };
+    this.redMarker = { ...marker, fillColor: 'red' };
+    this.mapDot = mapDot;
   },
+
   computed: {
     pizzeriasLocations() {
       const markers = [];
@@ -51,9 +58,15 @@ export default {
       }
       return markers;
     },
+    selectedPizzeria() {
+      const { pizzeriaId } = this.$route.query;
+      return pizzeriaId;
+    },
   },
-
   methods: {
+    isSelectedPizzeria(pizzeriaId) {
+      return this.selectedPizzeria === pizzeriaId;
+    },
     geolocate: function () {
       navigator.geolocation.getCurrentPosition((position) => {
         this.center = {
@@ -89,3 +102,4 @@ export default {
   },
 };
 </script>
+<style></style>

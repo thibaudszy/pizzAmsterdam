@@ -1,5 +1,5 @@
 <template>
-  <div v-if="pizzeriaInfo" :class="cardClass">
+  <div v-if="pizzeriaInfo" :class="cardClass" @click="handleCardClick">
     <p class="text-lg">{{ pizzeriaInfo.name }}</p>
     <span :class="isOpenNow() ? 'green-dot' : 'red-dot'"> </span>
     <span class="font-semibold mb-2">
@@ -25,7 +25,7 @@ export default {
   components: { ...framework },
   props: ['pizzeriaId'],
   computed: {
-    pizzeriaIdUrl() {
+    selectedPizzeria() {
       const { pizzeriaId } = this.$route.query;
       return pizzeriaId;
     },
@@ -33,12 +33,19 @@ export default {
       return pizzeriasDetails[this.pizzeriaId];
     },
     cardClass() {
-      return this.pizzeriaId === this.pizzeriaIdUrl
+      return this.pizzeriaId === this.selectedPizzeria
         ? 'p-2  border-2 border-yellow-300'
         : 'p-2  border-2 border-black';
     },
   },
   methods: {
+    handleCardClick() {
+      // console.log({ pizzeriaId });
+      this.$router.push({
+        path: `/`,
+        query: { pizzeriaId: this.pizzeriaId },
+      });
+    },
     isOpenNow() {
       const now = new Date();
       const today = now.getDay();

@@ -19,9 +19,10 @@
         Map view
       </a>
     </div>
-    <div class="flex">
-      <pizzeria-list />
-      <GoogleMap />
+    <div class="body">
+      <pizzeria-list class="list-area" />
+      <GoogleMap class="map-area" />
+      <review class="review-area" />
     </div>
   </div>
 </template>
@@ -29,11 +30,13 @@
 <script>
 import GoogleMap from '@/components/GoogleMap.vue';
 import PizzeriaList from '~/components/pizzeria-list/pizzeria-list.vue';
+import Review from '~/components/pizzeria-list/review.vue';
 
 export default {
   components: {
     GoogleMap,
     PizzeriaList,
+    Review,
   },
 };
 </script>
@@ -44,14 +47,21 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+:root {
+  --body-height: 80vh;
+}
 .container {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
 }
-
+.body {
+  display: flex;
+  width: 90vw;
+}
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -74,6 +84,18 @@ export default {
   padding-top: 15px;
 }
 .height-80vh {
-  height: 80vh;
+  height: var(--body-height);
+}
+.review-area {
+  margin-left: 1em;
+  height: var(--body-height);
+  flex: 3 1 auto;
+  border-left: 2px solid grey;
+}
+.map-area {
+  flex: 2 1 auto;
+}
+.list-area {
+  flex: 1 1 2000px;
 }
 </style>

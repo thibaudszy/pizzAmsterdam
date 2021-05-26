@@ -1,11 +1,12 @@
 <template>
   <div
-    class="mr-8 border-2 border-black flex flex-col align-items-center overflow-auto height-80vh"
+    class="border-2 border-black flex flex-col align-items-center overflow-auto height-80vh direction-rtl"
   >
     <restaurant-card
       v-for="id in pizzeriasIdsToDisplay"
       :key="id"
       :pizzeriaId="id"
+      class="direction-ltr"
     />
   </div>
 </template>
@@ -32,30 +33,37 @@ export default {
         return true;
       }
       const { latitudes, longitudes } = this.mapBounds;
-      console.log({ latitudes });
       const pizzeriaLocation = pizzeriasDetails[pizzeriaId].geometry.location;
       if (
         pizzeriaLocation.lat < latitudes.min ||
         pizzeriaLocation.lat > latitudes.max
       ) {
-        console.log(
-          'pizzeriaLocation.lat < latitudes.min',
-          pizzeriaLocation.lat,
-          latitudes.min
-        );
         return false;
       }
       if (
         pizzeriaLocation.lng < longitudes.min ||
         pizzeriaLocation.lng > longitudes.max
       ) {
-        console.log('lng');
         return false;
       }
       return true;
+    },
+    handleCardClick(pizzeriaId) {
+      console.log({ pizzeriaId });
+      this.$router.push({
+        path: `/`,
+        query: { pizzeriaId },
+      });
     },
   },
 };
 </script>
 
-<style></style>
+<style>
+.direction-rtl {
+  direction: rtl;
+}
+.direction-ltr {
+  direction: ltr;
+}
+</style>
