@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="h-full">
     <GmapMap
       ref="map"
       :center="center"
-      :zoom="14"
-      style="width: 30vw; height: 80vh"
+      :zoom="13"
+      style="width: 30vw; height: 85vh"
       @zoom_changed="commitNewMapBounds"
       @center_changed="commitNewMapBounds"
     >
@@ -69,10 +69,10 @@ export default {
     },
     geolocate: function () {
       navigator.geolocation.getCurrentPosition((position) => {
-        this.center = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
-        };
+        // this.center = {
+        //   lat: position.coords.latitude,
+        //   lng: position.coords.longitude,
+        // };
         this.userLocation = {
           lat: position.coords.latitude,
           lng: position.coords.longitude,

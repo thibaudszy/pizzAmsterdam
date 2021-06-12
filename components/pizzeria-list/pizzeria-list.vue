@@ -1,13 +1,13 @@
 <template>
-  <div
-    class="flex flex-col align-items-center overflow-auto height-80vh direction-rtl"
-  >
-    <restaurant-card
+  <div class="list-area-style">
+    <div
       v-for="id in pizzeriasIdsToDisplay"
       :key="id"
-      :pizzeriaId="id"
-      class="direction-ltr"
-    />
+      class="restaurant-card-wrapper"
+    >
+      <restaurant-card :pizzeriaId="id" class="restaurant-card" />
+      <div class="separator" />
+    </div>
   </div>
 </template>
 
@@ -49,7 +49,6 @@ export default {
       return true;
     },
     handleCardClick(pizzeriaId) {
-      console.log({ pizzeriaId });
       this.$router.push({
         path: `/`,
         query: { pizzeriaId },
@@ -60,10 +59,26 @@ export default {
 </script>
 
 <style>
-.direction-rtl {
+.list-area-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
   direction: rtl;
 }
-.direction-ltr {
+.restaurant-card {
   direction: ltr;
+}
+.separator {
+  height: 1px;
+  width: 80%;
+  background: grey;
+}
+.restaurant-card-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
 }
 </style>

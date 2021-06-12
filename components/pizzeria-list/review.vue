@@ -1,9 +1,25 @@
 <template>
-  <div class="review" v-if="pizzeriaId">
-    <h1 class="text-lg mb-4">{{ name }}</h1>
-    <img class="mb-4" src="@/assets/images/nNea_Pizza/images.jpeg" />
-    <p class="mb-4">our rating: 4 *</p>
-    <p>
+  <div class="review bg-white" v-if="pizzeriaId">
+    <h1 class="mb-4">{{ name }}</h1>
+    <!-- <div class="my-caroussel">
+      <span v-for="(photo, i) in photos" :key="i">
+        <img :src="photo" class="photo-review" />
+      </span>
+    </div> -->
+    <div class="flex-shrink-0">
+      <v-carousel class="flex-shrink-0">
+        <v-carousel-item
+          v-for="(photo, i) in photos"
+          :key="i"
+          :src="photo"
+          reverse-transition="fade-transition"
+          transition="fade-transition"
+          class="flex-shrink-0"
+        ></v-carousel-item>
+      </v-carousel>
+    </div>
+    <h5 class="mb-4 font-semibold">{{ rating }}</h5>
+    <p class="mb-4">
       An awesome review. Sed ut perspiciatis unde omnis iste natus error sit
       voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
       ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -17,15 +33,15 @@
         aria-label="press to view the business details"
         @click="toggleShowBusinessDetails"
       >
-        <v-icon medium class="mr-10">
+        <v-icon medium class="arrow">
           {{ showBusinessDetails ? 'mdi-menu-down' : 'mdi-menu-right' }}</v-icon
         >
       </button>
-      <h2>Business details</h2>
+      <h4>Business details</h4>
     </div>
-    <div class="flex justify-around w-full my-4" v-if="showBusinessDetails">
+    <div class="business-details-style" v-if="showBusinessDetails">
       <div class="w-half">
-        <p>contact details</p>
+        <h5>contact details</h5>
         <p>
           <v-icon small aria-hidden="phone icon"> mdi-phone </v-icon>
           {{ localizedPhoneNumber }}
@@ -41,7 +57,7 @@
       </div>
 
       <div class="w-half">
-        <p>Opening hours</p>
+        <h5>Opening hours</h5>
         <p v-for="(day, index) in weekdayText" :key="index">{{ day }}</p>
       </div>
     </div>
@@ -62,13 +78,17 @@
 </template>
 
 <script>
-import pizzeriaCompanies from '@/assets/pizzeriaCompanies.json';
+import pizzeriasReviewsAndData from '@/assets/pizzeriasReviewsAndData.json';
 import pizzeriasDetails from '@/assets/pizzeriasDetails';
 
 export default {
   data() {
     return {
       showBusinessDetails: true,
+      photos: [
+        'https://d1ralsognjng37.cloudfront.net/a70b18de-1b3d-4345-9f4f-75e38730c837.jpeg',
+        'https://media-cdn.tripadvisor.com/media/photo-s/0b/10/86/62/photo1jpg.jpg',
+      ],
     };
   },
 
@@ -80,22 +100,17 @@ export default {
       return pizzeriasDetails[this.pizzeriaId];
     },
     name() {
-      return pizzeriaCompanies[this.pizzeriaId];
+      return this.pizzeriaInfo.company_name;
     },
 
     localizedPhoneNumber() {
-      if (!this.pizzeriaInfo) return;
-      const phoneNumberAsArray = this.pizzeriaInfo.international_phone_number.split(
-        ' '
-      );
-      if (phoneNumberAsArray[0] === '+31') {
-        phoneNumberAsArray.shift();
-        phoneNumberAsArray[0] = '0' + phoneNumberAsArray[0];
-      }
-      return phoneNumberAsArray.join(' ');
+      return this.pizzeriaInfo.formatted_phone_number;
     },
     weekdayText() {
       return this.pizzeriaInfo.opening_hours.weekday_text;
+    },
+    rating() {
+      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name].rating;
     },
   },
   methods: {
@@ -117,12 +132,26 @@ export default {
 }
 .business-details-bar {
   display: flex;
-  height: 40px;
+  height: 50px;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 10px 0 10px 0;
-  background-color: lightgray;
+  background-color: var(--theme-color);
+  border-radius: 5px 5px 0 0;
+  padding: 0.2em;
+  flex-grow: 0;
+  flex-shrink: 0;
+  color: white;
+}
+.business-details-style {
+  border-width: 0 1px 1px 1px;
+  border-color: var(--theme-color);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1em;
+
+  border-radius: 0 0 5px 5px;
 }
 .w-half {
   width: 50%;
@@ -130,6 +159,21 @@ export default {
 .delivery-options {
   width: 100%;
   max-width: 30rem;
-  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+.arrow {
+  color: white !important;
+}
+.my-caroussel {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 300px;
+
+  flex-wrap: nowrap;
+  overflow: scroll;
+  width: 90%;
+}
+.photo-review {
+  height: inherit;
 }
 </style>

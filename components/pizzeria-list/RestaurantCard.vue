@@ -1,7 +1,7 @@
 <template>
   <div
     v-if="pizzeriaInfo"
-    :class="`${cardClass} card-class-general`"
+    :class="`${cardClass} card-class-general bg-white`"
     @click="handleCardClick"
   >
     <div class="card-class-info">
@@ -10,8 +10,7 @@
       <span class="font-semibold mb-2">
         {{ isOpenNow() ? 'open now' : 'closed' }}
       </span>
-      <p class="mb-2">A witty review.</p>
-      <button>full review</button>
+      <p class="mb-2">{{ rating }}</p>
     </div>
     <div class="card-class-image">
       <img
@@ -25,6 +24,7 @@
 <script>
 import { framework } from 'vuetify';
 import pizzeriasDetails from '@/assets/pizzeriasDetails';
+import pizzeriasReviewsAndData from '@/assets/pizzeriasReviewsAndData.json';
 export default {
   name: 'RestaurantCard',
   components: { ...framework },
@@ -39,13 +39,15 @@ export default {
     },
     cardClass() {
       return this.pizzeriaId === this.selectedPizzeria
-        ? 'p-2  border-2 border-yellow-300'
-        : 'p-2  border-2 border-gray';
+        ? 'selected-pizzeria-style'
+        : '';
+    },
+    rating() {
+      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name].rating;
     },
   },
   methods: {
     handleCardClick() {
-      // console.log({ pizzeriaId });
       this.$router.push({
         path: `/`,
         query: { pizzeriaId: this.pizzeriaId },
@@ -94,12 +96,16 @@ export default {
   display: flex;
   width: 100%;
   align-items: center;
-  margin-bottom: 5px;
+  padding: 0.5em;
+  background-color: var(--off-white);
 }
 .card-class-image {
   width: 20%;
 }
 .card-class-info {
   width: 80%;
+}
+.selected-pizzeria-style {
+  background-color: white;
 }
 </style>

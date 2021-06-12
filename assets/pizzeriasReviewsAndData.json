@@ -1,0 +1,34 @@
+{
+  "nNea Pizza": {
+    "locations": ["ChIJq4ftb8EJxkcRMye6w1MoG20"],
+    "rating": "The mad scientists of Pizza"
+  },
+  "Pazzi": {
+    "locations": [
+      "ChIJjUFtdHXixUcR7sWMUWHLoQY",
+      "ChIJsfsUJd0JxkcRCztH_o2UIkI",
+      "ChIJEz5OgOUJxkcRJXPqYRPpcKc"
+    ],
+    "rating": "The crowd pleaser that will satify purists"
+  },
+  "Pizza Beppe": {
+    "locations": [
+      "ChIJ8y0Ody4JxkcRfVXOKvf2eB8",
+      "ChIJtzfv8SAJxkcRkd2MIeXfCX8",
+      "ChIJodUkVgQJxkcRZdtJfljQj4Q"
+    ],
+    "rating": "True Neapolitan pizza all accross Amsterdam"
+  },
+  "La Zoccola del Pacioccone": {
+    "locations": ["ChIJG9S3pMcJxkcRd68CCAjwptY"],
+    "rating": "Tiny but yummy"
+  },
+  "FIKO": {
+    "locations": ["ChIJWw3QMuEJxkcRM7dPcO2Cs44"],
+    "rating": "For pizza lovers with friends who don't like pizza"
+  },
+  "SOTTO Pizza": {
+    "locations": ["ChIJuYcxewTixUcRuae9Q323nik", "ChIJhVyan6MJxkcRFvIRVY9pEIs"],
+    "rating": "Amazing pizza, amazing tiramisu"
+  }
+}
