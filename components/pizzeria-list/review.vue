@@ -1,22 +1,8 @@
 <template>
   <div class="review bg-white" v-if="pizzeriaId">
     <h1 class="mb-4">{{ name }}</h1>
-    <!-- <div class="my-caroussel">
-      <span v-for="(photo, i) in photos" :key="i">
-        <img :src="photo" class="photo-review" />
-      </span>
-    </div> -->
-    <div class="flex-shrink-0">
-      <v-carousel class="flex-shrink-0">
-        <v-carousel-item
-          v-for="(photo, i) in photos"
-          :key="i"
-          :src="photo"
-          reverse-transition="fade-transition"
-          transition="fade-transition"
-          class="flex-shrink-0"
-        ></v-carousel-item>
-      </v-carousel>
+    <div class="h-64 flex justify-center mb-3">
+      <carousel :images="photos" />
     </div>
     <h5 class="mb-4 font-semibold">{{ rating }}</h5>
     <p class="mb-4">
@@ -80,14 +66,28 @@
 <script>
 import pizzeriasReviewsAndData from '@/assets/pizzeriasReviewsAndData.json';
 import pizzeriasDetails from '@/assets/pizzeriasDetails';
-
+import Carousel from '../carousel';
 export default {
+  components: { Carousel },
   data() {
     return {
       showBusinessDetails: true,
       photos: [
-        'https://d1ralsognjng37.cloudfront.net/a70b18de-1b3d-4345-9f4f-75e38730c837.jpeg',
-        'https://media-cdn.tripadvisor.com/media/photo-s/0b/10/86/62/photo1jpg.jpg',
+        {
+          src:
+            'https://d1ralsognjng37.cloudfront.net/a70b18de-1b3d-4345-9f4f-75e38730c837.jpeg',
+          alt: 'pizza photo',
+        },
+        {
+          src:
+            'https://www.yourlittleblackbook.me/wp-content/uploads/2019/03/nnea-amsterdam-2.jpg',
+          alt: 'pizza photo',
+        },
+        {
+          src:
+            'https://media-cdn.tripadvisor.com/media/photo-s/0b/10/86/62/photo1jpg.jpg',
+          alt: 'pizza photo',
+        },
       ],
     };
   },
@@ -174,6 +174,14 @@ export default {
   width: 90%;
 }
 .photo-review {
-  height: inherit;
+  height: 300px;
+}
+.carousel-style {
+  height: 300px;
+}
+.slide-style {
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 </style>

@@ -14,8 +14,8 @@
     </div>
     <div class="card-class-image">
       <img
-        src="https://lh3.googleusercontent.com/-CZXsyWYdfpc/AAAAAAAAAAI/AAAAAAAAAAA/QHSv9PE73cg/s88-p-k-no-ns-nd/photo.jpg"
-        class="w-15 h-15 rounded-full mx-auto"
+        src="https://static.wixstatic.com/media/469b5b_09db8679481747879a03d9c18b535328%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/469b5b_09db8679481747879a03d9c18b535328%7Emv2.png"
+        style="border-radius: 50%; background: black"
       />
     </div>
   </div>
@@ -100,7 +100,8 @@ export default {
   background-color: var(--off-white);
 }
 .card-class-image {
-  width: 20%;
+  width: 15%;
+  border-radius: 50%;
 }
 .card-class-info {
   width: 80%;
