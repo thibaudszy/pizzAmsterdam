@@ -1,10 +1,7 @@
 <template>
   <div class="w-full h-full flex justify-center flex-col">
-    <div class="image-container h-60">
-      <img
-        :src="images[activeImgIndex].src"
-        :alt="images[activeImgIndex].alt"
-      />
+    <div class="image-container h-76">
+      <nuxt-img :src="images[activeImgIndex]" alt="pizza image" />
     </div>
     <div class="mt-3 flex justify-center w-full h-4">
       <button

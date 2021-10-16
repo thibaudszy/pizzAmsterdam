@@ -1,7 +1,10 @@
 <template>
   <div class="review bg-white" v-if="pizzeriaId">
     <h1 class="mb-4">{{ name }}</h1>
-    <div class="flex justify-center mb-3 h-64 flex-shrink-0 flex-grow-0">
+    <div
+      v-if="photos.length > 0"
+      class="flex justify-center mb-3 h-80 flex-shrink-0 flex-grow-0"
+    >
       <carousel :images="photos" />
     </div>
     <h5 class="mb-4 font-semibold">{{ rating }}</h5>
@@ -73,23 +76,6 @@ export default {
   data() {
     return {
       showBusinessDetails: true,
-      photos: [
-        {
-          src:
-            'https://d1ralsognjng37.cloudfront.net/a70b18de-1b3d-4345-9f4f-75e38730c837.jpeg',
-          alt: 'pizza photo',
-        },
-        {
-          src:
-            'https://www.yourlittleblackbook.me/wp-content/uploads/2019/03/nnea-amsterdam-2.jpg',
-          alt: 'pizza photo',
-        },
-        {
-          src:
-            'https://media-cdn.tripadvisor.com/media/photo-s/0b/10/86/62/photo1jpg.jpg',
-          alt: 'pizza photo',
-        },
-      ],
     };
   },
 
@@ -110,8 +96,20 @@ export default {
     weekdayText() {
       return this.pizzeriaInfo.opening_hours.weekday_text;
     },
+    reviewAndData() {
+      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name];
+    },
     rating() {
-      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name].rating;
+      return this.reviewAndData.rating;
+    },
+    photos() {
+      const folder = this.reviewAndData?.photos?.folderName;
+      if (!folder) {
+        return [];
+      }
+      return this.reviewAndData.photos.fileNames.map(
+        (fileName) => `pictures/${folder}/${fileName}.jpg`
+      );
     },
   },
   methods: {

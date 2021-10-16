@@ -1,7 +1,11 @@
 {
   "nNea Pizza": {
     "locations": ["ChIJq4ftb8EJxkcRMye6w1MoG20"],
-    "rating": "The mad scientists of Pizza"
+    "rating": "The mad scientists of Pizza",
+    "photos": {
+      "folderName": "nnea",
+      "fileNames": ["nnea1", "nnea2", "nnea3", "nnea4", "nnea5", "nnea6"]
+    }
   },
   "Pazzi": {
     "locations": [
@@ -9,7 +13,11 @@
       "ChIJsfsUJd0JxkcRCztH_o2UIkI",
       "ChIJEz5OgOUJxkcRJXPqYRPpcKc"
     ],
-    "rating": "The crowd pleaser that will satify purists"
+    "rating": "The crowd pleaser that will satify purists",
+    "photos": {
+      "folderName": "pazzi",
+      "fileNames": ["pazzi1", "pazzi2", "pazzi3", "pazzi4"]
+    }
   },
   "Pizza Beppe": {
     "locations": [
@@ -17,18 +25,34 @@
       "ChIJtzfv8SAJxkcRkd2MIeXfCX8",
       "ChIJodUkVgQJxkcRZdtJfljQj4Q"
     ],
+    "photos": {
+      "folderName": "pizza-beppe",
+      "fileNames": ["beppe1", "beppe2", "beppe3", "beppe4"]
+    },
     "rating": "True Neapolitan pizza all accross Amsterdam"
   },
   "La Zoccola del Pacioccone": {
     "locations": ["ChIJG9S3pMcJxkcRd68CCAjwptY"],
+    "photos": {
+      "folderName": "la-zoccola-del-pacciocone",
+      "fileNames": ["zoccola1"]
+    },
     "rating": "Tiny but yummy"
   },
   "FIKO": {
     "locations": ["ChIJWw3QMuEJxkcRM7dPcO2Cs44"],
-    "rating": "For pizza lovers with friends who don't like pizza"
+    "rating": "For pizza lovers with friends who don't like pizza",
+    "photos": {
+      "folderName": "fiko",
+      "fileNames": ["fiko1", "fiko2", "fiko3", "fiko4"]
+    }
   },
   "SOTTO Pizza": {
     "locations": ["ChIJuYcxewTixUcRuae9Q323nik", "ChIJhVyan6MJxkcRFvIRVY9pEIs"],
-    "rating": "Amazing pizza, amazing tiramisu"
+    "rating": "Amazing pizza, amazing tiramisu",
+    "photos": {
+      "folderName": "sotto",
+      "fileNames": ["sotto1", "sotto2", "sotto3", "sotto4", "sotto6", "sotto7"]
+    }
   }
 }
