@@ -137,10 +137,10 @@ h1 {
 .review-area {
   margin-left: 1em;
   height: var(--body-height);
-  flex: 1 1 auto;
+  flex: 1 1 40%;
 }
 .map-area {
-  flex: 1 1 auto;
+  flex: 1 1 30%;
 }
 .list-area {
   flex: 0 0 25em;
