@@ -1,12 +1,12 @@
 <template>
   <div class="w-full h-full flex justify-center flex-col">
-    <div class="image-container">
+    <div class="image-container h-60">
       <img
         :src="images[activeImgIndex].src"
         :alt="images[activeImgIndex].alt"
       />
     </div>
-    <div class="mt-3 flex justify-center w-full">
+    <div class="mt-3 flex justify-center w-full h-4">
       <button
         :class="dotColor(index)"
         class="h-4 w-4 rounded-2xl mr-2"

@@ -13,8 +13,8 @@
       <p class="mb-2">{{ rating }}</p>
     </div>
     <div class="card-class-image">
-      <img
-        src="https://static.wixstatic.com/media/469b5b_09db8679481747879a03d9c18b535328%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/469b5b_09db8679481747879a03d9c18b535328%7Emv2.png"
+      <nuxt-img
+        :src="`logos/${getLogo(pizzeriaInfo.company_name)}`"
         style="border-radius: 50%; background: black"
       />
     </div>
@@ -23,8 +23,10 @@
 
 <script>
 import { framework } from 'vuetify';
-import pizzeriasDetails from '@/assets/pizzeriasDetails';
+import pizzeriasDetails from '@/assets/pizzeriasDetails.json';
 import pizzeriasReviewsAndData from '@/assets/pizzeriasReviewsAndData.json';
+import pizzeriasLogos from '@/assets/pizzeriasLogos.json';
+
 export default {
   name: 'RestaurantCard',
   components: { ...framework },
@@ -52,6 +54,9 @@ export default {
         path: `/`,
         query: { pizzeriaId: this.pizzeriaId },
       });
+    },
+    getLogo(companyName) {
+      return pizzeriasLogos[companyName];
     },
     isOpenNow() {
       const now = new Date();
