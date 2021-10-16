@@ -91,3 +91,4 @@ sw.*
 
 #secrets
 /assets/secrets.js
+package-lock.json

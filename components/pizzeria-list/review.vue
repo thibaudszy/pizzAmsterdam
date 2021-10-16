@@ -1,7 +1,7 @@
 <template>
   <div class="review bg-white" v-if="pizzeriaId">
     <h1 class="mb-4">{{ name }}</h1>
-    <div class="h-64 flex justify-center mb-3">
+    <div class="flex justify-center mb-3 h-64 flex-shrink-0 flex-grow-0">
       <carousel :images="photos" />
     </div>
     <h5 class="mb-4 font-semibold">{{ rating }}</h5>
@@ -14,17 +14,18 @@
       rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
       architecto beatae vitae dicta sunt explicabo.
     </p>
-    <div class="business-details-bar">
-      <button
-        aria-label="press to view the business details"
-        @click="toggleShowBusinessDetails"
-      >
+    <button
+      class="business-details-bar"
+      aria-label="press to view the business details"
+      @click="toggleShowBusinessDetails"
+    >
+      <span>
         <v-icon medium class="arrow">
           {{ showBusinessDetails ? 'mdi-menu-down' : 'mdi-menu-right' }}</v-icon
         >
-      </button>
+      </span>
       <h4>Business details</h4>
-    </div>
+    </button>
     <div class="business-details-style" v-if="showBusinessDetails">
       <div class="w-half">
         <h5>contact details</h5>
@@ -129,6 +130,7 @@ export default {
   text-align: center;
   overflow: auto;
   padding: 20px;
+  scroll-padding-right: 50px;
 }
 .business-details-bar {
   display: flex;
@@ -163,25 +165,5 @@ export default {
 }
 .arrow {
   color: white !important;
-}
-.my-caroussel {
-  display: flex;
-  flex-direction: row;
-  flex: 1 0 300px;
-
-  flex-wrap: nowrap;
-  overflow: scroll;
-  width: 90%;
-}
-.photo-review {
-  height: 300px;
-}
-.carousel-style {
-  height: 300px;
-}
-.slide-style {
-  height: 100%;
-  display: flex;
-  justify-content: center;
 }
 </style>

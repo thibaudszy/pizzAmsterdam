@@ -14,7 +14,7 @@
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
     "tailwindcss": "^2.1.2",
-    "vue-carousel": "^0.18.0",
+    "vue-session": "^1.0.0",
     "vue2-google-maps": "^0.10.7",
     "vuetify": "^2.4.0"
   },

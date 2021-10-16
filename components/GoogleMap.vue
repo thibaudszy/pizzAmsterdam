@@ -4,7 +4,7 @@
       ref="map"
       :center="center"
       :zoom="13"
-      style="width: 30vw; height: 85vh"
+      style="height: 85vh"
       @zoom_changed="commitNewMapBounds"
       @center_changed="commitNewMapBounds"
     >

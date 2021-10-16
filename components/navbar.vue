@@ -1,11 +1,11 @@
 <template>
   <div class="navbar-links">
-    <h4>
+    <!-- <h4>
       <nuxt-link to="/" class="link"> Our favourites </nuxt-link>
     </h4>
     <h4>
       <nuxt-link to="/" class="link"> About us </nuxt-link>
-    </h4>
+    </h4> -->
 
     <h4>
       <nuxt-link to="/" class="link"> <v-icon> mdi-home </v-icon> </nuxt-link>
