@@ -1,9 +1,9 @@
-import Vue from 'vue'
-import * as VueGoogleMaps from 'vue2-google-maps'
-import { GOOGLE_MAPS_API_KEY } from '@/assets/secrets'
+import Vue from 'vue';
+import * as VueGoogleMaps from 'vue2-google-maps';
+
 Vue.use(VueGoogleMaps, {
   load: {
-    key: GOOGLE_MAPS_API_KEY,
+    key: 'AIzaSyArszZeFgAR134GcoUJ1mka6ADh9PfYbnY',
     libraries: 'places',
   },
-})
+});

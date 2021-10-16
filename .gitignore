@@ -90,5 +90,5 @@ sw.*
 *.swp
 
 #secrets
-/assets/secrets.js
+.env
 package-lock.json
