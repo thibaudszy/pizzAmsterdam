@@ -1,5 +1,5 @@
 <template>
-  <div
+  <button
     v-if="pizzeriaInfo"
     :class="`${cardClass} card-class-general bg-white`"
     @click="handleCardClick"
@@ -18,7 +18,7 @@
         style="border-radius: 50%; background: black"
       />
     </div>
-  </div>
+  </button>
 </template>
 
 <script>
@@ -98,6 +98,8 @@ export default {
   align-items: center;
   padding: 0.5em;
   background-color: var(--off-white);
+  text-align: left;
+  /* cursor: pointer; */
 }
 .card-class-image {
   width: 15%;
