@@ -4,14 +4,14 @@
       <div class="black-bar">
         <h1 class="title">PizzAmsterdam</h1>
       </div>
-      <div class="flex justify-between">
+      <div class="flex justify-between flex-grow">
         <h3>Discover Amsterdam's best pizzerias</h3>
         <navbar />
       </div>
     </div>
     <div class="body">
       <pizzeria-list class="list-area" />
-      <GoogleMap class="map-area" />
+      <google-map class="map-area" />
       <review v-if="$route.query.pizzeriaId" class="review-area" />
       <welcome v-else class="review-area" />
     </div>

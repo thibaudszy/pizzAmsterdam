@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "start": "nuxt start",
     "predeploy": "nuxt generate",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist", 
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
