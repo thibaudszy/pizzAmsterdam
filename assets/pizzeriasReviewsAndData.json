@@ -54,5 +54,13 @@
       "folderName": "sotto",
       "fileNames": ["sotto1", "sotto2", "sotto3", "sotto4", "sotto6", "sotto7"]
     }
+  },
+  "Fuoco vivo": {
+    "locations": ["ChIJ3cFzwd4JxkcRgU2hANz2i1s"],
+    "rating": "A local favourite that doesn't disapoint.",
+    "photos": {
+      "folderName": "fuoco-vivo",
+      "fileNames": ["fv1", "fv2", "fv3", "fv4", "fv5", "fv6"]
+    }
   }
 }

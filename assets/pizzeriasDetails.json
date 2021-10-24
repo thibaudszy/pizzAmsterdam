@@ -5,8 +5,8 @@
     "geometry": {
       "location": { "lat": 52.36942020000001, "lng": 4.8703501 },
       "viewport": {
-        "northeast": { "lat": 52.3707968802915, "lng": 4.871804080291502 },
-        "southwest": { "lat": 52.3680989197085, "lng": 4.869106119708498 }
+        "northeast": { "lat": 52.37080323029151, "lng": 4.871809930291502 },
+        "southwest": { "lat": 52.36810526970851, "lng": 4.869111969708498 }
       }
     },
     "name": "nNea Pizza",
@@ -14,34 +14,38 @@
       "open_now": false,
       "periods": [
         {
-          "close": { "day": 0, "time": "2100" },
-          "open": { "day": 0, "time": "1200" }
+          "close": { "day": 0, "time": "2230" },
+          "open": { "day": 0, "time": "1730" }
         },
         {
-          "close": { "day": 3, "time": "2100" },
+          "close": { "day": 2, "time": "2230" },
+          "open": { "day": 2, "time": "1730" }
+        },
+        {
+          "close": { "day": 3, "time": "2230" },
           "open": { "day": 3, "time": "1730" }
         },
         {
-          "close": { "day": 4, "time": "2100" },
-          "open": { "day": 4, "time": "1200" }
+          "close": { "day": 4, "time": "2230" },
+          "open": { "day": 4, "time": "1730" }
         },
         {
-          "close": { "day": 5, "time": "2100" },
-          "open": { "day": 5, "time": "1200" }
+          "close": { "day": 5, "time": "2330" },
+          "open": { "day": 5, "time": "1730" }
         },
         {
-          "close": { "day": 6, "time": "2100" },
-          "open": { "day": 6, "time": "1200" }
+          "close": { "day": 6, "time": "2330" },
+          "open": { "day": 6, "time": "1730" }
         }
       ],
       "weekday_text": [
         "Monday: Closed",
-        "Tuesday: Closed",
-        "Wednesday: 5:30 – 9:00 PM",
-        "Thursday: 12:00 – 9:00 PM",
-        "Friday: 12:00 – 9:00 PM",
-        "Saturday: 12:00 – 9:00 PM",
-        "Sunday: 12:00 – 9:00 PM"
+        "Tuesday: 5:30 – 10:30 PM",
+        "Wednesday: 5:30 – 10:30 PM",
+        "Thursday: 5:30 – 10:30 PM",
+        "Friday: 5:30 – 11:30 PM",
+        "Saturday: 5:30 – 11:30 PM",
+        "Sunday: 5:30 – 10:30 PM"
       ]
     },
     "rating": 4.7,
@@ -54,8 +58,8 @@
     "geometry": {
       "location": { "lat": 52.37013160000001, "lng": 4.867289500000001 },
       "viewport": {
-        "northeast": { "lat": 52.3715113802915, "lng": 4.868618030291502 },
-        "southwest": { "lat": 52.3688134197085, "lng": 4.865920069708498 }
+        "northeast": { "lat": 52.3715149802915, "lng": 4.868617480291503 },
+        "southwest": { "lat": 52.3688170197085, "lng": 4.865919519708498 }
       }
     },
     "name": "Pazzi De Clercqstraat",
@@ -102,7 +106,7 @@
       ]
     },
     "rating": 4.5,
-    "website": "http://www.pazziamsterdam.nl/",
+    "website": "https://www.pazziamsterdam.nl/pazzi-west",
     "company_name": "Pazzi"
   },
   "ChIJsfsUJd0JxkcRCztH_o2UIkI": {
@@ -158,7 +162,7 @@
         "Sunday: 3:30 – 10:00 PM"
       ]
     },
-    "rating": 4.4,
+    "rating": 4.3,
     "website": "https://www.pazziamsterdam.nl/pazzi-jordaan",
     "company_name": "Pazzi"
   },
@@ -168,8 +172,8 @@
     "geometry": {
       "location": { "lat": 52.3552613, "lng": 4.922915800000002 },
       "viewport": {
-        "northeast": { "lat": 52.3565442802915, "lng": 4.924174030291502 },
-        "southwest": { "lat": 52.3538463197085, "lng": 4.921476069708498 }
+        "northeast": { "lat": 52.3565442802915, "lng": 4.924168880291502 },
+        "southwest": { "lat": 52.3538463197085, "lng": 4.921470919708498 }
       }
     },
     "name": "Pazzi Oost",
@@ -215,7 +219,7 @@
         "Sunday: 4:00 – 10:00 PM"
       ]
     },
-    "rating": 4.1,
+    "rating": 4.6,
     "website": "https://www.pazziamsterdam.nl/pazzi-oost",
     "company_name": "Pazzi"
   },
@@ -230,233 +234,6 @@
       }
     },
     "name": "Pizza Beppe Amsterdam Oost",
-    "opening_hours": {
-      "open_now": true,
-      "periods": [
-        {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1700" }
-        },
-        {
-          "close": { "day": 1, "time": "2200" },
-          "open": { "day": 1, "time": "1700" }
-        },
-        {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1700" }
-        },
-        {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1700" }
-        },
-        {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1700" }
-        },
-        {
-          "close": { "day": 5, "time": "2230" },
-          "open": { "day": 5, "time": "1700" }
-        },
-        {
-          "close": { "day": 6, "time": "2230" },
-          "open": { "day": 6, "time": "1700" }
-        }
-      ],
-      "weekday_text": [
-        "Monday: 5:00 – 10:00 PM",
-        "Tuesday: 5:00 – 10:00 PM",
-        "Wednesday: 5:00 – 10:00 PM",
-        "Thursday: 5:00 – 10:00 PM",
-        "Friday: 5:00 – 10:30 PM",
-        "Saturday: 5:00 – 10:30 PM",
-        "Sunday: 5:00 – 10:00 PM"
-      ]
-    },
-    "rating": 4,
-    "website": "https://pizzabeppe.nl/",
-    "company_name": "Pizza Beppe"
-  },
-  "ChIJtzfv8SAJxkcRkd2MIeXfCX8": {
-    "formatted_address": "Nassaukade 379, 1054 AD Amsterdam, Netherlands",
-    "formatted_phone_number": "020 226 5448",
-    "geometry": {
-      "location": { "lat": 52.364831, "lng": 4.87842 },
-      "viewport": {
-        "northeast": { "lat": 52.36618643029149, "lng": 4.879866630291502 },
-        "southwest": { "lat": 52.36348846970849, "lng": 4.877168669708498 }
-      }
-    },
-    "name": "Pizza Beppe Amsterdam West",
-    "opening_hours": {
-      "open_now": true,
-      "periods": [
-        {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1200" }
-        },
-        {
-          "close": { "day": 1, "time": "2200" },
-          "open": { "day": 1, "time": "1700" }
-        },
-        {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1200" }
-        },
-        {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1200" }
-        },
-        {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1200" }
-        },
-        {
-          "close": { "day": 5, "time": "2230" },
-          "open": { "day": 5, "time": "1200" }
-        },
-        {
-          "close": { "day": 6, "time": "2230" },
-          "open": { "day": 6, "time": "1200" }
-        }
-      ],
-      "weekday_text": [
-        "Monday: 5:00 – 10:00 PM",
-        "Tuesday: 12:00 – 10:00 PM",
-        "Wednesday: 12:00 – 10:00 PM",
-        "Thursday: 12:00 – 10:00 PM",
-        "Friday: 12:00 – 10:30 PM",
-        "Saturday: 12:00 – 10:30 PM",
-        "Sunday: 12:00 – 10:00 PM"
-      ]
-    },
-    "rating": 4.3,
-    "website": "https://pizzabeppe.nl/",
-    "company_name": "Pizza Beppe"
-  },
-  "ChIJodUkVgQJxkcRZdtJfljQj4Q": {
-    "formatted_address": "Roelof Hartstraat 27, 1071 VG Amsterdam, Netherlands",
-    "formatted_phone_number": "020 774 0670",
-    "geometry": {
-      "location": { "lat": 52.35244809999999, "lng": 4.8858016 },
-      "viewport": {
-        "northeast": { "lat": 52.3537186302915, "lng": 4.887149980291502 },
-        "southwest": { "lat": 52.3510206697085, "lng": 4.884452019708498 }
-      }
-    },
-    "name": "Pizza Beppe",
-    "opening_hours": {
-      "open_now": true,
-      "periods": [
-        {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1700" }
-        },
-        {
-          "close": { "day": 1, "time": "2200" },
-          "open": { "day": 1, "time": "1700" }
-        },
-        {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1700" }
-        },
-        {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1700" }
-        },
-        {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1700" }
-        },
-        {
-          "close": { "day": 5, "time": "2230" },
-          "open": { "day": 5, "time": "1700" }
-        },
-        {
-          "close": { "day": 6, "time": "2230" },
-          "open": { "day": 6, "time": "1700" }
-        }
-      ],
-      "weekday_text": [
-        "Monday: 5:00 – 10:00 PM",
-        "Tuesday: 5:00 – 10:00 PM",
-        "Wednesday: 5:00 – 10:00 PM",
-        "Thursday: 5:00 – 10:00 PM",
-        "Friday: 5:00 – 10:30 PM",
-        "Saturday: 5:00 – 10:30 PM",
-        "Sunday: 5:00 – 10:00 PM"
-      ]
-    },
-    "rating": 4.1,
-    "website": "http://www.pizzabeppe.nl/",
-    "company_name": "Pizza Beppe"
-  },
-  "ChIJG9S3pMcJxkcRd68CCAjwptY": {
-    "formatted_address": "Nieuwe Nieuwstraat 22HS, 1012 NH Amsterdam, Netherlands",
-    "formatted_phone_number": "06 13256675",
-    "geometry": {
-      "location": { "lat": 52.37542089999999, "lng": 4.8938605 },
-      "viewport": {
-        "northeast": { "lat": 52.37672578029149, "lng": 4.894580799999999 },
-        "southwest": { "lat": 52.37402781970849, "lng": 4.8916996 }
-      }
-    },
-    "name": "La Zoccola del Pacioccone",
-    "opening_hours": {
-      "open_now": true,
-      "periods": [
-        {
-          "close": { "day": 1, "time": "0000" },
-          "open": { "day": 0, "time": "1200" }
-        },
-        {
-          "close": { "day": 2, "time": "0000" },
-          "open": { "day": 1, "time": "1200" }
-        },
-        {
-          "close": { "day": 3, "time": "0000" },
-          "open": { "day": 2, "time": "1200" }
-        },
-        {
-          "close": { "day": 4, "time": "0000" },
-          "open": { "day": 3, "time": "1200" }
-        },
-        {
-          "close": { "day": 5, "time": "0000" },
-          "open": { "day": 4, "time": "1200" }
-        },
-        {
-          "close": { "day": 6, "time": "0000" },
-          "open": { "day": 5, "time": "1200" }
-        },
-        {
-          "close": { "day": 0, "time": "0000" },
-          "open": { "day": 6, "time": "1200" }
-        }
-      ],
-      "weekday_text": [
-        "Monday: 12:00 PM – 12:00 AM",
-        "Tuesday: 12:00 PM – 12:00 AM",
-        "Wednesday: 12:00 PM – 12:00 AM",
-        "Thursday: 12:00 PM – 12:00 AM",
-        "Friday: 12:00 PM – 12:00 AM",
-        "Saturday: 12:00 PM – 12:00 AM",
-        "Sunday: 12:00 PM – 12:00 AM"
-      ]
-    },
-    "rating": 4.5,
-    "company_name": "La Zoccola del Pacioccone"
-  },
-  "ChIJWw3QMuEJxkcRM7dPcO2Cs44": {
-    "formatted_address": "Eerste Constantijn Huygensstraat 60, 1054 BR Amsterdam, Netherlands",
-    "formatted_phone_number": "020 846 6706",
-    "geometry": {
-      "location": { "lat": 52.364109, "lng": 4.8741126 },
-      "viewport": {
-        "northeast": { "lat": 52.3654579802915, "lng": 4.875461580291502 },
-        "southwest": { "lat": 52.3627600197085, "lng": 4.872763619708499 }
-      }
-    },
-    "name": "FIKO - Restaurant",
     "opening_hours": {
       "open_now": true,
       "periods": [
@@ -497,6 +274,234 @@
         "Friday: 5:00 – 10:00 PM",
         "Saturday: 5:00 – 10:00 PM",
         "Sunday: 5:00 – 9:30 PM"
+      ]
+    },
+    "rating": 4,
+    "website": "https://pizzabeppe.nl/",
+    "company_name": "Pizza Beppe"
+  },
+  "ChIJtzfv8SAJxkcRkd2MIeXfCX8": {
+    "formatted_address": "Nassaukade 379, 1054 AD Amsterdam, Netherlands",
+    "formatted_phone_number": "020 226 5448",
+    "geometry": {
+      "location": { "lat": 52.364831, "lng": 4.87842 },
+      "viewport": {
+        "northeast": { "lat": 52.3661845802915, "lng": 4.879879430291502 },
+        "southwest": { "lat": 52.3634866197085, "lng": 4.877181469708497 }
+      }
+    },
+    "name": "Pizza Beppe Amsterdam West",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": { "day": 0, "time": "2130" },
+          "open": { "day": 0, "time": "1700" }
+        },
+        {
+          "close": { "day": 1, "time": "2130" },
+          "open": { "day": 1, "time": "1700" }
+        },
+        {
+          "close": { "day": 2, "time": "2130" },
+          "open": { "day": 2, "time": "1700" }
+        },
+        {
+          "close": { "day": 3, "time": "2130" },
+          "open": { "day": 3, "time": "1700" }
+        },
+        {
+          "close": { "day": 4, "time": "2130" },
+          "open": { "day": 4, "time": "1700" }
+        },
+        {
+          "close": { "day": 5, "time": "2200" },
+          "open": { "day": 5, "time": "1700" }
+        },
+        {
+          "close": { "day": 6, "time": "2200" },
+          "open": { "day": 6, "time": "1700" }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 5:00 – 9:30 PM",
+        "Tuesday: 5:00 – 9:30 PM",
+        "Wednesday: 5:00 – 9:30 PM",
+        "Thursday: 5:00 – 9:30 PM",
+        "Friday: 5:00 – 10:00 PM",
+        "Saturday: 5:00 – 10:00 PM",
+        "Sunday: 5:00 – 9:30 PM"
+      ]
+    },
+    "rating": 4.4,
+    "website": "https://pizzabeppe.nl/",
+    "company_name": "Pizza Beppe"
+  },
+  "ChIJodUkVgQJxkcRZdtJfljQj4Q": {
+    "formatted_address": "Roelof Hartstraat 27, 1071 VG Amsterdam, Netherlands",
+    "formatted_phone_number": "020 774 0670",
+    "geometry": {
+      "location": { "lat": 52.35244809999999, "lng": 4.8858016 },
+      "viewport": {
+        "northeast": { "lat": 52.3537358802915, "lng": 4.887144030291503 },
+        "southwest": { "lat": 52.3510379197085, "lng": 4.884446069708498 }
+      }
+    },
+    "name": "Pizza Beppe",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": { "day": 0, "time": "2130" },
+          "open": { "day": 0, "time": "1700" }
+        },
+        {
+          "close": { "day": 1, "time": "2130" },
+          "open": { "day": 1, "time": "1700" }
+        },
+        {
+          "close": { "day": 2, "time": "2130" },
+          "open": { "day": 2, "time": "1700" }
+        },
+        {
+          "close": { "day": 3, "time": "2130" },
+          "open": { "day": 3, "time": "1700" }
+        },
+        {
+          "close": { "day": 4, "time": "2130" },
+          "open": { "day": 4, "time": "1700" }
+        },
+        {
+          "close": { "day": 5, "time": "2200" },
+          "open": { "day": 5, "time": "1700" }
+        },
+        {
+          "close": { "day": 6, "time": "2200" },
+          "open": { "day": 6, "time": "1700" }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 5:00 – 9:30 PM",
+        "Tuesday: 5:00 – 9:30 PM",
+        "Wednesday: 5:00 – 9:30 PM",
+        "Thursday: 5:00 – 9:30 PM",
+        "Friday: 5:00 – 10:00 PM",
+        "Saturday: 5:00 – 10:00 PM",
+        "Sunday: 5:00 – 9:30 PM"
+      ]
+    },
+    "rating": 4.2,
+    "website": "http://www.pizzabeppe.nl/",
+    "company_name": "Pizza Beppe"
+  },
+  "ChIJG9S3pMcJxkcRd68CCAjwptY": {
+    "formatted_address": "Nieuwe Nieuwstraat 22HS, 1012 NH Amsterdam, Netherlands",
+    "formatted_phone_number": "06 13256675",
+    "geometry": {
+      "location": { "lat": 52.37542089999999, "lng": 4.8938605 },
+      "viewport": {
+        "northeast": { "lat": 52.37672578029149, "lng": 4.89458115 },
+        "southwest": { "lat": 52.37402781970849, "lng": 4.89169855 }
+      }
+    },
+    "name": "La Zoccola del Pacioccone",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": { "day": 0, "time": "2330" },
+          "open": { "day": 0, "time": "1245" }
+        },
+        {
+          "close": { "day": 1, "time": "2330" },
+          "open": { "day": 1, "time": "1245" }
+        },
+        {
+          "close": { "day": 2, "time": "2330" },
+          "open": { "day": 2, "time": "1245" }
+        },
+        {
+          "close": { "day": 3, "time": "2330" },
+          "open": { "day": 3, "time": "1245" }
+        },
+        {
+          "close": { "day": 4, "time": "2330" },
+          "open": { "day": 4, "time": "1245" }
+        },
+        {
+          "close": { "day": 5, "time": "2330" },
+          "open": { "day": 5, "time": "1245" }
+        },
+        {
+          "close": { "day": 6, "time": "2330" },
+          "open": { "day": 6, "time": "1245" }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:45 – 11:30 PM",
+        "Tuesday: 12:45 – 11:30 PM",
+        "Wednesday: 12:45 – 11:30 PM",
+        "Thursday: 12:45 – 11:30 PM",
+        "Friday: 12:45 – 11:30 PM",
+        "Saturday: 12:45 – 11:30 PM",
+        "Sunday: 12:45 – 11:30 PM"
+      ]
+    },
+    "rating": 4.5,
+    "website": "http://www.theredwinedistrict.com/",
+    "company_name": "La Zoccola del Pacioccone"
+  },
+  "ChIJWw3QMuEJxkcRM7dPcO2Cs44": {
+    "formatted_address": "Eerste Constantijn Huygensstraat 60, 1054 BR Amsterdam, Netherlands",
+    "formatted_phone_number": "020 846 6706",
+    "geometry": {
+      "location": { "lat": 52.3641036, "lng": 4.8740899 },
+      "viewport": {
+        "northeast": { "lat": 52.3654525802915, "lng": 4.875438880291502 },
+        "southwest": { "lat": 52.3627546197085, "lng": 4.872740919708497 }
+      }
+    },
+    "name": "FIKO - Restaurant",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": { "day": 1, "time": "0000" },
+          "open": { "day": 0, "time": "1230" }
+        },
+        {
+          "close": { "day": 2, "time": "0000" },
+          "open": { "day": 1, "time": "1700" }
+        },
+        {
+          "close": { "day": 3, "time": "0000" },
+          "open": { "day": 2, "time": "1700" }
+        },
+        {
+          "close": { "day": 4, "time": "0000" },
+          "open": { "day": 3, "time": "1700" }
+        },
+        {
+          "close": { "day": 5, "time": "0000" },
+          "open": { "day": 4, "time": "1700" }
+        },
+        {
+          "close": { "day": 6, "time": "0000" },
+          "open": { "day": 5, "time": "1230" }
+        },
+        {
+          "close": { "day": 0, "time": "0000" },
+          "open": { "day": 6, "time": "1230" }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 5:00 PM – 12:00 AM",
+        "Tuesday: 5:00 PM – 12:00 AM",
+        "Wednesday: 5:00 PM – 12:00 AM",
+        "Thursday: 5:00 PM – 12:00 AM",
+        "Friday: 12:30 PM – 12:00 AM",
+        "Saturday: 12:30 PM – 12:00 AM",
+        "Sunday: 12:30 PM – 12:00 AM"
       ]
     },
     "rating": 4.4,
@@ -595,11 +600,11 @@
           "open": { "day": 4, "time": "1700" }
         },
         {
-          "close": { "day": 5, "time": "2200" },
+          "close": { "day": 5, "time": "2300" },
           "open": { "day": 5, "time": "1200" }
         },
         {
-          "close": { "day": 6, "time": "2200" },
+          "close": { "day": 6, "time": "2300" },
           "open": { "day": 6, "time": "1200" }
         }
       ],
@@ -608,13 +613,70 @@
         "Tuesday: 5:00 – 10:00 PM",
         "Wednesday: 5:00 – 10:00 PM",
         "Thursday: 5:00 – 10:00 PM",
-        "Friday: 12:00 – 10:00 PM",
-        "Saturday: 12:00 – 10:00 PM",
+        "Friday: 12:00 – 11:00 PM",
+        "Saturday: 12:00 – 11:00 PM",
         "Sunday: 12:00 – 10:00 PM"
       ]
     },
     "rating": 4.4,
     "website": "http://www.sottopizza.nl/",
     "company_name": "SOTTO Pizza"
+  },
+  "ChIJ3cFzwd4JxkcRgU2hANz2i1s": {
+    "formatted_address": "De Clercqstraat 12, 1052 NC Amsterdam, Netherlands",
+    "formatted_phone_number": "020 612 4309",
+    "geometry": {
+      "location": { "lat": 52.3717809, "lng": 4.8733887 },
+      "viewport": {
+        "northeast": { "lat": 52.3730782302915, "lng": 4.874752030291502 },
+        "southwest": { "lat": 52.3703802697085, "lng": 4.872054069708498 }
+      }
+    },
+    "name": "Fuoco Vivo",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": { "day": 0, "time": "2200" },
+          "open": { "day": 0, "time": "1500" }
+        },
+        {
+          "close": { "day": 1, "time": "2200" },
+          "open": { "day": 1, "time": "1500" }
+        },
+        {
+          "close": { "day": 2, "time": "2200" },
+          "open": { "day": 2, "time": "1500" }
+        },
+        {
+          "close": { "day": 3, "time": "2200" },
+          "open": { "day": 3, "time": "1500" }
+        },
+        {
+          "close": { "day": 4, "time": "2200" },
+          "open": { "day": 4, "time": "1500" }
+        },
+        {
+          "close": { "day": 5, "time": "2200" },
+          "open": { "day": 5, "time": "1500" }
+        },
+        {
+          "close": { "day": 6, "time": "2200" },
+          "open": { "day": 6, "time": "1500" }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 3:00 – 10:00 PM",
+        "Tuesday: 3:00 – 10:00 PM",
+        "Wednesday: 3:00 – 10:00 PM",
+        "Thursday: 3:00 – 10:00 PM",
+        "Friday: 3:00 – 10:00 PM",
+        "Saturday: 3:00 – 10:00 PM",
+        "Sunday: 3:00 – 10:00 PM"
+      ]
+    },
+    "rating": 4.5,
+    "website": "http://www.fuocovivo.nl/",
+    "company_name": "Fuoco vivo"
   }
 }

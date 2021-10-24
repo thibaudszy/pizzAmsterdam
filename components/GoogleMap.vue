@@ -40,7 +40,7 @@ export default {
     };
   },
   mounted() {
-    this.geolocate();
+    // this.geolocate();
     this.blueMarker = { ...marker, fillColor: 'blue' };
     this.redMarker = { ...marker, fillColor: 'red' };
     this.mapDot = mapDot;

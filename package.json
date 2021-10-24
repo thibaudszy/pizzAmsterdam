@@ -9,12 +9,13 @@
     "start": "nuxt start",
     "predeploy": "nuxt generate",
     "deploy": "gh-pages -d dist",
-    "heroku-postbuild": "npm run generate"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "child_process": "^1.0.2",
     "core-js": "^3.9.1",
+    "ipx": "^0.8.0",
     "nuxt": "^2.15.3",
     "tailwindcss": "^2.1.2",
     "vue-session": "^1.0.0",
