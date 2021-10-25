@@ -51,19 +51,6 @@
         <p v-for="(day, index) in weekdayText" :key="index">{{ day }}</p>
       </div>
     </div>
-    <div class="flex justify-around items-center mt-4 delivery-options">
-      <p>Order on:</p>
-      <button
-        class="border-2 border-solid border-black text-green-500 rounded p-2"
-      >
-        uber eats
-      </button>
-      <button
-        class="border-2 border-solid border-black text-blue-500 rounded p-2"
-      >
-        Deliveroo
-      </button>
-    </div>
   </div>
 </template>
 

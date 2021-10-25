@@ -15,9 +15,6 @@
       <review v-if="$route.query.pizzeriaId" class="review-area" />
       <welcome v-else class="review-area" />
     </div>
-    <div class="footer">
-      <p>work with us</p>
-    </div>
   </div>
 </template>
 
@@ -41,7 +38,7 @@ export default {
 
 <style>
 :root {
-  --body-height: 85vh;
+  /* --body-height: calc(100vh - 4em); */
   --off-white: #f4f7f6;
   /* --theme-color: rgb(186, 45, 11); */
   --theme-color: black;
@@ -70,7 +67,8 @@ h1 {
 }
 
 .site-container {
-  min-height: 100vh;
+  height: 100vh;
+  overflow: scroll;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -79,10 +77,11 @@ h1 {
 }
 .body {
   display: flex;
-  width: 100vw;
+  overflow-y: scroll;
+  width: 100%;
   background: var(--off-white);
-  border: 10px solid var(--theme-color);
-  flex-grow: 2;
+  border-top: 10px solid var(--theme-color);
+  flex-grow: 1;
 }
 .navbar {
   display: flex;
@@ -106,7 +105,6 @@ h1 {
   background: var(--theme-color);
   display: inline-block;
   width: fit-content;
-
   padding: 0 2vw 0 0;
   margin-right: 2em;
   display: flex;
@@ -132,25 +130,19 @@ h1 {
   padding-top: 15px;
 }
 .height-80vh {
-  height: var(--body-height);
+  /* height: var(--body-height); */
 }
 .review-area {
   margin-left: 1em;
-  height: var(--body-height);
+  /* height: var(--body-height); */
   flex: 1 1 40%;
 }
 .map-area {
   flex: 1 1 30%;
+  height: 100%;
 }
 .list-area {
   flex: 0 0 25em;
-  height: var(--body-height);
-}
-.footer {
-  background-color: rgb(83, 83, 83);
-  height: 100px;
-  width: 100vw;
-  padding: 10px;
-  color: white;
+  /* height: var(--body-height); */
 }
 </style>
