@@ -5,7 +5,7 @@
       v-if="photos.length > 0"
       class="flex justify-center mb-3 h-80 flex-shrink-0 flex-grow-0"
     >
-      <carousel :images="photos" />
+      <carousel :images="photos" :key="pizzeriaId" />
     </div>
     <h5 class="mb-4 font-semibold">{{ rating }}</h5>
     <p class="mb-4">
