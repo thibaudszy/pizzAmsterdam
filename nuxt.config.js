@@ -43,6 +43,9 @@ export default {
     transpile: [/^vue2-google-maps($|\/)/],
   },
   router: {
-    base: '',
+    base: '/',
+  },
+  image: {
+    // Options
   },
 };

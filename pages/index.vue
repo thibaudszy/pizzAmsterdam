@@ -13,6 +13,7 @@
       <pizzeria-list class="list-area" />
       <google-map class="map-area" />
       <review v-if="$route.query.pizzeriaId" class="review-area" />
+      <welcome v-else class="review-area" />
     </div>
     <div class="footer">
       <p>work with us</p>
