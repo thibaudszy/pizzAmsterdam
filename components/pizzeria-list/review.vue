@@ -2,21 +2,13 @@
   <div class="review bg-white" v-if="pizzeriaId">
     <h1 class="mb-4">{{ name }}</h1>
     <div
-      v-if="photos.length > 0"
+      v-if="pictures.length > 0"
       class="flex justify-center mb-3 h-80 flex-shrink-0 flex-grow-0"
     >
-      <carousel :images="photos" :key="pizzeriaId" />
+      <carousel :images="pictures" :key="pizzeriaId" />
     </div>
     <h5 class="mb-4 font-semibold">{{ rating }}</h5>
-    <p class="mb-4">
-      An awesome review. Sed ut perspiciatis unde omnis iste natus error sit
-      voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-      ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-      dicta sunt explicabo. An awesome review. Sed ut perspiciatis unde omnis
-      iste natus error sit voluptatem accusantium doloremque laudantium, totam
-      rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-    </p>
+    <p class="mb-4">{{ review || 'We recommend it. Review coming soon...' }}</p>
     <button
       class="business-details-bar"
       aria-label="press to view the business details"
@@ -89,14 +81,14 @@ export default {
     rating() {
       return this.reviewAndData.rating;
     },
-    photos() {
-      const folder = this.reviewAndData?.photos?.folderName;
-      if (!folder) {
-        return [];
-      }
-      return this.reviewAndData.photos.fileNames.map(
-        (fileName) => `pictures/${folder}/${fileName}.jpg`
+    pictures() {
+      const { pictures, imageFolder } = this.reviewAndData;
+      return this.reviewAndData.pictures.map(
+        (fileName) => `pictures/${imageFolder}/${fileName}`
       );
+    },
+    review() {
+      return this.reviewAndData.review;
     },
   },
   methods: {
@@ -118,6 +110,7 @@ export default {
   scroll-padding-right: 50px;
 }
 .business-details-bar {
+  margin-top: 20px;
   display: flex;
   height: 50px;
   justify-content: center;

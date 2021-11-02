@@ -11,7 +11,7 @@
     },
     "name": "nNea Pizza",
     "opening_hours": {
-      "open_now": false,
+      "open_now": true,
       "periods": [
         {
           "close": { "day": 0, "time": "2230" },
@@ -221,6 +221,63 @@
     },
     "rating": 4.6,
     "website": "https://www.pazziamsterdam.nl/pazzi-oost",
+    "company_name": "Pazzi"
+  },
+  "ChIJmx03h_4JxkcRNl1tZXEAGmU": {
+    "formatted_address": "Ms. van Riemsdijkweg 30, 1033 RD Amsterdam, Netherlands",
+    "formatted_phone_number": "06 23685743",
+    "geometry": {
+      "location": { "lat": 52.40119719999999, "lng": 4.891742099999999 },
+      "viewport": {
+        "northeast": { "lat": 52.40249988029149, "lng": 4.893299080291501 },
+        "southwest": { "lat": 52.39980191970849, "lng": 4.890601119708497 }
+      }
+    },
+    "name": "Pazzi Noord",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": { "day": 0, "time": "2200" },
+          "open": { "day": 0, "time": "1300" }
+        },
+        {
+          "close": { "day": 1, "time": "2200" },
+          "open": { "day": 1, "time": "1530" }
+        },
+        {
+          "close": { "day": 2, "time": "2200" },
+          "open": { "day": 2, "time": "1530" }
+        },
+        {
+          "close": { "day": 3, "time": "2200" },
+          "open": { "day": 3, "time": "1530" }
+        },
+        {
+          "close": { "day": 4, "time": "2200" },
+          "open": { "day": 4, "time": "1530" }
+        },
+        {
+          "close": { "day": 5, "time": "2200" },
+          "open": { "day": 5, "time": "1300" }
+        },
+        {
+          "close": { "day": 6, "time": "2200" },
+          "open": { "day": 6, "time": "1300" }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 3:30 – 10:00 PM",
+        "Tuesday: 3:30 – 10:00 PM",
+        "Wednesday: 3:30 – 10:00 PM",
+        "Thursday: 3:30 – 10:00 PM",
+        "Friday: 1:00 – 10:00 PM",
+        "Saturday: 1:00 – 10:00 PM",
+        "Sunday: 1:00 – 10:00 PM"
+      ]
+    },
+    "rating": 4,
+    "website": "https://www.pazziamsterdam.nl/",
     "company_name": "Pazzi"
   },
   "ChIJ8y0Ody4JxkcRfVXOKvf2eB8": {
@@ -448,7 +505,6 @@
       ]
     },
     "rating": 4.5,
-    "website": "http://www.theredwinedistrict.com/",
     "company_name": "La Zoccola del Pacioccone"
   },
   "ChIJWw3QMuEJxkcRM7dPcO2Cs44": {
@@ -678,5 +734,111 @@
     "rating": 4.5,
     "website": "http://www.fuocovivo.nl/",
     "company_name": "Fuoco vivo"
+  },
+  "ChIJKRnveGAJxkcRjARJuZnA-Bs": {
+    "formatted_address": "Spijkerkade 31, 1021 JS Amsterdam, Netherlands",
+    "formatted_phone_number": "020 244 1510",
+    "geometry": {
+      "location": { "lat": 52.3846531, "lng": 4.921484099999999 },
+      "viewport": {
+        "northeast": { "lat": 52.3859928802915, "lng": 4.922744230291502 },
+        "southwest": { "lat": 52.3832949197085, "lng": 4.920046269708497 }
+      }
+    },
+    "name": "Di Luca Pizza",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": { "day": 0, "time": "2200" },
+          "open": { "day": 0, "time": "1600" }
+        },
+        {
+          "close": { "day": 2, "time": "2200" },
+          "open": { "day": 2, "time": "1600" }
+        },
+        {
+          "close": { "day": 3, "time": "2200" },
+          "open": { "day": 3, "time": "1600" }
+        },
+        {
+          "close": { "day": 4, "time": "2200" },
+          "open": { "day": 4, "time": "1600" }
+        },
+        {
+          "close": { "day": 5, "time": "1400" },
+          "open": { "day": 5, "time": "1200" }
+        },
+        {
+          "close": { "day": 5, "time": "2200" },
+          "open": { "day": 5, "time": "1600" }
+        },
+        {
+          "close": { "day": 6, "time": "2200" },
+          "open": { "day": 6, "time": "1600" }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: 4:00 – 10:00 PM",
+        "Wednesday: 4:00 – 10:00 PM",
+        "Thursday: 4:00 – 10:00 PM",
+        "Friday: 12:00 – 2:00 PM, 4:00 – 10:00 PM",
+        "Saturday: 4:00 – 10:00 PM",
+        "Sunday: 4:00 – 10:00 PM"
+      ]
+    },
+    "rating": 4.6,
+    "website": "http://www.diluca.nl/",
+    "company_name": "Di Luca"
+  },
+  "ChIJ2wd-LUQJxkcRP_EibBV--2g": {
+    "formatted_address": "Rozengracht 160, 1016 NJ Amsterdam, Netherlands",
+    "formatted_phone_number": "020 779 9070",
+    "geometry": {
+      "location": { "lat": 52.3729484, "lng": 4.8782438 },
+      "viewport": {
+        "northeast": { "lat": 52.3742477802915, "lng": 4.879626780291502 },
+        "southwest": { "lat": 52.37154981970851, "lng": 4.876928819708498 }
+      }
+    },
+    "name": "Paradise Bar",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": { "day": 1, "time": "0000" },
+          "open": { "day": 0, "time": "1700" }
+        },
+        {
+          "close": { "day": 4, "time": "0000" },
+          "open": { "day": 3, "time": "1700" }
+        },
+        {
+          "close": { "day": 5, "time": "0000" },
+          "open": { "day": 4, "time": "1700" }
+        },
+        {
+          "close": { "day": 6, "time": "0000" },
+          "open": { "day": 5, "time": "1700" }
+        },
+        {
+          "close": { "day": 0, "time": "0000" },
+          "open": { "day": 6, "time": "1700" }
+        }
+      ],
+      "weekday_text": [
+        "Monday: Closed",
+        "Tuesday: Closed",
+        "Wednesday: 5:00 PM – 12:00 AM",
+        "Thursday: 5:00 PM – 12:00 AM",
+        "Friday: 5:00 PM – 12:00 AM",
+        "Saturday: 5:00 PM – 12:00 AM",
+        "Sunday: 5:00 PM – 12:00 AM"
+      ]
+    },
+    "rating": 4.6,
+    "website": "http://www.paradisebar.nl/",
+    "company_name": "Paradise Bar"
   }
 }

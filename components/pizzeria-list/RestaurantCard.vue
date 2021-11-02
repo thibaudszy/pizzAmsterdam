@@ -45,7 +45,7 @@ export default {
         : '';
     },
     rating() {
-      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name].rating;
+      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name]?.rating;
     },
   },
   methods: {
