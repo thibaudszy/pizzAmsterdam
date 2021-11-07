@@ -82,7 +82,7 @@ export default {
     handleMarkerClick(pizzeriaId) {
       this.$router.push({
         path: `/`,
-        query: { pizzeriaId },
+        query: { pizzeriaId, screen: 'review' },
       });
     },
     commitNewMapBounds() {

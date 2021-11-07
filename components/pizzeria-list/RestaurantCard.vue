@@ -52,7 +52,7 @@ export default {
     handleCardClick() {
       this.$router.push({
         path: `/`,
-        query: { pizzeriaId: this.pizzeriaId },
+        query: { pizzeriaId: this.pizzeriaId, screen: 'review' },
       });
     },
     getLogo(companyName) {

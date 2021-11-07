@@ -20,7 +20,7 @@ export default {
     css: [],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [{ src: '~/plugins/gmaps', ssr: true }],
+    plugins: [{ src: '~/plugins/gmaps', ssr: true }, '~/plugins/scrollPosition.client.js'],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
@@ -40,7 +40,7 @@ export default {
     build: {
         babel: {
             plugins: [
-                ['@babel/plugin-proposal-private-methods', { loose: true }]
+                ['@babel/plugin-proposal-private-methods', { loose: true }],
             ],
         },
         transpile: [/^vue2-google-maps($|\/)/],

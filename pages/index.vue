@@ -4,16 +4,51 @@
       <div class="black-bar">
         <h1 class="title">PizzAmsterdam</h1>
       </div>
-      <div class="flex justify-between flex-grow">
+      <div class="flex justify-between flex-grow" v-if="!isMobile">
         <h3>Discover Amsterdam's best pizzerias</h3>
         <navbar />
       </div>
     </div>
-    <div class="body">
-      <pizzeria-list class="list-area" />
+    <div v-if="!isMobile" class="body">
+      <pizzeria-list class="list-area" @click="console.log($event)" />
       <google-map class="map-area" />
       <review v-if="$route.query.pizzeriaId" class="review-area" />
       <welcome v-else class="review-area" />
+    </div>
+    <div v-else class="body body--mobile">
+      <pizzeria-list
+        v-if="mobileMode.screen === screens.LIST"
+        class="pb-14"
+        @card-click="mobileMode.screen = screens.REVIEW"
+      />
+      <google-map
+        v-if="mobileMode.screen === screens.MAP"
+        class="map-area map-area--mobile"
+      />
+      <template v-if="mobileMode.screen === screens.REVIEW">
+        <div class="flex flex-grow-0 w-full text-lg pt-2 bg-white">
+          <button class="ml-2" @click="handleReviewBackClick">
+            <v-icon aria-hidden="phone icon"> mdi-chevron-left </v-icon>
+            back
+          </button>
+        </div>
+
+        <review v-if="$route.query.pizzeriaId" class="review-area" />
+      </template>
+      <div class="list-map-toggle" v-if="showToggle">
+        <button
+          class="rounded-l-full border-2"
+          @click="mobileMode.screen = screens.LIST"
+        >
+          List
+        </button>
+        <button
+          class="rounded-r-full border-t-2 border-b-2 border-r-2"
+          @click="mobileMode.screen = screens.MAP"
+        >
+          Map
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -25,6 +60,12 @@ import Review from '~/components/pizzeria-list/review.vue';
 import Welcome from '~/components/pizzeria-list/welcome.vue';
 import Navbar from '~/components/navbar.vue';
 
+const screens = {
+  MAP: 'map',
+  LIST: 'list',
+  REVIEW: 'review',
+  WELCOME: 'welcome',
+};
 export default {
   components: {
     GoogleMap,
@@ -33,60 +74,96 @@ export default {
     Welcome,
     Navbar,
   },
-    data: function data() {
-        return {
-         reactiveComponent: {
-            event: null,
-            vssWidth: null,
-            vssHeight: null
-          }
-           
-        }
+  data: function data() {
+    return {
+      reactiveComponent: {
+        event: null,
+        vssWidth: null,
+        vssHeight: null,
+      },
+      mobileMode: {
+        screen: screens.MAP,
+        previousScreen: screens.LIST,
+      },
+    };
+  },
+  watch: {
+    screenInQueryParam() {
+      this.previousScreen = this.mobileMode.screen;
+      this.mobileMode.screen = this.screenInQueryParam;
     },
-     computed: {
-        $vssEvent: function $vssEvent() {
-            return this.reactiveComponent.event
-        },
-        $vssWidth: function $vssWidth() {
-            return this.reactiveComponent.vssWidth || this.getScreenWidth()
-        },
-        $vssHeight: function $vssHeight() {
-            return this.reactiveComponent.vssHeight || this.getScreenHeight()
-        }
+  },
+  computed: {
+    $vssEvent: function $vssEvent() {
+      return this.reactiveComponent.event;
     },
-     methods: {
-        getScreenWidth: function getScreenWidth() {
-            return typeof window === "undefined" && 1024
-            || window.innerWidth
-            || document.documentElement.clientWidth
-            || document.body.clientWidth
-        },
-        getScreenHeight: function getScreenHeight() {
-            return typeof window === "undefined" && 768
-            || window.innerHeight
-            || document.documentElement.clientHeight
-            || document.body.clientHeight
-        },
-        handleResize: function handleResize(event) {
-            this.reactiveComponent.event = event;
-            this.reactiveComponent.vssWidth = this.getScreenWidth();
-            this.reactiveComponent.vssHeight = this.getScreenHeight();
-        },
+    $vssWidth: function $vssWidth() {
+      return this.reactiveComponent.vssWidth || this.getScreenWidth();
+    },
+    $vssHeight: function $vssHeight() {
+      return this.reactiveComponent.vssHeight || this.getScreenHeight();
+    },
+    isMobile() {
+      return this.$vssWidth < 500;
+    },
+    showToggle() {
+      return (
+        this.isMobile &&
+        [screens.MAP, screens.LIST].includes(this.mobileMode.screen)
+      );
+    },
+    screenInQueryParam() {
+      return this.$route.query.screen;
+    },
+  },
+  methods: {
+    getScreenWidth: function getScreenWidth() {
+      return (
+        (typeof window === 'undefined' && 1024) ||
+        window.innerWidth ||
+        document.documentElement.clientWidth ||
+        document.body.clientWidth
+      );
+    },
+    getScreenHeight: function getScreenHeight() {
+      return (
+        (typeof window === 'undefined' && 768) ||
+        window.innerHeight ||
+        document.documentElement.clientHeight ||
+        document.body.clientHeight
+      );
+    },
+    handleResize: function handleResize(event) {
+      this.reactiveComponent.event = event;
+      this.reactiveComponent.vssWidth = this.getScreenWidth();
+      this.reactiveComponent.vssHeight = this.getScreenHeight();
+    },
 
-        $vssDestroyListener: function $vssDestroyListener() {
-            window.removeEventListener('resize', this.handleResize);
-        }
+    $vssDestroyListener: function $vssDestroyListener() {
+      window.removeEventListener('resize', this.handleResize);
     },
-    mounted: function mounted() {
-        window.addEventListener('resize', this.handleResize);
+    handleReviewBackClick() {
+      this.mobileMode.screen = this.mobileMode.previousScreen;
+      this.$router.replace({
+        path: `/`,
+        query: { ...this.$route.query, screen: this.mobileMode.screen },
+      });
     },
-    destroyed: function destroyed() {
-        window.removeEventListener('resize', this.handleResize);
-    }
+  },
+  mounted: function mounted() {
+    window.addEventListener('resize', this.handleResize);
+  },
+  created() {
+    this.screens = screens;
+    this.mobileMode.screen = this.screenInQueryParam;
+  },
+  destroyed: function destroyed() {
+    window.removeEventListener('resize', this.handleResize);
+  },
 };
 </script>
 
-<style>
+<style lang="scss">
 :root {
   /* --body-height: calc(100vh - 4em); */
   --off-white: #f4f7f6;
@@ -132,6 +209,10 @@ h1 {
   background: var(--off-white);
   border-top: 10px solid var(--theme-color);
   flex-grow: 1;
+  &--mobile {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .navbar {
   display: flex;
@@ -179,20 +260,33 @@ h1 {
 .links {
   padding-top: 15px;
 }
-.height-80vh {
-  /* height: var(--body-height); */
-}
 .review-area {
-  margin-left: 1em;
-  /* height: var(--body-height); */
   flex: 1 1 40%;
 }
 .map-area {
   flex: 1 1 30%;
-  height: 100%;
+  &--mobile {
+    width: 100%;
+  }
 }
 .list-area {
   flex: 0 0 25em;
+  &--mobile {
+    height: 100%;
+  }
   /* height: var(--body-height); */
+}
+.list-map-toggle {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+}
+.list-map-toggle button {
+  background-color: white;
+  font-size: calc(var(--base-font-size) * 1.2);
+  border-color: black;
+  border-style: solid;
+  width: 5rem;
+  padding: 4px 0;
 }
 </style>
