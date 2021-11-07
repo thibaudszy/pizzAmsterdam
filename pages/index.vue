@@ -33,6 +33,56 @@ export default {
     Welcome,
     Navbar,
   },
+    data: function data() {
+        return {
+         reactiveComponent: {
+            event: null,
+            vssWidth: null,
+            vssHeight: null
+          }
+           
+        }
+    },
+     computed: {
+        $vssEvent: function $vssEvent() {
+            return this.reactiveComponent.event
+        },
+        $vssWidth: function $vssWidth() {
+            return this.reactiveComponent.vssWidth || this.getScreenWidth()
+        },
+        $vssHeight: function $vssHeight() {
+            return this.reactiveComponent.vssHeight || this.getScreenHeight()
+        }
+    },
+     methods: {
+        getScreenWidth: function getScreenWidth() {
+            return typeof window === "undefined" && 1024
+            || window.innerWidth
+            || document.documentElement.clientWidth
+            || document.body.clientWidth
+        },
+        getScreenHeight: function getScreenHeight() {
+            return typeof window === "undefined" && 768
+            || window.innerHeight
+            || document.documentElement.clientHeight
+            || document.body.clientHeight
+        },
+        handleResize: function handleResize(event) {
+            this.reactiveComponent.event = event;
+            this.reactiveComponent.vssWidth = this.getScreenWidth();
+            this.reactiveComponent.vssHeight = this.getScreenHeight();
+        },
+
+        $vssDestroyListener: function $vssDestroyListener() {
+            window.removeEventListener('resize', this.handleResize);
+        }
+    },
+    mounted: function mounted() {
+        window.addEventListener('resize', this.handleResize);
+    },
+    destroyed: function destroyed() {
+        window.removeEventListener('resize', this.handleResize);
+    }
 };
 </script>
 
@@ -68,7 +118,7 @@ h1 {
 
 .site-container {
   height: 100vh;
-  overflow: scroll;
+  overflow-y: scroll;
   width: 100vw;
   display: flex;
   flex-direction: column;

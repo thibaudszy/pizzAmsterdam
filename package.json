@@ -13,12 +13,13 @@
   },
   "dependencies": {
     "@nuxt/image": "^0.6.0",
-    "axios": "^0.21.1",
+    "@nuxtjs/device": "^2.1.0",
+    "axios": "^0.21.4",
     "child_process": "^1.0.2",
     "core-js": "^3.9.1",
     "ipx": "^0.8.0",
     "nuxt": "^2.15.3",
-    "tailwindcss": "^2.1.2",
+    "tailwindcss": "^2.2.19",
     "vue-session": "^1.0.0",
     "vue2-google-maps": "^0.10.7",
     "vuetify": "^2.4.0"
