@@ -155,7 +155,9 @@ export default {
   },
   created() {
     this.screens = screens;
-    this.mobileMode.screen = this.screenInQueryParam;
+    if (this.screenInQueryParam) {
+      this.mobileMode.screen = this.screenInQueryParam;
+    }
   },
   destroyed: function destroyed() {
     window.removeEventListener('resize', this.handleResize);
@@ -195,7 +197,7 @@ h1 {
 
 .site-container {
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -204,7 +206,7 @@ h1 {
 }
 .body {
   display: flex;
-  overflow-y: scroll;
+  overflow-y: auto;
   width: 100%;
   background: var(--off-white);
   border-top: 10px solid var(--theme-color);
