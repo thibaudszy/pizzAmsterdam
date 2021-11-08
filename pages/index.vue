@@ -29,7 +29,7 @@
         <div class="flex flex-grow-0 w-full text-lg pt-2 bg-white">
           <button class="ml-2" @click="handleReviewBackClick">
             <v-icon aria-hidden="phone icon"> mdi-chevron-left </v-icon>
-            back
+            Back
           </button>
         </div>
 
@@ -280,7 +280,7 @@ h1 {
 }
 .list-map-toggle {
   position: absolute;
-  bottom: 10px;
+  top: 94%;
   display: flex;
 }
 .list-map-toggle button {

@@ -22,8 +22,8 @@
       <h4>Business details</h4>
     </button>
     <div class="business-details-style" v-if="showBusinessDetails">
-      <div class="w-half">
-        <h5>contact details</h5>
+      <div class="detais-section mb-2">
+        <h5>Contact details</h5>
         <p>
           <v-icon small aria-hidden="phone icon"> mdi-phone </v-icon>
           {{ localizedPhoneNumber }}
@@ -38,7 +38,7 @@
         </p>
       </div>
 
-      <div class="w-half">
+      <div class="detais-section">
         <h5>Opening hours</h5>
         <p v-for="(day, index) in weekdayText" :key="index">{{ day }}</p>
       </div>
@@ -127,11 +127,14 @@ export default {
   border-width: 0 1px 1px 1px;
   border-color: var(--theme-color);
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
   padding: 1em;
 
   border-radius: 0 0 5px 5px;
+}
+.detais-section {
+  flex: 1 0 15rem;
 }
 .w-half {
   width: 50%;
