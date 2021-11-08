@@ -18,6 +18,7 @@
     <div v-else class="body body--mobile">
       <pizzeria-list
         v-if="mobileMode.screen === screens.LIST"
+        is-mobile
         class="pb-14"
         @card-click="mobileMode.screen = screens.REVIEW"
       />

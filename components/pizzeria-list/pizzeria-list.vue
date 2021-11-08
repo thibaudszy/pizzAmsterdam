@@ -18,10 +18,15 @@ export default {
   components: {
     RestaurantCard,
   },
+  props: {
+    isMobile: { type: Boolean, default: false },
+  },
   computed: {
     pizzeriasIdsToDisplay() {
       const pizzeriasIds = Object.keys(pizzeriasDetails);
-      return pizzeriasIds.filter((id) => this.isWithinMapBounds(id));
+      return this.isMobile
+        ? pizzeriasIds
+        : pizzeriasIds.filter((id) => this.isWithinMapBounds(id));
     },
     mapBounds() {
       return this.$store.state.mapBounds;
