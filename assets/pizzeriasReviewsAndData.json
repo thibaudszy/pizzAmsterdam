@@ -1,23 +1,29 @@
 {
   "nNea Pizza": {
     "locations": ["ChIJq4ftb8EJxkcRMye6w1MoG20"],
-    "rating": "The mad scientists of Pizza",
-    "photos": {
-      "folderName": "nnea",
-      "fileNames": ["nnea1", "nnea2", "nnea3", "nnea4", "nnea5", "nnea6"]
-    }
+    "rating": "The mad scientists of pizza",
+    "review": "We often see pizza as a static tradition but the reality is that Neapolitans keep experimenting with it. Nnea brings this new style to Amsterdam. Neapoletan pizza with a modern spin. This pizzeria has been a success ever since its opening in 2019, and currently proudly occupies the 6th place in the 50 TOP PIZZA Europe rating. Fluffy dough that’s been fermenting for 50 hours prior baking, paired with classical and innovative toppings make this pizza experience a dream come true. Buffala and Provola e Peppe are our favourites; if you’re in the mood for an extra treat go for Partenope, a juicy octopus pizza. Keep in mind that here pizza is treated as a work of art, and changes to the menu are not being accepted. It gets busy, so booking in advance is recommended.",
+    "imageFolder": "nnea",
+    "pictures": [
+      "nnea1.jpg",
+      "nnea2.jpg",
+      "nnea3.jpg",
+      "nnea4.jpg",
+      "nnea5.jpg",
+      "nnea6.jpg"
+    ]
   },
   "Pazzi": {
     "locations": [
       "ChIJjUFtdHXixUcR7sWMUWHLoQY",
       "ChIJsfsUJd0JxkcRCztH_o2UIkI",
-      "ChIJEz5OgOUJxkcRJXPqYRPpcKc"
+      "ChIJEz5OgOUJxkcRJXPqYRPpcKc",
+      "ChIJmx03h_4JxkcRNl1tZXEAGmU"
     ],
-    "rating": "The crowd pleaser that will satify purists",
-    "photos": {
-      "folderName": "pazzi",
-      "fileNames": ["pazzi1", "pazzi2", "pazzi3", "pazzi4"]
-    }
+    "rating": "Great pizza in a cozy setting",
+    "review": "The local favourite, offering all the classics. The place is popular for take aways as is for sitting and dining in their gezellig restaurant with large stained glass windows. Their dough is on the thinner side but tasty nevertheless. If you’re proper hungry, order one of their selected starters before the real show begins. We like their Margherita or Calabrese (salami pizza), and finish it off with tiramisu or sgroppino. It never disappoints!",
+    "imageFolder": "pazzi",
+    "pictures": ["pazzi1.jpg", "pazzi2.jpg", "pazzi3.jpg", "pazzi4.jpg"]
   },
   "Pizza Beppe": {
     "locations": [
@@ -25,34 +31,71 @@
       "ChIJtzfv8SAJxkcRkd2MIeXfCX8",
       "ChIJodUkVgQJxkcRZdtJfljQj4Q"
     ],
-    "photos": {
-      "folderName": "pizza-beppe",
-      "fileNames": ["beppe1", "beppe2", "beppe3", "beppe4"]
-    },
-    "rating": "True Neapolitan pizza all accross Amsterdam"
+    "rating": "Verace Pizza Napoletana in Amsterdam",
+    "review": "Beppe is the only pizzeria in Amsterdam which holds the Vera Pizza Napoletana approval. Using only the ingredients from Southern Italy, Beppe makes wonderful food that will have you leave with a full belly and a smile on your face. Everything’s a go here: from fluffy pizzas, delicious starters and desserts, to the selection of Italian wines is great. ",
+    "imageFolder": "pizza-beppe",
+    "pictures": [
+      "beppe1.jpg",
+      "beppe2.jpg",
+      "beppe3.jpg",
+      "beppe4.jpg",
+      "beppe5.jpg"
+    ]
   },
   "La Zoccola del Pacioccone": {
     "locations": ["ChIJG9S3pMcJxkcRd68CCAjwptY"],
-    "photos": {
-      "folderName": "la-zoccola-del-pacciocone",
-      "fileNames": ["zoccola1"]
-    },
-    "rating": "Tiny but yummy"
+    "rating": "Tiny but yummy",
+    "review": "A small and simple pizzeria with a very central location, which makes it popular with locals and tourists alike. The pizza here is fluffy and bursting with flavour. A perfect choice when around the Dam or Central Station.",
+    "imageFolder": "la-zoccola-del-pacciocone",
+    "pictures": ["zoccola1.jpg"]
   },
   "FIKO": {
     "locations": ["ChIJWw3QMuEJxkcRM7dPcO2Cs44"],
-    "rating": "For pizza lovers with friends who don't like pizza",
-    "photos": {
-      "folderName": "fiko",
-      "fileNames": ["fiko1", "fiko2", "fiko3", "fiko4"]
-    }
+    "rating": "The italian restaurant that gets pizza right.",
+    "review": "FIKO offers not only great pizzas but also other Italian goodies. With its trendy interior filled with chatter and lively music, it makes for a nice night out with friends. If you feel like splurging, you can also order the most ridiculously extravagant pizza we have ever come across - the Tartufi Golden Experience pizza with truffles, golden nuggets an gold leaves. Comes with appropriate price, of course.",
+    "imageFolder": "fiko",
+    "pictures": ["fiko1.jpg", "fiko2.jpg", "fiko3.jpg", "fiko4.jpg"]
   },
   "SOTTO Pizza": {
     "locations": ["ChIJuYcxewTixUcRuae9Q323nik", "ChIJhVyan6MJxkcRFvIRVY9pEIs"],
-    "rating": "Amazing pizza, amazing tiramisu",
-    "photos": {
-      "folderName": "sotto",
-      "fileNames": ["sotto1", "sotto2", "sotto3", "sotto4", "sotto6", "sotto7"]
-    }
+    "rating": "",
+    "review": "SOTTO has discovered the winning combination for a great pizzeria: fluffy Neapoletan pizza in a cosy setting with friendly service. It really is that simple! The pizza here tastes amazing - try their Margherita and finish it off with one of the best tiramisu in the city.",
+    "imageFolder": "sotto",
+    "pictures": [
+      "sotto1.jpg",
+      "sotto2.jpg",
+      "sotto3.jpg",
+      "sotto4.jpg",
+      "sotto6.jpg",
+      "sotto7.jpg"
+    ]
+  },
+  "Fuoco vivo": {
+    "locations": ["ChIJ3cFzwd4JxkcRgU2hANz2i1s"],
+    "rating": "Traditional Neapolitan pizza made with organic ingredients",
+    "review": "Fuoco Vivo makes excellent pizza to eat in or in the comfort of your home. Their Margherita is great, and our other favourites include N’duja (with spicy Sicilian salami) and Vesuvio (folded pizza). The pizza here is made in the respect of tradition, with sourdough and organic ingredients. ",
+    "imageFolder": "fuoco-vivo",
+    "pictures": [
+      "fv1.jpg",
+      "fv2.jpg",
+      "fv3.jpg",
+      "fv4.jpg",
+      "fv5.jpg",
+      "fv6.jpg"
+    ]
+  },
+  "Di Luca": {
+    "locations": ["ChIJKRnveGAJxkcRjARJuZnA-Bs"],
+    "rating": "Great Neapolitan pizza in Noord",
+    "review": "",
+    "imageFolder": "di-luca",
+    "pictures": ["dl1.jpg", "dl2.jpg", "dl3.jpg", "dl4.jpeg"]
+  },
+  "Paradise Bar": {
+    "locations": ["ChIJ2wd-LUQJxkcRP_EibBV--2g"],
+    "rating": "For those who are thirsty and hungry",
+    "review": "",
+    "imageFolder": "paradise-bar",
+    "pictures": ["paradise1.jpg", "paradise2.jpg", "paradise3.jpg"]
   }
 }

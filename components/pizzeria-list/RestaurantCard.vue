@@ -45,14 +45,14 @@ export default {
         : '';
     },
     rating() {
-      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name].rating;
+      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name]?.rating;
     },
   },
   methods: {
     handleCardClick() {
       this.$router.push({
         path: `/`,
-        query: { pizzeriaId: this.pizzeriaId },
+        query: { pizzeriaId: this.pizzeriaId, screen: 'review' },
       });
     },
     getLogo(companyName) {

@@ -4,7 +4,7 @@
       ref="map"
       :center="center"
       :zoom="13"
-      style="height: 85vh"
+      style="height: 100%"
       @zoom_changed="commitNewMapBounds"
       @center_changed="commitNewMapBounds"
     >
@@ -40,7 +40,7 @@ export default {
     };
   },
   mounted() {
-    this.geolocate();
+    // this.geolocate();
     this.blueMarker = { ...marker, fillColor: 'blue' };
     this.redMarker = { ...marker, fillColor: 'red' };
     this.mapDot = mapDot;
@@ -82,7 +82,7 @@ export default {
     handleMarkerClick(pizzeriaId) {
       this.$router.push({
         path: `/`,
-        query: { pizzeriaId },
+        query: { pizzeriaId, screen: 'review' },
       });
     },
     commitNewMapBounds() {

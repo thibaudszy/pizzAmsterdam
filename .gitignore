@@ -91,5 +91,4 @@ sw.*
 
 #secrets
 .env
-assets/dev-gmaps-api-key.js
 package-lock.json

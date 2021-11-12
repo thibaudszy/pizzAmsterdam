@@ -2,21 +2,13 @@
   <div class="review bg-white" v-if="pizzeriaId">
     <h1 class="mb-4">{{ name }}</h1>
     <div
-      v-if="photos.length > 0"
+      v-if="pictures.length > 0"
       class="flex justify-center mb-3 h-80 flex-shrink-0 flex-grow-0"
     >
-      <carousel :images="photos" />
+      <carousel :images="pictures" :key="pizzeriaId" />
     </div>
     <h5 class="mb-4 font-semibold">{{ rating }}</h5>
-    <p class="mb-4">
-      An awesome review. Sed ut perspiciatis unde omnis iste natus error sit
-      voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
-      ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-      dicta sunt explicabo. An awesome review. Sed ut perspiciatis unde omnis
-      iste natus error sit voluptatem accusantium doloremque laudantium, totam
-      rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-    </p>
+    <p class="mb-4">{{ review || 'We recommend it. Review coming soon...' }}</p>
     <button
       class="business-details-bar"
       aria-label="press to view the business details"
@@ -30,8 +22,8 @@
       <h4>Business details</h4>
     </button>
     <div class="business-details-style" v-if="showBusinessDetails">
-      <div class="w-half">
-        <h5>contact details</h5>
+      <div class="detais-section mb-2">
+        <h5>Contact details</h5>
         <p>
           <v-icon small aria-hidden="phone icon"> mdi-phone </v-icon>
           {{ localizedPhoneNumber }}
@@ -46,23 +38,10 @@
         </p>
       </div>
 
-      <div class="w-half">
+      <div class="detais-section">
         <h5>Opening hours</h5>
         <p v-for="(day, index) in weekdayText" :key="index">{{ day }}</p>
       </div>
-    </div>
-    <div class="flex justify-around items-center mt-4 delivery-options">
-      <p>Order on:</p>
-      <button
-        class="border-2 border-solid border-black text-green-500 rounded p-2"
-      >
-        uber eats
-      </button>
-      <button
-        class="border-2 border-solid border-black text-blue-500 rounded p-2"
-      >
-        Deliveroo
-      </button>
     </div>
   </div>
 </template>
@@ -102,14 +81,14 @@ export default {
     rating() {
       return this.reviewAndData.rating;
     },
-    photos() {
-      const folder = this.reviewAndData?.photos?.folderName;
-      if (!folder) {
-        return [];
-      }
-      return this.reviewAndData.photos.fileNames.map(
-        (fileName) => `pictures/${folder}/${fileName}.jpg`
+    pictures() {
+      const { pictures, imageFolder } = this.reviewAndData;
+      return this.reviewAndData.pictures.map(
+        (fileName) => `pictures/${imageFolder}/${fileName}`
       );
+    },
+    review() {
+      return this.reviewAndData.review;
     },
   },
   methods: {
@@ -131,6 +110,7 @@ export default {
   scroll-padding-right: 50px;
 }
 .business-details-bar {
+  margin-top: 20px;
   display: flex;
   height: 50px;
   justify-content: center;
@@ -147,11 +127,14 @@ export default {
   border-width: 0 1px 1px 1px;
   border-color: var(--theme-color);
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
   padding: 1em;
 
   border-radius: 0 0 5px 5px;
+}
+.detais-section {
+  flex: 1 0 15rem;
 }
 .w-half {
   width: 50%;
