@@ -285,9 +285,7 @@ h1 {
   display: flex;
 }
 .list-map-toggle button {
-  background-color: white;
-  font-size: calc(var(--base-font-size) * 1.2);
-  border-color: black;
+  @apply text-lg bg-black text-white border-white;
   border-style: solid;
   width: 5rem;
   padding: 4px 0;
