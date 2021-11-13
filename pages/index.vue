@@ -280,8 +280,8 @@ h1 {
   /* height: var(--body-height); */
 }
 .list-map-toggle {
-  position: absolute;
-  top: 94%;
+  position: fixed;
+  bottom: 0.75rem;
   display: flex;
 }
 .list-map-toggle button {
