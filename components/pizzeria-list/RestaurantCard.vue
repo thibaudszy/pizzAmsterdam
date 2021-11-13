@@ -1,7 +1,7 @@
 <template>
   <button
     v-if="pizzeriaInfo"
-    :class="`${cardClass} card-class-general bg-white`"
+    class="card-class-general bg-white"
     @click="handleCardClick"
   >
     <div class="card-class-info">
@@ -112,8 +112,5 @@ export default {
 }
 .card-class-info {
   width: 80%;
-}
-.selected-pizzeria-style {
-  background-color: white;
 }
 </style>
