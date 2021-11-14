@@ -16,7 +16,7 @@
         @click="handleMarkerClick(location.pizzeriaId)"
         :icon="isSelectedPizzeria(location.pizzeriaId) ? redMarker : blueMarker"
       />
-      <GmapMarker v-if="userLocation" :position="userLocation" :icon="mapDot" />
+      <!-- <GmapMarker v-if="userLocation" :position="userLocation" :icon="mapDot" /> -->
     </GmapMap>
   </div>
 </template>
@@ -34,15 +34,15 @@ export default {
       userLocation: null,
       center: { lat: 52.3676, lng: 4.9041 },
       bounds: {},
-      blueMarker: {},
-      redMarker: {},
       mapDot: {},
     };
   },
-  mounted() {
-    // this.geolocate();
+  created() {
     this.blueMarker = { ...marker, fillColor: 'blue' };
     this.redMarker = { ...marker, fillColor: 'red' };
+  },
+  mounted() {
+    // this.geolocate();
     this.mapDot = mapDot;
   },
 
