@@ -286,7 +286,6 @@ h1 {
 }
 .list-map-toggle button {
   @apply text-lg bg-black text-white border-white;
-  border-style: solid;
   width: 5rem;
   padding: 4px 0;
 }
