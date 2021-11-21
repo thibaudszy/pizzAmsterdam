@@ -64,7 +64,7 @@ export default {
       const now = new Date();
       const today = now.getDay();
       const currentTime = `${now.getHours()}${now.getMinutes()}`;
-      const openingHours = this.pizzeriaInfo['opening_hours'].periods;
+      const openingHours = this.pizzeriaInfo['opening_hours']?.periods || [];
       const todayOpeningHours = openingHours.filter(
         ({ open }) => open.day === today
       )[0];
