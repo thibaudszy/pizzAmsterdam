@@ -5,7 +5,7 @@
       :key="id"
       class="restaurant-card-wrapper"
     >
-      <restaurant-card :pizzeriaId="id" class="restaurant-card" />
+      <restaurant-card :pizzeriaId="id" />
       <div class="separator" />
     </div>
   </div>

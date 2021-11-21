@@ -1,22 +1,27 @@
 <template>
   <button
     v-if="pizzeriaInfo"
-    :class="`${cardClass} card-class-general bg-white`"
+    class="flex w-full items-center p-2 text-left justify-around flex-row-reverse bg-white hover:bg-gray-100"
+    :class="isSelected(pizzeriaId)"
     @click="handleCardClick"
   >
-    <div class="card-class-info">
+    <div class="w-4/5">
       <p class="text-lg">{{ pizzeriaInfo.name }}</p>
-      <span :class="isOpenNow() ? 'green-dot' : 'red-dot'"> </span>
+      <span
+        class="h-3 w-3 rounded-full inline-block"
+        :class="isOpenNow() ? ' bg-green-600' : ' bg-red-600'"
+      >
+      </span>
       <span class="font-semibold mb-2">
         {{ isOpenNow() ? 'open now' : 'closed' }}
       </span>
       <p class="mb-2">{{ rating }}</p>
     </div>
-    <div class="card-class-image">
+    <div class="w-15-percent">
       <nuxt-img
         :src="`logos/${getLogo(pizzeriaInfo.company_name)}`"
-        style="border-radius: 50%; background: black"
-      />
+        class="rounded-full"
+      ></nuxt-img>
     </div>
   </button>
 </template>
@@ -30,7 +35,9 @@ import pizzeriasLogos from '@/assets/pizzeriasLogos.json';
 export default {
   name: 'RestaurantCard',
   components: { ...framework },
-  props: ['pizzeriaId'],
+  props: {
+    pizzeriaId: { type: String, required: true },
+  },
   computed: {
     selectedPizzeria() {
       const { pizzeriaId } = this.$route.query;
@@ -38,11 +45,6 @@ export default {
     },
     pizzeriaInfo() {
       return pizzeriasDetails[this.pizzeriaId];
-    },
-    cardClass() {
-      return this.pizzeriaId === this.selectedPizzeria
-        ? 'selected-pizzeria-style'
-        : '';
     },
     rating() {
       return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name]?.rating;
@@ -62,7 +64,7 @@ export default {
       const now = new Date();
       const today = now.getDay();
       const currentTime = `${now.getHours()}${now.getMinutes()}`;
-      const openingHours = this.pizzeriaInfo['opening_hours'].periods;
+      const openingHours = this.pizzeriaInfo['opening_hours']?.periods || [];
       const todayOpeningHours = openingHours.filter(
         ({ open }) => open.day === today
       )[0];
@@ -78,42 +80,15 @@ export default {
       }
       return true;
     },
+    isSelected(id) {
+      return this.selectedPizzeria === id;
+    },
   },
 };
 </script>
 
 <style>
-.green-dot {
-  height: 10px;
-  width: 10px;
-  background-color: green;
-  border-radius: 50%;
-  display: inline-block;
-}
-.red-dot {
-  height: 10px;
-  width: 10px;
-  background-color: red;
-  border-radius: 50%;
-  display: inline-block;
-}
-.card-class-general {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  padding: 0.5em;
-  background-color: var(--off-white);
-  text-align: left;
-  /* cursor: pointer; */
-}
-.card-class-image {
+.w-15-percent {
   width: 15%;
-  border-radius: 50%;
-}
-.card-class-info {
-  width: 80%;
-}
-.selected-pizzeria-style {
-  background-color: white;
 }
 </style>

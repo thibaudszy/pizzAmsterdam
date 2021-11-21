@@ -16,15 +16,16 @@
         @click="handleMarkerClick(location.pizzeriaId)"
         :icon="isSelectedPizzeria(location.pizzeriaId) ? redMarker : blueMarker"
       />
-      <GmapMarker v-if="userLocation" :position="userLocation" :icon="mapDot" />
+      <!-- <GmapMarker v-if="userLocation" :position="userLocation" :icon="mapDot" /> -->
     </GmapMap>
   </div>
 </template>
 
 <script>
 import pizzeriasDetails from '@/assets/pizzeriasDetails';
-import marker from '@/assets/images/marker-pin-google-blue';
 import mapDot from '@/assets/images/map-dot';
+import blueMarker from '@/assets/images/markers/marker-blue.svg';
+import redMarker from '@/assets/images/markers/marker-red.svg';
 
 export default {
   name: 'GoogleMap',
@@ -34,15 +35,15 @@ export default {
       userLocation: null,
       center: { lat: 52.3676, lng: 4.9041 },
       bounds: {},
-      blueMarker: {},
-      redMarker: {},
       mapDot: {},
     };
   },
+  created() {
+    this.blueMarker = blueMarker;
+    this.redMarker = redMarker;
+  },
   mounted() {
     // this.geolocate();
-    this.blueMarker = { ...marker, fillColor: 'blue' };
-    this.redMarker = { ...marker, fillColor: 'red' };
     this.mapDot = mapDot;
   },
 

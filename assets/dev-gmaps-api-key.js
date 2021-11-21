@@ -1,2 +1,2 @@
-const DEV_API_KEY = 'AIzaSyCzkyNPtLj_nCrCfSlK2yJQsscnpUnC9FQ';
+const DEV_API_KEY = '';
 export default DEV_API_KEY;
