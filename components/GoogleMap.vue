@@ -23,8 +23,9 @@
 
 <script>
 import pizzeriasDetails from '@/assets/pizzeriasDetails';
-import marker from '@/assets/images/marker-pin-google-blue';
 import mapDot from '@/assets/images/map-dot';
+import blueMarker from '@/assets/images/markers/marker-blue.svg';
+import redMarker from '@/assets/images/markers/marker-red.svg';
 
 export default {
   name: 'GoogleMap',
@@ -38,8 +39,8 @@ export default {
     };
   },
   created() {
-    this.blueMarker = { ...marker, fillColor: 'blue' };
-    this.redMarker = { ...marker, fillColor: 'red' };
+    this.blueMarker = blueMarker;
+    this.redMarker = redMarker;
   },
   mounted() {
     // this.geolocate();
