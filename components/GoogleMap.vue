@@ -9,8 +9,8 @@
       @center_changed="commitNewMapBounds"
     >
       <GmapMarker
-        :key="location.pizzeriaId"
         v-for="location in pizzeriasLocations"
+        :key="location.pizzeriaId"
         :position="location.location"
         :clickable="true"
         @click="handleMarkerClick(location.pizzeriaId)"
