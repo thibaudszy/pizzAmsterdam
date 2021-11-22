@@ -16,8 +16,22 @@
         @click="handleMarkerClick(location.pizzeriaId)"
         :icon="isSelectedPizzeria(location.pizzeriaId) ? redMarker : blueMarker"
       />
-      <!-- <GmapMarker v-if="userLocation" :position="userLocation" :icon="mapDot" /> -->
+      <GmapMarker
+        v-if="userLocation"
+        :position="userLocation"
+        :icon="userMarker"
+      />
     </GmapMap>
+    <button
+      v-if="!userLocation"
+      class="geolocate-button hover:text-black"
+      type="button"
+      title="Activate geolocation"
+      aria-label="Activate geolocation"
+      @click="geolocate()"
+    >
+      <v-icon style="color: inherit"> mdi-target </v-icon>
+    </button>
   </div>
 </template>
 
@@ -26,6 +40,7 @@ import pizzeriasDetails from '@/assets/pizzeriasDetails';
 import mapDot from '@/assets/images/map-dot';
 import blueMarker from '@/assets/images/markers/marker-blue.svg';
 import redMarker from '@/assets/images/markers/marker-red.svg';
+import markerUser from '@/assets/images/markers/marker-user.svg';
 
 export default {
   name: 'GoogleMap',
@@ -41,10 +56,13 @@ export default {
   created() {
     this.blueMarker = blueMarker;
     this.redMarker = redMarker;
+    this.userMarker = markerUser;
   },
-  mounted() {
-    // this.geolocate();
-    this.mapDot = mapDot;
+  async mounted() {
+    const permissionStatus = await navigator.permissions.query({
+      name: 'geolocation',
+    });
+    if (permissionStatus?.state === 'granted') this.geolocate();
   },
 
   computed: {
@@ -70,10 +88,6 @@ export default {
     },
     geolocate: function () {
       navigator.geolocation.getCurrentPosition((position) => {
-        // this.center = {
-        //   lat: position.coords.latitude,
-        //   lng: position.coords.longitude,
-        // };
         this.userLocation = {
           lat: position.coords.latitude,
           lng: position.coords.longitude,
@@ -103,4 +117,16 @@ export default {
   },
 };
 </script>
-<style></style>
+<style scoped>
+.geolocate-button {
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 40px;
+  position: relative;
+  bottom: 60px;
+  left: 10px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+  border-radius: 2%;
+  color: grey;
+}
+</style>
