@@ -37,7 +37,6 @@
 
 <script>
 import pizzeriasDetails from '@/assets/pizzeriasDetails';
-import mapDot from '@/assets/images/map-dot';
 import blueMarker from '@/assets/images/markers/marker-blue.svg';
 import redMarker from '@/assets/images/markers/marker-red.svg';
 import markerUser from '@/assets/images/markers/marker-user.svg';
