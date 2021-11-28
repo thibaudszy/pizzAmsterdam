@@ -38,13 +38,13 @@
       </template>
       <div class="list-map-toggle" v-if="showToggle">
         <button
-          class="rounded-l-full border-2"
+          class="rounded-l-full"
           @click="mobileMode.screen = screens.LIST"
         >
           List
         </button>
         <button
-          class="rounded-r-full border-t-2 border-b-2 border-r-2"
+          class="rounded-r-full border-2 border-white"
           @click="mobileMode.screen = screens.MAP"
         >
           Map
@@ -285,7 +285,7 @@ h1 {
   display: flex;
 }
 .list-map-toggle button {
-  @apply text-lg bg-black text-white border-white;
+  @apply text-lg bg-black text-white;
   width: 5rem;
   padding: 4px 0;
 }

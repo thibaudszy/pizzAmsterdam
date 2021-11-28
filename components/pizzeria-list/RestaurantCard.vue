@@ -1,9 +1,13 @@
 <template>
-  <button
+  <nuxt-link
     v-if="pizzeriaInfo"
     class="flex w-full items-center p-2 text-left justify-around flex-row-reverse bg-white hover:bg-gray-100"
+    :aria-label="`Show the review for ${pizzeriaInfo.name}`"
     :class="isSelected(pizzeriaId)"
-    @click="handleCardClick"
+    :to="{
+      path: `/`,
+      query: { pizzeriaId: this.pizzeriaId, screen: 'review' },
+    }"
   >
     <div class="w-4/5">
       <p class="text-lg">{{ pizzeriaInfo.name }}</p>
@@ -23,7 +27,7 @@
         class="rounded-full"
       ></nuxt-img>
     </div>
-  </button>
+  </nuxt-link>
 </template>
 
 <script>
