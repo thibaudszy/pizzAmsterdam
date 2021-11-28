@@ -1,38 +1,44 @@
 <template>
-  <div class="h-full">
-    <GmapMap
-      ref="map"
-      :center="center"
-      :zoom="13"
-      style="height: 100%"
-      @zoom_changed="commitNewMapBounds"
-      @center_changed="commitNewMapBounds"
-    >
-      <GmapMarker
-        v-for="location in pizzeriasLocations"
-        :key="location.pizzeriaId"
-        :position="location.location"
-        :clickable="true"
-        @click="handleMarkerClick(location.pizzeriaId)"
-        :icon="isSelectedPizzeria(location.pizzeriaId) ? redMarker : blueMarker"
-      />
-      <GmapMarker
-        v-if="userLocation"
-        :position="userLocation"
-        :icon="userMarker"
-      />
-    </GmapMap>
-    <button
-      v-if="!userLocation"
-      class="geolocate-button hover:text-black"
-      type="button"
-      title="Activate geolocation"
-      aria-label="Activate geolocation"
-      @click="geolocate()"
-    >
-      <v-icon style="color: inherit"> mdi-target </v-icon>
-    </button>
-  </div>
+  <client-only placeholder="Loading map">
+    <div class="h-full">
+      <GmapMap
+        ref="map"
+        :center="center"
+        :zoom="zoom"
+        style="height: 100%"
+        @zoom_changed="commitNewMapBounds"
+        @center_changed="commitNewMapBounds"
+      >
+        <GmapMarker
+          v-if="userLocation"
+          :position="userLocation"
+          :icon="userMarker"
+          :zIndex="20"
+        />
+        <GmapMarker
+          v-for="location in pizzeriasLocations"
+          :key="location.pizzeriaId"
+          :position="location.location"
+          :clickable="true"
+          @click="handleMarkerClick(location.pizzeriaId)"
+          :icon="
+            isSelectedPizzeria(location.pizzeriaId) ? redMarker : blueMarker
+          "
+          :zIndex="10"
+        />
+      </GmapMap>
+      <button
+        v-if="!userLocation"
+        class="geolocate-button hover:text-black"
+        type="button"
+        title="Activate geolocation"
+        aria-label="Activate geolocation"
+        @click="geolocate()"
+      >
+        <v-icon style="color: inherit"> mdi-target </v-icon>
+      </button>
+    </div>
+  </client-only>
 </template>
 
 <script>
@@ -50,6 +56,7 @@ export default {
       center: { lat: 52.3676, lng: 4.9041 },
       bounds: {},
       mapDot: {},
+      zoom: 13,
     };
   },
   created() {
@@ -61,7 +68,7 @@ export default {
     const permissionStatus = await navigator.permissions.query({
       name: 'geolocation',
     });
-    if (permissionStatus?.state === 'granted') this.geolocate();
+    // if (permissionStatus?.state === 'granted') this.geolocate();
   },
 
   computed: {
@@ -85,12 +92,16 @@ export default {
     isSelectedPizzeria(pizzeriaId) {
       return this.selectedPizzeria === pizzeriaId;
     },
-    geolocate: function () {
+    geolocate() {
       navigator.geolocation.getCurrentPosition((position) => {
         this.userLocation = {
           lat: position.coords.latitude,
           lng: position.coords.longitude,
         };
+        this.center = this.userLocation;
+        // In a timeout to avoid a clash the commitNewMapBounds event running twice at the same time
+        // which causes the bounds of the map to be wrong.
+        setTimeout(() => (this.zoom = 15), 10);
       });
     },
     handleMarkerClick(pizzeriaId) {

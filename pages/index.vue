@@ -28,7 +28,10 @@
       />
       <template v-if="mobileMode.screen === screens.REVIEW">
         <div class="flex flex-grow-0 w-full text-lg pt-2 bg-white">
-          <button class="ml-2" @click="handleReviewBackClick">
+          <button
+            class="ml-2"
+            @click="redirectToScreen(mobileMode.previousScreen)"
+          >
             <v-icon aria-hidden="phone icon"> mdi-chevron-left </v-icon>
             Back
           </button>
@@ -37,15 +40,12 @@
         <review v-if="$route.query.pizzeriaId" class="review-area" />
       </template>
       <div class="list-map-toggle" v-if="showToggle">
-        <button
-          class="rounded-l-full"
-          @click="mobileMode.screen = screens.LIST"
-        >
+        <button class="rounded-l-full" @click="redirectToScreen('list')">
           List
         </button>
         <button
           class="rounded-r-full border-2 border-white"
-          @click="mobileMode.screen = screens.MAP"
+          @click="redirectToScreen('map')"
         >
           Map
         </button>
@@ -90,7 +90,7 @@ export default {
   },
   watch: {
     screenInQueryParam() {
-      this.previousScreen = this.mobileMode.screen;
+      this.mobileMode.previousScreen = this.mobileMode.screen;
       this.mobileMode.screen = this.screenInQueryParam;
     },
   },
@@ -116,6 +116,15 @@ export default {
     screenInQueryParam() {
       return this.$route.query.screen;
     },
+  },
+  created() {
+    this.screens = screens;
+    if (this.screenInQueryParam) {
+      this.mobileMode.screen = this.screenInQueryParam;
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.handleResize);
   },
   methods: {
     getScreenWidth: function getScreenWidth() {
@@ -143,22 +152,12 @@ export default {
     $vssDestroyListener: function $vssDestroyListener() {
       window.removeEventListener('resize', this.handleResize);
     },
-    handleReviewBackClick() {
-      this.mobileMode.screen = this.mobileMode.previousScreen;
-      this.$router.replace({
+    redirectToScreen(screen) {
+      this.$router.push({
         path: `/`,
-        query: { ...this.$route.query, screen: this.mobileMode.screen },
+        query: { ...this.$route.query, screen },
       });
     },
-  },
-  mounted: function mounted() {
-    window.addEventListener('resize', this.handleResize);
-  },
-  created() {
-    this.screens = screens;
-    if (this.screenInQueryParam) {
-      this.mobileMode.screen = this.screenInQueryParam;
-    }
   },
   destroyed: function destroyed() {
     window.removeEventListener('resize', this.handleResize);

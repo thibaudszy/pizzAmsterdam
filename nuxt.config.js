@@ -24,10 +24,9 @@ export default {
   publicRuntimeConfig: {
     gmapsApiKey: process.env.GMAPS_API_KEY,
   },
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/gmaps', ssr: false },
+    { src: '~/plugins/gmaps', mode: 'client' },
     '~/plugins/scrollPosition.client.js',
   ],
 

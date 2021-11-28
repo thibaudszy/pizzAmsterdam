@@ -101,12 +101,12 @@ export default {
 
 <style>
 .review {
+  @apply p-5;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   overflow: auto;
-  padding: 20px;
   scroll-padding-right: 50px;
 }
 .business-details-bar {
