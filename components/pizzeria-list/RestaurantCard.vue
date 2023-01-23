@@ -23,7 +23,7 @@
     </div>
     <div class="w-15-percent">
       <nuxt-img
-        :src="`logos/${getLogo(pizzeriaInfo.company_name)}`"
+        :src="`logos/${getLogo(pizzeriaInfo.companyName || pizzeriaInfo.name)}`"
         class="rounded-full"
       ></nuxt-img>
     </div>
@@ -31,14 +31,13 @@
 </template>
 
 <script>
-import { framework } from 'vuetify';
 import pizzeriasDetails from '@/assets/pizzeriasDetails.json';
 import pizzeriasReviewsAndData from '@/assets/pizzeriasReviewsAndData.json';
 import pizzeriasLogos from '@/assets/pizzeriasLogos.json';
 
 export default {
   name: 'RestaurantCard',
-  components: { ...framework },
+
   props: {
     pizzeriaId: { type: String, required: true },
   },
@@ -68,7 +67,8 @@ export default {
       const now = new Date();
       const today = now.getDay();
       const currentTime = `${now.getHours()}${now.getMinutes()}`;
-      const openingHours = this.pizzeriaInfo['opening_hours']?.periods || [];
+      const openingHours =
+        this.pizzeriaInfo['current_opening_hours']?.periods || [];
       const todayOpeningHours = openingHours.filter(
         ({ open }) => open.day === today
       )[0];

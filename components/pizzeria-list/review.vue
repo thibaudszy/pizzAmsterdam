@@ -2,7 +2,7 @@
   <div class="review bg-white" v-if="pizzeriaId">
     <h1 class="mb-4">{{ name }}</h1>
     <div
-      v-if="pictures.length > 0"
+      v-if="pictures && pictures.length > 0"
       class="flex justify-center mb-3 h-80 flex-shrink-0 flex-grow-0"
     >
       <carousel :images="pictures" :key="pizzeriaId" />
@@ -68,27 +68,30 @@ export default {
     name() {
       return this.pizzeriaInfo.company_name;
     },
-
     localizedPhoneNumber() {
       return this.pizzeriaInfo.formatted_phone_number;
     },
     weekdayText() {
-      return this.pizzeriaInfo.opening_hours.weekday_text;
+      return this.pizzeriaInfo.current_opening_hours?.weekday_text;
     },
     reviewAndData() {
-      return pizzeriasReviewsAndData[this.pizzeriaInfo.company_name];
+      return (
+        pizzeriasReviewsAndData[
+          this.pizzeriaInfo.company_name || this.pizzeriaInfo.name
+        ] || {}
+      );
     },
     rating() {
-      return this.reviewAndData.rating;
+      return this.reviewAndData?.rating;
     },
     pictures() {
-      const { pictures, imageFolder } = this.reviewAndData;
-      return this.reviewAndData.pictures.map(
+      const { pictures, imageFolder } = this.reviewAndData || {};
+      return this.reviewAndData.pictures?.map(
         (fileName) => `pictures/${imageFolder}/${fileName}`
       );
     },
     review() {
-      return this.reviewAndData.review;
+      return this.reviewAndData?.review;
     },
   },
   methods: {

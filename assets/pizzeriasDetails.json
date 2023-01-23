@@ -1,845 +1,3379 @@
 {
   "ChIJq4ftb8EJxkcRMye6w1MoG20": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1730"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 5:30 – 10:30 PM",
+        "Tuesday: 5:30 – 10:30 PM",
+        "Wednesday: 5:30 – 10:30 PM",
+        "Thursday: 5:30 – 10:30 PM",
+        "Friday: 5:30 – 11:30 PM",
+        "Saturday: 5:30 – 11:30 PM",
+        "Sunday: 5:30 – 10:00 PM"
+      ]
+    },
     "formatted_address": "Bilderdijkstraat 92, 1053 KX Amsterdam, Netherlands",
     "formatted_phone_number": "020 362 0834",
     "geometry": {
-      "location": { "lat": 52.36942020000001, "lng": 4.8703501 },
+      "location": {
+        "lat": 52.36942020000001,
+        "lng": 4.8703501
+      },
       "viewport": {
-        "northeast": { "lat": 52.37080323029151, "lng": 4.871809930291502 },
-        "southwest": { "lat": 52.36810526970851, "lng": 4.869111969708498 }
+        "northeast": {
+          "lat": 52.3707917802915,
+          "lng": 4.871817430291503
+        },
+        "southwest": {
+          "lat": 52.36809381970851,
+          "lng": 4.869119469708498
+        }
       }
     },
     "name": "nNea Pizza",
-    "opening_hours": {
-      "open_now": false,
+    "photos": [
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107347009533626870368\">Marco</a>"
+        ],
+        "photo_reference": "AfLeUgN-RGzkOofy5GG3_siwxohNuJX1C6XGq-0dY_9JDi-vRAn2aouqA67__llcUA2pyB4n7U2YRqLiiL5qM3VmrBzETQFjPoOtmDPYuRVDmGWzh0zDbzoczknnpyuuMrW1d223olv5bPTBQ--JD6AHgCuvaGJ4v94q4j7Nl158oKBtt8b7",
+        "width": 3072
+      },
+      {
+        "height": 2604,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100083224226228034766\">Jochem Kempkens</a>"
+        ],
+        "photo_reference": "AfLeUgP_Nv1AtrVwiYWWAyQMbma3wqPxIEW77OAEo352kGEPV_krnA4_XHPSVDDHM2ydEzLlrNFBwE-VherI3ddU9nLRr9zwfbHwQj8yv1lDajr8-jPyha2SAyEy1hwjiao8twP7wSlUNhjMkHXaYJF9lKC8u-2S1dkklp4eQgugJ4wUfsc0",
+        "width": 3564
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100241819708636218732\">emilia lopez</a>"
+        ],
+        "photo_reference": "AfLeUgNjAauOfJtoqe0-cxr9oxCARn0O6QrSjfsoqAzVEbq8kur_siNJF_oV9epmEZaLtCtsoYdHPZHUYlCBRl7dkLWhMCdmTnSv56tAWTxZ5-pvPwblYVvc1oT0TbipV3xwQx-yMQG3QUf4EjbjHxOWQL2DpZlR3UvA4Ins638wl2XoSQl4",
+        "width": 3024
+      },
+      {
+        "height": 901,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109157495248790582461\">nNea Pizza</a>"
+        ],
+        "photo_reference": "AfLeUgMuON3tXIeMZwFdFyGACesbC_An1I8Gc6rnZP6uCk2D-B1rJB0HiVUUPo06TAqHnKIxfZvER0Qq9B9IZK_-7vRFXCFbgc7ew0SPG_OsQ0ZVV6Ei4if5wdNlTLZpwjQEGveaNMPebrHQbGkrcv8Oi9_Y0akYmqpOLy0HhWxW_gXbDk-4",
+        "width": 1600
+      },
+      {
+        "height": 2250,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100343995797113172035\">ORSO BRUNO</a>"
+        ],
+        "photo_reference": "AfLeUgMiMgC2BYENz0Bz6zhubJDpT8WZJ7yCsKbaajdyNBUHNwQ6-t50AjLkrceuEW5cgu56f_SJP2GhRhNyhLHsZ9Rzk4ugGkweGmbjYAt0fymi4VZAehFzBB0xpH2zBp0Oll6q02YDuRa9HwleMjMd8_RgbMASfxE1v3GiIjdi2wFVj7-q",
+        "width": 3010
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113984426018289118187\">Dragan Maloševac</a>"
+        ],
+        "photo_reference": "AfLeUgMGxTSisY7-i9tQFZxW6t7V5xQMbBLqEq943CAZHDVbMsssJlpyfDo6JfLjHJH95OHYzm98T9VUM9i9AFH5hEFPLbIkDLAFmPp3vzqrJb9m44tl0xjhscFENb6BpJF3Ho3GW6a-fTXSAoDLfr7BdWmppGo4uR1NGapxsY8gSB3dG2uB",
+        "width": 3797
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113096245751209047302\">Pavel Grigorenko</a>"
+        ],
+        "photo_reference": "AfLeUgMoFCIm5_S2WSbl55APYYfxKONIbz765MZgn6OKtS26ipf-OjGcK7ZZlv4coJeB8M0rOhGXQteBvIBZ7kRf8SHsOn1-nEa1NU37mdyVDRry8yCDPEVrjUKuc8opeMmOsSDMVp3d-SZKga8AP5m7elGRBpzufWIj3IJ3rVWuYo28ebGX",
+        "width": 3024
+      },
+      {
+        "height": 2755,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114337501742270443646\">Patrick Plaggenborg</a>"
+        ],
+        "photo_reference": "AfLeUgPtlFOUGFbrgebLia95cbriavHy2Rq0TBbUSdBzK4i4n-rH_gY_gWc0Vl-HKaRVTly8BigWI0_jF5f7nAz0lUo9ZVKIsCQwdsiwkIqzSCGqvFah4RsRShjNlfT8PBefiNA2LTOPssE8IXylx5BrlVUuz2n5ryL-KcK5R-usUYTRFQPZ",
+        "width": 3673
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107347009533626870368\">Marco</a>"
+        ],
+        "photo_reference": "AfLeUgM8pu6qXmDzdfoyy0hVJFPa2GQ6zq4lQwqce4dzVWHW7-6x39OzdHv1weCCLesQSGHyzAgWqQqxxzG7LGaaVVOXZJHXzIeVAbsMkcv_3PO75MpByp7WtgR-0QurZdf2a1NTObK-LOeMJMwCC-1PjJIUT1aT_oY0R0DT1_SHrQop99uT",
+        "width": 3072
+      },
+      {
+        "height": 2857,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114337501742270443646\">Patrick Plaggenborg</a>"
+        ],
+        "photo_reference": "AfLeUgNrulJ2HFPq9DvHxcAD-yF8tsh9zZSzgGfUjIVOxaycjdPqOeXqV5k8tJYX7HonXcLAl4---SPhypJEp3FnnbbtWms1bZ-mHBMm-shgfkIzEVxysKX1wrOQoofKbvqX7dBBx7ixw0F7fLa40o3Qn1XpSaIN01fpVmGDOjvk-5Ne1boj",
+        "width": 3810
+      }
+    ],
+    "place_id": "ChIJq4ftb8EJxkcRMye6w1MoG20",
+    "reservable": true,
+    "companyName": "nNea Pizza"
+  },
+  "ChIJjUFtdHXixUcR7sWMUWHLoQY": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2230" },
-          "open": { "day": 0, "time": "1730" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 2, "time": "2230" },
-          "open": { "day": 2, "time": "1730" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 3, "time": "2230" },
-          "open": { "day": 3, "time": "1730" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 4, "time": "2230" },
-          "open": { "day": 4, "time": "1730" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 5, "time": "2330" },
-          "open": { "day": 5, "time": "1730" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 6, "time": "2330" },
-          "open": { "day": 6, "time": "1730" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1700"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 5:30 – 10:30 PM",
-        "Wednesday: 5:30 – 10:30 PM",
-        "Thursday: 5:30 – 10:30 PM",
-        "Friday: 5:30 – 11:30 PM",
-        "Saturday: 5:30 – 11:30 PM",
-        "Sunday: 5:30 – 10:30 PM"
+        "Monday: 5:00 – 10:00 PM",
+        "Tuesday: 5:00 – 10:00 PM",
+        "Wednesday: 5:00 – 10:00 PM",
+        "Thursday: 5:00 – 10:00 PM",
+        "Friday: 5:00 – 10:00 PM",
+        "Saturday: 5:00 – 10:00 PM",
+        "Sunday: 5:00 – 10:00 PM"
       ]
     },
-    "rating": 4.7,
-    "website": "http://www.nneapizza.com/",
-    "company_name": "nNea Pizza"
-  },
-  "ChIJjUFtdHXixUcR7sWMUWHLoQY": {
+    "editorial_summary": {
+      "language": "en",
+      "overview": "Italian restaurant with heated terrace serving authentic antipasti, wood-fired pizzas & desserts."
+    },
     "formatted_address": "Netherlands, De Clercqstraat 93III, 1053 AG Amsterdam, Netherlands",
     "formatted_phone_number": "020 618 6333",
     "geometry": {
-      "location": { "lat": 52.3701391, "lng": 4.8673264 },
+      "location": {
+        "lat": 52.37013910000001,
+        "lng": 4.867326900000001
+      },
       "viewport": {
-        "northeast": { "lat": 52.3715187302915, "lng": 4.868635930291502 },
-        "southwest": { "lat": 52.3688207697085, "lng": 4.865937969708497 }
+        "northeast": {
+          "lat": 52.37152843029151,
+          "lng": 4.868697830291502
+        },
+        "southwest": {
+          "lat": 52.36883046970851,
+          "lng": 4.865999869708499
+        }
       }
     },
     "name": "Pazzi De Clercqstraat",
-    "opening_hours": {
-      "open_now": false,
+    "photos": [
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106893052980639762914\">Pazzi De Clercqstraat</a>"
+        ],
+        "photo_reference": "AfLeUgNoU7BUR3O8YZvE6AxheLxeBAlZQFsZgzAsmdRK60WrrP36wep54EBPTZ7WmE92JZKbzqNdxaNOOor5IHSSvCV9roEDlYAT10-j61VjzYGJUOhNcGQQe5O49TXbDT9JY0qQzxLpD5mHJL72WOwrb9SdGU3vgalfCZ8NM_-75YEdQgY",
+        "width": 960
+      },
+      {
+        "height": 2432,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101580731731903650100\">Richard Bitz</a>"
+        ],
+        "photo_reference": "AfLeUgMw6k4XerBeyzi2yrhWZsvzsNIEF0xoZGXHKfBBzSc8w3y_16ad1uI40cphMYauWgwmKKEsaPbQ72F3qPX0LiSLehecsXnONsbx6fpp-909SwAB_qSW88t3bVQAdWk8nCbpMZSIs5ljIOGMk8qe7d5mMtRkIANGLIwiEl7LAXEPajK5",
+        "width": 4320
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100620999342647687899\">22Waylander</a>"
+        ],
+        "photo_reference": "AfLeUgO8vEF0kyy4gZA98udGDpKu66EBnxXefeDWvRHgfkGZTW7EhLDdydWAfMLSSt-hQwGDG8Tu7ycCmZXmqWJjDz4ABxrCC-nm_bOgml07ZSn0idqlpBx1Xg0SHDuArqIGmR7fC_KSAA39o2k3XyQPUuVumiC-SMZcz1YlOboHCO4KgZr0",
+        "width": 4096
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115592525541751893007\">Leon Ineke</a>"
+        ],
+        "photo_reference": "AfLeUgN0qyYHyTvMtE-wc8peqE95AhRx6SD13b6iZz6ipRig3lUDCd9-yl4J9gP5mYlK_amuW_LmLBeEID8FIMXuHIB-GjfICQlIACxyJ6-KP7xq-3vdoQ5YYAKysVf60v7dpWlLkaKQ9B2zPBApXgqH2wIKOIJR2pbPF2sdUF4OMGUiRggr",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103092174855225959926\">Levi McAndrew-Brown</a>"
+        ],
+        "photo_reference": "AfLeUgMTne0KnNurSGU6q8O86GvoBCVdjgTQLUX8_JrHz-fgVLaO9jT58CZ7uTJUBrZtq4-QeH9A8BvophPGvfYAXKXb8-iKrTCZ0_U3H1QIMffQYyqsKGMtwzPVSNd5X16BWCBq9S0hSgyo4GHEGuf4K3w1vXQTedEj8fbqPBJVNEFjVuW0",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113738105125513005668\">Claudia Orozco</a>"
+        ],
+        "photo_reference": "AfLeUgPdCph1o-l2R9PCZzSmsw1W8QLLMwC1_266w1ShKfAUTZwjs1ar8vpcFGQ7WlFfBnOEu6nd5xTheFx9iUfzpWK6R_Dk99iAtjobHONbmpDcz21L18ExId9Q5bqcev71uJR2jfydiVLbvIdI7QmURuI9lKN4_RYiCGyrMKaVcDvm-DDZ",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102726697410836589875\">itsick azran</a>"
+        ],
+        "photo_reference": "AfLeUgMseeMf68o_wO7Fn78nU0SaQb0GGcY9VMIPPZs9lt3X2OLABR0fcV1_W6rRgu4AtsYrr-h7o4imak0PNcuUA-CCph0HLcYox1Q5-bz18haE_LOBWKjlKdSQ8-QkD3jNRKhf6lhdUKsixyfwMVdrhfuM_HQ_GZOHnU0eMeRzLPvMuoUZ",
+        "width": 4000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102726697410836589875\">itsick azran</a>"
+        ],
+        "photo_reference": "AfLeUgNlPsg2C3qTgeiNJ3WiJ9HF7KzAVJZsaRh4-8q_4BcmFGz1P9PlhT1iIS3-XtRtEtrvIPRFHHQjiDiGbF55xMbt-2dzHNi7cJg6tgTk-q03UZiu92NO-68XEg4amFilKZCqTFeyGso5ffS1hKQeOAoWooe0Pv4co1byKdGwK6UoRDAs",
+        "width": 4000
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112582796243944242102\">Jean Hilkens</a>"
+        ],
+        "photo_reference": "AfLeUgPeGJKdeFyxZeAwmM3eh4Dh_-2D7w6iwh8fNUzq9Ipbtuym9-haaVRGnEs2DNz-_F8t1zFcljKOzJznxf07xDfAPrUleKhBUFyewy2ShRyah9tfJYa5q8nceNar2qqmDq6brepotJKfq8lDgves-rdH5swI930OG5JrU_9nTKSDC79x",
+        "width": 3456
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115363026576425086709\">W. Arias</a>"
+        ],
+        "photo_reference": "AfLeUgMRHKpC0DJK7U7hpt0GaT3kfJSRyNtUDHCAca7BADVTS3ORJm0u4bX1-Bx1qG3uou1Pyp58e83wXDV0_PQDVHyKYwKe9ncqet-piQPNcwGH6qR04i2iPGUpkpjsQuQXqCFAK80WklG25tPdzHEJ1EBvVYfGicI_Oc41MfKdgly4UMw1",
+        "width": 3456
+      }
+    ],
+    "place_id": "ChIJjUFtdHXixUcR7sWMUWHLoQY",
+    "reservable": true,
+    "companyName": "Pazzi"
+  },
+  "ChIJsfsUJd0JxkcRCztH_o2UIkI": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1700" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1530"
+          }
         },
         {
-          "close": { "day": 1, "time": "2200" },
-          "open": { "day": 1, "time": "1700" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1530"
+          }
         },
         {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1700" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1530"
+          }
         },
         {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1700" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1530"
+          }
         },
         {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1700" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1530"
+          }
         },
         {
-          "close": { "day": 5, "time": "2200" },
-          "open": { "day": 5, "time": "1700" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1530"
+          }
         },
         {
-          "close": { "day": 6, "time": "2200" },
-          "open": { "day": 6, "time": "1700" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1530"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 5:00 – 10:00 PM",
-        "Tuesday: 5:00 – 10:00 PM",
-        "Wednesday: 5:00 – 10:00 PM",
-        "Thursday: 5:00 – 10:00 PM",
-        "Friday: 5:00 – 10:00 PM",
-        "Saturday: 5:00 – 10:00 PM",
-        "Sunday: 5:00 – 10:00 PM"
+        "Monday: 3:30 – 10:00 PM",
+        "Tuesday: 3:30 – 10:00 PM",
+        "Wednesday: 3:30 – 10:00 PM",
+        "Thursday: 3:30 – 10:00 PM",
+        "Friday: 3:30 – 10:00 PM",
+        "Saturday: 3:30 – 10:00 PM",
+        "Sunday: 3:30 – 10:00 PM"
       ]
     },
-    "rating": 4.5,
-    "website": "https://www.pazziamsterdam.nl/pazzi-west",
-    "company_name": "Pazzi"
-  },
-  "ChIJsfsUJd0JxkcRCztH_o2UIkI": {
     "formatted_address": "Eerste Looiersdwarsstraat 4, 1016 VM Amsterdam, Netherlands",
     "formatted_phone_number": "020 320 2800",
     "geometry": {
-      "location": { "lat": 52.3692785, "lng": 4.880719399999999 },
+      "location": {
+        "lat": 52.3692794,
+        "lng": 4.8807277
+      },
       "viewport": {
-        "northeast": { "lat": 52.37064438029149, "lng": 4.882133630291502 },
-        "southwest": { "lat": 52.3679464197085, "lng": 4.879435669708498 }
+        "northeast": {
+          "lat": 52.3706448302915,
+          "lng": 4.882137780291503
+        },
+        "southwest": {
+          "lat": 52.3679468697085,
+          "lng": 4.879439819708498
+        }
       }
     },
     "name": "Pazzi Jordaan",
-    "opening_hours": {
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105746015376108600221\">Marzia PucciZanetti</a>"
+        ],
+        "photo_reference": "AfLeUgOKwSSDjAJaXNtIoMZYV9K683AtNFmcdGlnLVULw599bBVqexxa4aCuCitvj4-jNbZTjjPR5ZKdpoQKRnZ9Zoq1TL-kBwp7S7dVqt0dO1GPncgdAMgpP9WZfvtUb2dPn3QFUvAFRWp-b4G1PZFrAqAXhL051OavzANveqI2UQtvZoSE",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104056568200868637617\">Eugenia 07</a>"
+        ],
+        "photo_reference": "AfLeUgPhmHTZToVO_ISkIuFAaHhfx58jXRDchFiEqhX6yHikkJO7qgJBp1u58DacyHnJELNexQRpCgA9X1PdrKRqUR7hIvKzmTgYm0hRD8Gq-oVyAeBPPv9_1itcvwdmkNQ7496rrLkiqFXKQtlbXnnSJ8Cm4xPFSFdtzHZ36tRsIKYeYMr8",
+        "width": 4032
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106683542694840634410\">Pazzi Jordaan</a>"
+        ],
+        "photo_reference": "AfLeUgNTk8S4NJImC24BwDW6wreRcNpArPmAY_BYmSzVkC2SMvyt9B1z5bbnmWmfZBTbNQ-kge_uLDm9nl18GFbqbAMcW1xbFGCwXgClqpdPLCTWG6G1AUBIJ2AJMYtO717bILwWrmuEVQv0uYDk-zYra7D6sVHuiiN1GVU1_JcTVzEIk2h5",
+        "width": 6000
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103234173545571770783\">Gert-Jan Bergsma</a>"
+        ],
+        "photo_reference": "AfLeUgPAVcDPGqN8h4pGRvE_gTuCk2OPQqDXHJSi_Twr1QqFLNp-O2x_dY8YtRxrKqo2qi2J8C2yJsAonCvqCGXh4CCIA8l8tiVN95zLuT0k-3sPD3f1E_bjvx7zc1oILEt9R4Th7gHfxFjLCm4gwimk5_S2nx-xsOAN3mNFipHOEpBqcEr-",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100804860339091407654\">Michael Miller</a>"
+        ],
+        "photo_reference": "AfLeUgMAbYCA2VjbajNpWcu10yRpYYG71wBgH1J-IP0PvVGOhWwom8PlzrWEu273ovHme5toCmBZCNrH5vNiSFfpImSjwkwDTU2y0a9y3DGpSm8Jwviv69FhD4NU9AUnpKebJrzgHSQJ7etFVRBbS282omcVqqOMEJL-sT-lbZLrF3gIy62J",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100288288514699855275\">Sunniva Amsterdam</a>"
+        ],
+        "photo_reference": "AfLeUgOmaB73zzvmYNMbHwGyzBtu-ymgP_ktrVCHURCNGuFXub6j_YE7o_96LBB-rw6E-6L1XhBEXdH5A_lSRA9qYb1HMCWHWEjcdDFC22uwPvdRxh4LksZvDK5MYMVYDkeCQvUnq5P4ACSJyM3YrOPDBQ60D6Sx-MqAgYsuJ_ukQcLthBPE",
+        "width": 4032
+      },
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103435108067268949716\">Christoph Lange</a>"
+        ],
+        "photo_reference": "AfLeUgMG7D6tP2GixP5y0RWhcR4aDNJ694MJLwDA5iqskhxRDwqPx2ToQkkuYeemK__D-zxyBLg6zMAh9QuVWBUlpl8FbR7-p29VOsG8q03WFWFTNOezTOMvbbNFVbVxyTRLRkQ4H3JEpwY6chH4-OuQ9xBYyDhl_PI6YjPfErNimVac36iA",
+        "width": 2160
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109830664421824578906\">ssy</a>"
+        ],
+        "photo_reference": "AfLeUgPKFFx4sI37Zdit4VtTc8XYDUiCBCyXKBpWQM1M8yHFWpSsyrowv5xQTPug9epp875GZ0leozBIbD2TWLNnHkyFdFobjvwKlkMnUckst3nQAnk-LKCZmtS6MG6p6XM3jPAvEmgF87WYw0lfsX1N2jgZXr0iyjae82sw8V-kgWz_eDmM",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104188659961993771660\">Gunes Diker</a>"
+        ],
+        "photo_reference": "AfLeUgNnahT2uIAbJCSZhIBcVK-U1RtMM-FoqX0DweivjpNXEjWzYfFePe9I7y9vx98jH7DCMdSIJAnnF7EyC2iOzOQYNBqhsoA_8wK0otrxIaQ30sU7bREUIOOhrSn7SXLiubciu5GyzaAzw4TrCdmoLDbThEoir87ofWHSZKw9fmZSgqBi",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102063021028906905110\">Gonul Midesiz</a>"
+        ],
+        "photo_reference": "AfLeUgPsaCzlMr-sNvWhFZHARCmFJMnikZHiYJerJMIA8e-GNJQoySiNlTH4N3Y666-X5xWZhmxtc7FXpWrA73MHEKwgOXFooRqufK5m7GEVKbRFpDvh08EAmh66S8-YV41jIMEW-de7w7KDrslgQSj0paiHacUvHQXbWaYNzHx_ScRZMn-A",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJsfsUJd0JxkcRCztH_o2UIkI",
+    "companyName": "Pazzi"
+  },
+  "ChIJEz5OgOUJxkcRJXPqYRPpcKc": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
       "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2000" },
-          "open": { "day": 0, "time": "1530" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 1, "time": "2000" },
-          "open": { "day": 1, "time": "1530" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 2, "time": "2000" },
-          "open": { "day": 2, "time": "1530" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 3, "time": "2000" },
-          "open": { "day": 3, "time": "1530" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 4, "time": "2000" },
-          "open": { "day": 4, "time": "1530" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 5, "time": "2000" },
-          "open": { "day": 5, "time": "1530" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 6, "time": "2000" },
-          "open": { "day": 6, "time": "1530" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1700"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 3:30 – 8:00 PM",
-        "Tuesday: 3:30 – 8:00 PM",
-        "Wednesday: 3:30 – 8:00 PM",
-        "Thursday: 3:30 – 8:00 PM",
-        "Friday: 3:30 – 8:00 PM",
-        "Saturday: 3:30 – 8:00 PM",
-        "Sunday: 3:30 – 8:00 PM"
+        "Monday: 5:00 – 10:00 PM",
+        "Tuesday: 5:00 – 10:00 PM",
+        "Wednesday: 5:00 – 10:00 PM",
+        "Thursday: 5:00 – 10:00 PM",
+        "Friday: 5:00 – 10:00 PM",
+        "Saturday: 5:00 – 10:00 PM",
+        "Sunday: 5:00 – 10:00 PM"
       ]
     },
-    "rating": 4.3,
-    "website": "https://www.pazziamsterdam.nl/pazzi-jordaan",
-    "company_name": "Pazzi"
-  },
-  "ChIJEz5OgOUJxkcRJXPqYRPpcKc": {
     "formatted_address": "Steve Bikoplein 12, 1092 GN Amsterdam, Netherlands",
     "formatted_phone_number": "020 705 1008",
     "geometry": {
-      "location": { "lat": 52.3552613, "lng": 4.922915800000002 },
+      "location": {
+        "lat": 52.3552613,
+        "lng": 4.922915800000002
+      },
       "viewport": {
-        "northeast": { "lat": 52.3565442802915, "lng": 4.924168880291502 },
-        "southwest": { "lat": 52.3538463197085, "lng": 4.921470919708498 }
+        "northeast": {
+          "lat": 52.3565442802915,
+          "lng": 4.924168880291502
+        },
+        "southwest": {
+          "lat": 52.3538463197085,
+          "lng": 4.921470919708498
+        }
       }
     },
     "name": "Pazzi Oost",
-    "opening_hours": {
-      "open_now": true,
-      "periods": [
-        {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1600" }
-        },
-        {
-          "close": { "day": 1, "time": "2200" },
-          "open": { "day": 1, "time": "1600" }
-        },
-        {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1600" }
-        },
-        {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1600" }
-        },
-        {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1600" }
-        },
-        {
-          "close": { "day": 5, "time": "2200" },
-          "open": { "day": 5, "time": "1600" }
-        },
-        {
-          "close": { "day": 6, "time": "2200" },
-          "open": { "day": 6, "time": "1600" }
-        }
-      ],
-      "weekday_text": [
-        "Monday: 4:00 – 10:00 PM",
-        "Tuesday: 4:00 – 10:00 PM",
-        "Wednesday: 4:00 – 10:00 PM",
-        "Thursday: 4:00 – 10:00 PM",
-        "Friday: 4:00 – 10:00 PM",
-        "Saturday: 4:00 – 10:00 PM",
-        "Sunday: 4:00 – 10:00 PM"
-      ]
-    },
-    "rating": 4.6,
-    "website": "https://www.pazziamsterdam.nl/pazzi-oost",
-    "company_name": "Pazzi"
-  },
-  "ChIJmx03h_4JxkcRNl1tZXEAGmU": {
-    "formatted_address": "Ms. van Riemsdijkweg 30, 1033 RD Amsterdam, Netherlands",
-    "formatted_phone_number": "06 23685743",
-    "geometry": {
-      "location": { "lat": 52.40122030000001, "lng": 4.891759 },
-      "viewport": {
-        "northeast": { "lat": 52.4025114302915, "lng": 4.893307530291501 },
-        "southwest": { "lat": 52.3998134697085, "lng": 4.890609569708497 }
+    "photos": [
+      {
+        "height": 3861,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109684973165279454206\">Pazzi Oost</a>"
+        ],
+        "photo_reference": "AfLeUgMgR6dUtl5LV0m4oMLfSsZmBkOWDNGBEGIrlf-H4ePR19AUYUAc7Fz4CEcs0n-Byg--xYTGUahM864AN-23ZvzUCMjSDIWlCb9oSYMy5QrZcCgJ7nbcwcBPCQXiKwvrqpo-La1tlNDcnjf6moWWDbP53XAsL4P_Y3zJcsRAgCZHZ4xn",
+        "width": 7543
+      },
+      {
+        "height": 6000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109684973165279454206\">Pazzi Oost</a>"
+        ],
+        "photo_reference": "AfLeUgNSlVoXZY6ENS-mlluspD1XYHEyugRTLSzUjTVAnplkbfZ-NequhKIoSW38XUAXxwmxbUUek75Wqp2catav0_TvkCxrcTJvkLl92AdQBwvbWTLE9RVtmEQCxuUqmns69Jg0PGbEU7GS1SAKGHUh5wUqT_7fZUGsxT548kO5hbCDDUZE",
+        "width": 4000
+      },
+      {
+        "height": 12000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103613690491110801233\">Hussein Ahmed</a>"
+        ],
+        "photo_reference": "AfLeUgOn-MjIW5wrAl6wz-M6PKCAHW-3l0vKn3aMOX5qoLabvizYQ1D5v5h7BRPfi5rMKKqu35ipbVMapcd-UfjTvMMIvnuuu3F-BlwwR6UjvdgRSnZHdpfeZ8_D5BAmW9tmF2UHA6FmjytwUVVnPL9phf7nxU3RiXN8DNHh_YLrHL5nDQEW",
+        "width": 9000
+      },
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112345058054588263162\">Sander Hoogendoorn</a>"
+        ],
+        "photo_reference": "AfLeUgNjcCnKHC3_OtcgigbhdRVSUZ9u0jNq1_rVJpEMdPlJSmPfCzQH6IxJKpP3ADaOOXOZj05VFYXRsGt3jdDBBYv5arIfuf5ytYJRc_XkuZuhTGKE7C-VNvxgYEezwT5WCIamgAzF8tx4EPEL_h8T7xD-LvowBjCIKSQCTvUq6irBVbBj",
+        "width": 5120
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107789947073724260938\">ines</a>"
+        ],
+        "photo_reference": "AfLeUgN8JSdwqMdeTmeQZzj3CC3dOmFWKa9vlMOwK0dkvcyg9IyHkc31bv_mMjz1Mw9Bhhtzv9bAULhNmQV4FBafP2Rnv1ZryvKvUYAKex_50golbN9lBbhPK-oaaH5pkUBEosQvW4wTMEfVHKtvB2G8WySAjN3A1RJf39Wlfd1R2dNQs4eS",
+        "width": 3024
+      },
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112345058054588263162\">Sander Hoogendoorn</a>"
+        ],
+        "photo_reference": "AfLeUgMcSl6sKfjZUv_w7ybEmLvMAyNLc4Yv4XYh7ni90bus6c2Khm87reNvlt8SKlUddPPgsC3LGJ-st1QJB2G4bg9u1xQUK9Yr5MAisLYbfRMPvoz7EXiJdbDxxOYBvt1e3YEfLcV0qjA1_BU1stvtb-RX2cwcrxcIwdqSQcSb1zwQ0Qjz",
+        "width": 5120
+      },
+      {
+        "height": 2992,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117069148193208758135\">Madhura Pawar</a>"
+        ],
+        "photo_reference": "AfLeUgPtK3JrspcuayLmVoBmX7QtNAp9fegMlMM3baGQt8JxKRBjzwIYnDyX5ibIMmdeWt3mqDcjbM_B4iq-X3Ij1SpE9A-Wl9ykQcDd-boT3UAXn1f4ZLJBIRuSefCU948EhG5AxBMJcV4-RLGx8Ss3PAEd5nXGfIS15tvSVxPlyvUSIv9M",
+        "width": 2992
+      },
+      {
+        "height": 2736,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112345058054588263162\">Sander Hoogendoorn</a>"
+        ],
+        "photo_reference": "AfLeUgNpLhmYPFcLuQT2-aiT1lECUlh6HlJNRw6KK5NqCHoYZgfs0s8BGOPwFNqwS9BYWwz4nwyc7ytbwHSKryQACeQ3qONRrJwargrLcHKUquek7ayWtwcQC-OyLROFIMhZx1w33PXqKkYvyDgFyLch7ilBeug1GJDG7sNadi1VX0A65ZK_",
+        "width": 3648
+      },
+      {
+        "height": 3840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112345058054588263162\">Sander Hoogendoorn</a>"
+        ],
+        "photo_reference": "AfLeUgPPywPSHypMCeVNeFo64YCeyYkxiCSpeNC62zzr8mdiuG4Wma2h1xJHXDAdU0y1x7wU16wNb3ww2X0zrtOlJ4wB6mXssd2un2uDKlAG0KLK-P2GvLwHMioHMUA6P6Ha_yquGA2419dxdmNqGIylGTqO9L5E4x-ij9dE5fplv_D43C-5",
+        "width": 5120
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105836465595947952811\">Anne Gideonse</a>"
+        ],
+        "photo_reference": "AfLeUgPM-CLMLikF4i8V_ssac9_tQ-35ABPAbD1M8P4ds38bZahnJNcVIxOVSO9QPCHM1YIFAN39Ot5RCC5fhaDTcZTYQIYkXlYbN9vlh_4rV3HxQQfZEcFmf_qQ_m0_2PvkmCcROspS8DJ9kY4vUtnWeuwoQpPwRm8OE_cAeVyE2ANaiDJw",
+        "width": 3024
       }
-    },
-    "name": "Pazzi Noord",
-    "opening_hours": {
-      "open_now": true,
-      "periods": [
-        {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1300" }
-        },
-        {
-          "close": { "day": 1, "time": "2200" },
-          "open": { "day": 1, "time": "1530" }
-        },
-        {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1530" }
-        },
-        {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1530" }
-        },
-        {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1530" }
-        },
-        {
-          "close": { "day": 5, "time": "2200" },
-          "open": { "day": 5, "time": "1300" }
-        },
-        {
-          "close": { "day": 6, "time": "2200" },
-          "open": { "day": 6, "time": "1300" }
-        }
-      ],
-      "weekday_text": [
-        "Monday: 3:30 – 10:00 PM",
-        "Tuesday: 3:30 – 10:00 PM",
-        "Wednesday: 3:30 – 10:00 PM",
-        "Thursday: 3:30 – 10:00 PM",
-        "Friday: 1:00 – 10:00 PM",
-        "Saturday: 1:00 – 10:00 PM",
-        "Sunday: 1:00 – 10:00 PM"
-      ]
-    },
-    "rating": 4,
-    "website": "https://www.pazziamsterdam.nl/",
-    "company_name": "Pazzi"
+    ],
+    "place_id": "ChIJEz5OgOUJxkcRJXPqYRPpcKc",
+    "reservable": true,
+    "companyName": "Pazzi"
   },
   "ChIJ8y0Ody4JxkcRfVXOKvf2eB8": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 5:00 – 10:00 PM",
+        "Tuesday: 5:00 – 10:00 PM",
+        "Wednesday: 5:00 – 10:00 PM",
+        "Thursday: 5:00 – 10:00 PM",
+        "Friday: 5:00 – 10:30 PM",
+        "Saturday: 5:00 – 10:30 PM",
+        "Sunday: 5:00 – 10:00 PM"
+      ]
+    },
     "formatted_address": "Middenweg 23, 1098 AB Amsterdam, Netherlands",
     "formatted_phone_number": "020 211 1787",
     "geometry": {
-      "location": { "lat": 52.35482289999999, "lng": 4.929268899999999 },
+      "location": {
+        "lat": 52.35482289999999,
+        "lng": 4.929268899999999
+      },
       "viewport": {
-        "northeast": { "lat": 52.3561144802915, "lng": 4.930519030291502 },
-        "southwest": { "lat": 52.3534165197085, "lng": 4.927821069708497 }
+        "northeast": {
+          "lat": 52.3561144802915,
+          "lng": 4.930519030291502
+        },
+        "southwest": {
+          "lat": 52.3534165197085,
+          "lng": 4.927821069708497
+        }
       }
     },
     "name": "Pizza Beppe Amsterdam Oost",
-    "opening_hours": {
-      "open_now": false,
+    "photos": [
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114813517564481455709\">Pizza Beppe Amsterdam Oost</a>"
+        ],
+        "photo_reference": "AfLeUgMxG61zv2RuP_0Tha7o1eag2_gs5DeytFb5bA5UhU6EZeN3r8rACgplHDRyaqFZDmMCGgxHWZkASt5wm6-hKMBziDP6GsL28LqxAB7R2Pfl5vvL1YuUeayRfeUgL5HOUWiZCXznYFQMQDSqc4WE6Wbm-LqLLcZXWWXw4Q9qnr13FaSd",
+        "width": 5472
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114813517564481455709\">Pizza Beppe Amsterdam Oost</a>"
+        ],
+        "photo_reference": "AfLeUgN_6_ax8VkxCdO98K1mrehsAKynyF08rrwLLHCt5dWUKgBrLpHkm5luwupkgy-ogYraxv1EGJ87G7nWRlh3iOTOHoenIu3s5m78_PepDWdoN_Uxq3NhMc7m6FhwtN36qpXp3gPAzxFac1x5MvSQefGmESZySW46XcJsAhLetYpOCM_7",
+        "width": 6240
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114813517564481455709\">Pizza Beppe Amsterdam Oost</a>"
+        ],
+        "photo_reference": "AfLeUgMOgxUWlOE-poj5nDAVQE6viHiYOrzcWWvUo1nxuvDLJi3J7D7QBeS5YXPUhl1CQCMf_AeswvYU2J4EHWtWKHsXVUZhv1gsefYwc-DZrxl6ySAPufkZ6CHiK47awIvGDfVrHH89qR0aWLeZkeIGibYAxjfwTalp-hjhacaOMaslv4rZ",
+        "width": 5472
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115219707586314050386\">Sarah Clement</a>"
+        ],
+        "photo_reference": "AfLeUgN7vjZ2s1zqOb_Mtu0O7WlJwvI44LTq764rReJA6w5n_NB7jvcvAj74oWo7R8Oyj-e2TYGsoLrTCsOXGkb8U7ppG_gwEpUcJJEO85AwS8z9GMF-Nd4l6tNP5NMYhkRIL6UtQm0pfBtPSo6EzTkAnlwAgowvflmAYfy4HwtyrYoEjYWX",
+        "width": 3456
+      },
+      {
+        "height": 5472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114813517564481455709\">Pizza Beppe Amsterdam Oost</a>"
+        ],
+        "photo_reference": "AfLeUgMw8qj6irPknFycLVcwpRq1oO_Rvgrbc_TV6JatcSZuTwm6ExywX_J3kfNNdL9tWq76IjoeKB5CUw9AtlgByOtpIPbzHeXio20Si0l0OTRnSyV9i0EyqPe1sIQHfBegQhq-4dC85VBELGseBRdFKDHy430UEFU8Ww6m4hA-KUiGF0Qm",
+        "width": 3648
+      },
+      {
+        "height": 3125,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114813517564481455709\">Pizza Beppe Amsterdam Oost</a>"
+        ],
+        "photo_reference": "AfLeUgOKk6BE8WQvkf3_4q_qO3yHJkl6H4GLQ7OIvHhvy4saEWPX--DIEqHk5Hz1QBphK6-5sb0I1O31BMeG40-m7D6wefUp6nMhFtox1kO056gQZYIsRymKqGubzd-6z2wQzBvygoVIPv5HrK4WM0RoIdnQhf5bASI1cenEQ7qKp5633q9X",
+        "width": 3125
+      },
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114813517564481455709\">Pizza Beppe Amsterdam Oost</a>"
+        ],
+        "photo_reference": "AfLeUgOjl-yJZ75JCvfZeAJzYZ3GnIckHQDvvF07mg8G9zb4lWCP-ExL87Ep9UawiTUd9ypPHsVwZEyowKSKyxVVAAB1AMilAxDxUvY8SjKfcu_CKVD4ABYydbFwoaKEyXcVfuykSyLEUsI2GtQn_wqD3-Y-lB7VuN5pAX6xV0dk3wkr1AZL",
+        "width": 1600
+      },
+      {
+        "height": 5312,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100231058642654284469\">Mathieu Wijnen</a>"
+        ],
+        "photo_reference": "AfLeUgPLq6YBJTpOYTTITcrlmrajlqZ6-ZCQO98KXHnGwrhU2ipRfZmJWtNiS2B0qb5ojkhVGkotwUXlVajaz2XlWrgQ81tyfHlDOnBInWe0F_jYVvXPMw7XEtUgU3z_ogONwSR2n2Qg_4pBNE9lHveK7cJTBivMDfdHP-14bHMoMa2XBJWO",
+        "width": 2988
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102074275549386506380\">Paul Hamaker</a>"
+        ],
+        "photo_reference": "AfLeUgPUeZu0M8JsG-Nojmb4Ppxb5iJR_lNsuB8qhDIPXYfghb1H2fs1HvP_PZZyNffA44d3N_u-ndvlD4nAZcRvVB12OCLgFy_n7zOcBNq4RhGDlAw8c4HzkMIkU6VGCe-38grgUCmzri-pH4PXnKj53XbhBLc0107LjFKSpeNguNUn_o0J",
+        "width": 2048
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109400472359143849946\">D. de Wit</a>"
+        ],
+        "photo_reference": "AfLeUgMPf6J6LDwFLA11E2PkaA3-4f1wq0yuxFzf40AusN4llVEVKzXBsfadZFbXunuggaieERBUuOWVmuIKw3mIuX97Rujyfy1Ra5GcNrA75g3p2KAByF1LQtA2Xw72OLaxjIfCkIL6DQ8NOmhj9Gv7sL6wB6-4bIyA727A7Ou8Byu9_iHT",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ8y0Ody4JxkcRfVXOKvf2eB8",
+    "reservable": true,
+    "companyName": "Pazzi"
+  },
+  "ChIJtzfv8SAJxkcRkd2MIeXfCX8": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2000" },
-          "open": { "day": 0, "time": "1700" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 1, "time": "2000" },
-          "open": { "day": 1, "time": "1700" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 2, "time": "2000" },
-          "open": { "day": 2, "time": "1700" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 3, "time": "2000" },
-          "open": { "day": 3, "time": "1700" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 4, "time": "2000" },
-          "open": { "day": 4, "time": "1700" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 5, "time": "2000" },
-          "open": { "day": 5, "time": "1700" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 6, "time": "2000" },
-          "open": { "day": 6, "time": "1700" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1700"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 5:00 – 8:00 PM",
-        "Tuesday: 5:00 – 8:00 PM",
-        "Wednesday: 5:00 – 8:00 PM",
-        "Thursday: 5:00 – 8:00 PM",
-        "Friday: 5:00 – 8:00 PM",
-        "Saturday: 5:00 – 8:00 PM",
-        "Sunday: 5:00 – 8:00 PM"
+        "Monday: 5:00 – 9:30 PM",
+        "Tuesday: 5:00 – 9:30 PM",
+        "Wednesday: 5:00 – 9:30 PM",
+        "Thursday: 5:00 – 9:30 PM",
+        "Friday: 5:00 – 10:30 PM",
+        "Saturday: 5:00 – 10:30 PM",
+        "Sunday: 5:00 – 9:30 PM"
       ]
     },
-    "rating": 4,
-    "website": "https://pizzabeppe.nl/",
-    "company_name": "Pizza Beppe"
-  },
-  "ChIJtzfv8SAJxkcRkd2MIeXfCX8": {
     "formatted_address": "Nassaukade 379, 1054 AD Amsterdam, Netherlands",
     "formatted_phone_number": "020 226 5448",
     "geometry": {
-      "location": { "lat": 52.364831, "lng": 4.87842 },
+      "location": {
+        "lat": 52.364831,
+        "lng": 4.87842
+      },
       "viewport": {
-        "northeast": { "lat": 52.3661845802915, "lng": 4.879879430291502 },
-        "southwest": { "lat": 52.3634866197085, "lng": 4.877181469708497 }
+        "northeast": {
+          "lat": 52.3661755802915,
+          "lng": 4.879876880291502
+        },
+        "southwest": {
+          "lat": 52.3634776197085,
+          "lng": 4.877178919708498
+        }
       }
     },
     "name": "Pizza Beppe Amsterdam West",
-    "opening_hours": {
-      "open_now": false,
+    "photos": [
+      {
+        "height": 5840,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114286274110427785249\">Pizza Beppe Amsterdam West</a>"
+        ],
+        "photo_reference": "AfLeUgOCj3kEQPCV8s7j-tAZ_al8hkocGsbGw2Mbwafi4XosSVm-UhJeZ14mzdE0k7rpOPJdHjGkdURftmc4JC-phihi3E7EH2FOqwdxz1efM24hc6_J0tcs-aAbyuF0DNTsnXHxyE-pw8EL-fxMBPKtmCCOM1VrYi5x5RkN6anu5EdxsyJH",
+        "width": 3893
+      },
+      {
+        "height": 3125,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114286274110427785249\">Pizza Beppe Amsterdam West</a>"
+        ],
+        "photo_reference": "AfLeUgNLw19vvZeAGCUWjZozY25FT0I7SVKBMuYAd_jm3dBjcBk9y2wNDIUXHd7QFVVQa9YJGZGMy037-ezA80SW7FwCXeaGVIzwoOZ-eOYqQ56hIrlT-Bc3uTnQcCYpTFPMr52kEvHlcMEI8kfsulssC7nYtUH5rq90DzASOfMpjpMQ8goj",
+        "width": 3125
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107506885747606709717\">Jack Sacali</a>"
+        ],
+        "photo_reference": "AfLeUgOVQ26BjlljjeRx2QW_fXOO5JHxX8ucMigVEav38xNI9nqqV6j1XpEXFwGmV2baDdC2_0n2F174jhAJfWNsn9JAQvjOqH2qXK1RykudsDkaoz6_H4h0UBqAk8wkJN6TJkP_EobYe0YpS2hdbhqrrimioYsku0os1sH72DApGyrG1Cfe",
+        "width": 4032
+      },
+      {
+        "height": 4240,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113370070598258267336\">rbrta_</a>"
+        ],
+        "photo_reference": "AfLeUgMXXe83kZZoOmxyP0GewTZzB1QahN3Dtu2p1hiZpB4m3t0gHMV5mPoXOxoLCVxlLEB5sRBanyCiW1eRwhSxTVxA2XzL4JEGk3WmW6gnO05HYPUXXtyEIgqbr6Qp5hGtHxblykSBSrBRynM22oNIRHf22QiYSN9OzWxDGJexg25V3RGM",
+        "width": 4240
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110467541192065338387\">Gerard van Schalkwijk</a>"
+        ],
+        "photo_reference": "AfLeUgP5USU0BTn-neeXlZo35sFvqlfz0nBhEPQA8EkBCoSTrNYQoq2zfvH5b6WHHmpFclYtZSP9wk1keNjS_OjyI6yhwww7jG24zJErSJ3Dj2B-BlE2WopyU-hCkDjNs_IfOZ5EvZ0j-N75ZNOWVqymGaCAlaSEc0JuoKH6oiKNpnIV91F4",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112011246119869195150\">Grace C</a>"
+        ],
+        "photo_reference": "AfLeUgPuofwCu0vTfN8wGycKJ31TpKit9mYao5qIgbENt3pCci6Ouu0M9NAj-qJwz2zFSwBHzHUmt1PI-m5R4gWEX8L96GMM0ZFptbWE8qpaw1EroY71HL8h-1HkcprvFYM8hQmOeKwUnZZlWg0c44gz82QHGLMuTWIgYgjyu-_EuRX8hutA",
+        "width": 4032
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107861434013192618288\">Luigi DM</a>"
+        ],
+        "photo_reference": "AfLeUgMvPdC3YNenvgnoTHCTdGCx4gdjOIlPHfSp9vTmqrBhvkhFvJLprB23LdH_4bUXruCS66cKlKMVpNjpbTwyEPKERfdlQuv7qyu6S4dyQUJ-mdoYH6BuMJKKnUQHmw5YeBpaIfbZsxxbQ89Sk-9ugBCmVe5VJ4Fp1OoneSS5TBt2nGHU",
+        "width": 1080
+      },
+      {
+        "height": 3040,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100154118014200830549\">Sofocles Markides</a>"
+        ],
+        "photo_reference": "AfLeUgMzruBIZTCyvBJSqugaPvZJ314ShTYDtQmTCSgrHGATuBBmwryYcLRCbUiDxjGNW4LmNjf-Uyl0n03lfaHgjaYeA9oqusDUenCrs3xwI1G0r78pkEoZSldBREuiW_Dx1FXGgUxdilQHr-xbpNFUcpnW76E-vJ-zVPKhQrt6oelJRfsr",
+        "width": 3024
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112011246119869195150\">Grace C</a>"
+        ],
+        "photo_reference": "AfLeUgM1EnhW-yycyTO0Q4JbYCo5xtkLSxR_ppv8DT4CwIyk9snj_Qud014H_10_a-49UqnSivDgKFsp6V50M5cex_savhEN_p6fYiGAgw8I4hKiiywpZPQpDjw1pFrWWs0OXj2h6P9TdgsfAmp7fqswsPC5V7gfT6uKHZ7fkQKdEt7Kkv_T",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110467541192065338387\">Gerard van Schalkwijk</a>"
+        ],
+        "photo_reference": "AfLeUgOZ-IlqQpZTkJgLWBS5u2zLJrkRBKiSfQhflx6rKYPSJqNoA2aeZcDh9lmEqsMchorLOh-IZJrjpyODyy0YNVdA4lWqSlOX4ppumzJTgQkQBFHhXcUBUZQrWmYOF8jxEhJ2I27tWAhZQD-V-7sSv-5jv25L3m3uhuqWXtwPvZ-sqSFx",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJtzfv8SAJxkcRkd2MIeXfCX8",
+    "reservable": true,
+    "companyName": "Pizza Beppe"
+  },
+  "ChIJodUkVgQJxkcRZdtJfljQj4Q": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2000" },
-          "open": { "day": 0, "time": "1700" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 1, "time": "2000" },
-          "open": { "day": 1, "time": "1700" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 2, "time": "2000" },
-          "open": { "day": 2, "time": "1700" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 3, "time": "2000" },
-          "open": { "day": 3, "time": "1700" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 4, "time": "2000" },
-          "open": { "day": 4, "time": "1700" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2130"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 5, "time": "2000" },
-          "open": { "day": 5, "time": "1700" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 6, "time": "2000" },
-          "open": { "day": 6, "time": "1700" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1700"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 5:00 – 8:00 PM",
-        "Tuesday: 5:00 – 8:00 PM",
-        "Wednesday: 5:00 – 8:00 PM",
-        "Thursday: 5:00 – 8:00 PM",
-        "Friday: 5:00 – 8:00 PM",
-        "Saturday: 5:00 – 8:00 PM",
-        "Sunday: 5:00 – 8:00 PM"
+        "Monday: 5:00 – 9:30 PM",
+        "Tuesday: 5:00 – 9:30 PM",
+        "Wednesday: 5:00 – 9:30 PM",
+        "Thursday: 5:00 – 9:30 PM",
+        "Friday: 5:00 – 10:00 PM",
+        "Saturday: 5:00 – 10:00 PM",
+        "Sunday: 5:00 – 9:30 PM"
       ]
     },
-    "rating": 4.4,
-    "website": "https://pizzabeppe.nl/",
-    "company_name": "Pizza Beppe"
-  },
-  "ChIJodUkVgQJxkcRZdtJfljQj4Q": {
     "formatted_address": "Roelof Hartstraat 27, 1071 VG Amsterdam, Netherlands",
     "formatted_phone_number": "020 774 0670",
     "geometry": {
-      "location": { "lat": 52.3524465, "lng": 4.8858083 },
+      "location": {
+        "lat": 52.3524465,
+        "lng": 4.8858083
+      },
       "viewport": {
-        "northeast": { "lat": 52.3537350802915, "lng": 4.887147380291503 },
-        "southwest": { "lat": 52.3510371197085, "lng": 4.884449419708498 }
+        "northeast": {
+          "lat": 52.3537349302915,
+          "lng": 4.887150780291502
+        },
+        "southwest": {
+          "lat": 52.3510369697085,
+          "lng": 4.884452819708497
+        }
       }
     },
     "name": "Pizza Beppe",
-    "opening_hours": {
-      "open_now": false,
+    "photos": [
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109166337071848463602\">Pizza Beppe Amsterdam Zuid</a>"
+        ],
+        "photo_reference": "AfLeUgNt4jY8aDtxiWx47DOvX4r4oXmvzUGvyAidvmdxCwXn77vpMteY-GrJcQkJlWmtsCs_euh43awReTcrX2QBkhcQ9Zhgsld08T_IdpW_Yq_R1p-75NmZeuYIIuGVY0W9efzCUw6WT_JVnKX7Agz912WscpECT-4BSGf_zxxQ1vl7pch4",
+        "width": 5472
+      },
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109166337071848463602\">Pizza Beppe Amsterdam Zuid</a>"
+        ],
+        "photo_reference": "AfLeUgPMQ3CizgoptqPzSQERRWL6QEY2kmCa_-eywcx2racuocJ4IDPxQ5dn1K9LTeUQRgNTmjq2-Dt7cEnCgQ4rSmvR5OjgoIWtardiNO_kyqmiT1Fh9Qpx7k7EwDXn5weWZRHfBScBiZZZPx8csVveXNqWuz6qGcfUKAMNWnFR1GeHPwUj",
+        "width": 500
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114888782736711516634\">Pavle Vidanovic</a>"
+        ],
+        "photo_reference": "AfLeUgO8B9aEsPTt-pw-uFCK3kO2F9IEutrximnqB0y2VS8jb0YNbBiPrfBsbb3zLIxJ6OTfBd_DPyoe3-0TuCttu3OItjsOv5LUqDERojE3MFWCIOPWenCHrNkBe5NCoEHYYRbIvkjEB8Ka3ENrPh18zNcUA3kS7vKYbSEAsLsGwWjy9qzs",
+        "width": 4032
+      },
+      {
+        "height": 5472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109166337071848463602\">Pizza Beppe Amsterdam Zuid</a>"
+        ],
+        "photo_reference": "AfLeUgMpbxlnNh2-8y7bZwygqUAC5Uu_c9xihDnKHUrqT4xqncjrP9d8XijbIRoEdXdI2fk6AJ2eBSfhSjkjdB_c6T_Wl5njk58_tQeebqQZri5MMjHAbazYXuDomLjB-DSw4vVp8wfrGATWjZslZ440txEZjjwk6Tlv7MU_QYlBVpiXjuJj",
+        "width": 3648
+      },
+      {
+        "height": 2823,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107271163434752185674\">Ryan Lam</a>"
+        ],
+        "photo_reference": "AfLeUgMxBt5MYkYryoCZ1obMbkYPiIj2ClLP3p0p8aOX_1kebonAsNb4o49qlJs9VUp2r-ueQYmoZC4ecI1oF6oELTV1ZfKXg7bM9PrdU7Vn3Q-4NpcTFFyAYc-IZmLUijmI4O3lJqrLoY-x3QQrGERvCCASrpXSxS30xQukdHPLhLE59-A9",
+        "width": 3763
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109166337071848463602\">Pizza Beppe Amsterdam Zuid</a>"
+        ],
+        "photo_reference": "AfLeUgMp4DAzmM983Wtcni9C9lPBWXy5E1rM-iJ7AWkxdkDJxFekhPD82gkBqeVNS-YGBOx-wmXmdBNoGuLQZYSdentRvvjesyhdLT-wKM7xBgzXjjzwwB8lqycmrZn4Cy_WfqV5yEGLD8yM4k6WzG9exik8hHU8xlLOqletA_DabDnw7w_a",
+        "width": 5472
+      },
+      {
+        "height": 3125,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109166337071848463602\">Pizza Beppe Amsterdam Zuid</a>"
+        ],
+        "photo_reference": "AfLeUgOa_wFTlW9XjAcJQfJg10a8ZaCd0I1HooU-3mWVORHKzEZjhF5Y_iQpIB4fAGCqBWPxCyXP1GeT1aLOpN2QnHYnlPkEz1CaUZ4hdk7OYvhJYUXtrP3AhNj4nfz2CwC1nT5KRwivqGtWj69Zuz6e2OuLN08vb3jqN3EKmiBfac81_e4j",
+        "width": 3125
+      },
+      {
+        "height": 3778,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114586016520461099495\">Planet Pod</a>"
+        ],
+        "photo_reference": "AfLeUgNDXCMHVq5tgS9vW-_5LlDwCbhkYop06nwWp-GBqkM6xdlsYXRXdSrkNDxTC9La8OVxWBRVFePlxKQ6gV7hz7XwkYm3rLQ_22pISF8X9P2v-zaUImqrtjFvAJ98LJSRTlgdzCvizJ1wEUDcexI_YYQcZAp--qF4GuuSiKzQNC03uI-I",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108500429865696064899\">Simon Daniels</a>"
+        ],
+        "photo_reference": "AfLeUgOb8MwoVAYqmfzpP2jb6XHTRDm3BPYv8N6lxXsRJosWl7aa147HObeEFxml7w7nKQioHIZmTLqd9wiMPJ0ESZKIaaHtCeq9_Pz_a9GubWtH1vTRsAmbWrRjcBhgkpJryQ_MTKrzrl1YiAsl3GnSs80Tjh-_FqE8gDfBlZeFSDHqy-3w",
+        "width": 3024
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109166337071848463602\">Pizza Beppe Amsterdam Zuid</a>"
+        ],
+        "photo_reference": "AfLeUgPtHnjeytYcNpwPKDBQb2wPE7aeyMehe5QkwAA7dtV4-0AtJtjSFbPzpCoaBx0pqL_u4rdjD8PmXImvtHxxYFunybh786TUCKbvUmVbJWSUlBNq3d707FULV_hx6dfjcYozKQPHIPfdrKOsfjBfJJeLKYAWdmBfLoF_Buwrprkolnca",
+        "width": 5472
+      }
+    ],
+    "place_id": "ChIJodUkVgQJxkcRZdtJfljQj4Q",
+    "reservable": true,
+    "companyName": "Pizza Beppe"
+  },
+  "ChIJG9S3pMcJxkcRd68CCAjwptY": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2000" },
-          "open": { "day": 0, "time": "1700" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1300"
+          }
         },
         {
-          "close": { "day": 1, "time": "2000" },
-          "open": { "day": 1, "time": "1700" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1300"
+          }
         },
         {
-          "close": { "day": 2, "time": "2000" },
-          "open": { "day": 2, "time": "1700" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1300"
+          }
         },
         {
-          "close": { "day": 3, "time": "2000" },
-          "open": { "day": 3, "time": "1700" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1300"
+          }
         },
         {
-          "close": { "day": 4, "time": "2000" },
-          "open": { "day": 4, "time": "1700" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1300"
+          }
         },
         {
-          "close": { "day": 5, "time": "2000" },
-          "open": { "day": 5, "time": "1700" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1300"
+          }
         },
         {
-          "close": { "day": 6, "time": "2000" },
-          "open": { "day": 6, "time": "1700" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2330"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1300"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 5:00 – 8:00 PM",
-        "Tuesday: 5:00 – 8:00 PM",
-        "Wednesday: 5:00 – 8:00 PM",
-        "Thursday: 5:00 – 8:00 PM",
-        "Friday: 5:00 – 8:00 PM",
-        "Saturday: 5:00 – 8:00 PM",
-        "Sunday: 5:00 – 8:00 PM"
+        "Monday: 1:00 – 11:30 PM",
+        "Tuesday: 1:00 – 11:30 PM",
+        "Wednesday: 1:00 – 11:30 PM",
+        "Thursday: 1:00 – 11:30 PM",
+        "Friday: 1:00 – 11:30 PM",
+        "Saturday: 1:00 – 11:30 PM",
+        "Sunday: 1:00 – 11:30 PM"
       ]
     },
-    "rating": 4.2,
-    "website": "http://www.pizzabeppe.nl/",
-    "company_name": "Pizza Beppe"
-  },
-  "ChIJG9S3pMcJxkcRd68CCAjwptY": {
     "formatted_address": "Nieuwe Nieuwstraat 22HS, 1012 NH Amsterdam, Netherlands",
     "formatted_phone_number": "06 13256675",
     "geometry": {
-      "location": { "lat": 52.37542089999999, "lng": 4.8938605 },
+      "location": {
+        "lat": 52.37542089999999,
+        "lng": 4.8938605
+      },
       "viewport": {
-        "northeast": { "lat": 52.37672578029149, "lng": 4.89458115 },
-        "southwest": { "lat": 52.37402781970849, "lng": 4.89169855 }
+        "northeast": {
+          "lat": 52.37672578029149,
+          "lng": 4.89458115
+        },
+        "southwest": {
+          "lat": 52.37402781970849,
+          "lng": 4.89169855
+        }
       }
     },
     "name": "La Zoccola del Pacioccone",
-    "opening_hours": {
+    "photos": [
+      {
+        "height": 2642,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104243591139395970914\">Christian Hoffmann</a>"
+        ],
+        "photo_reference": "AfLeUgM0kkg4yUmwK-yMXO06N9EIsm2WS1uWFEZpBqAZ9ZlV_IO3AIlm6mHug8_z0VyBR1XI9j2dRimrQmSrtEiSiP7MpGlTy4o58B3QARscSCgMzkSSpT3UkCXJTUjZXyMxqgNwMcBJmnts9k5NNeBl8r6jADNkPwdV6DbIFlAdCoz5sN6M",
+        "width": 1190
+      },
+      {
+        "height": 3348,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106332771760263858502\">La Zoccola del Pacioccone</a>"
+        ],
+        "photo_reference": "AfLeUgPcRLmUPm1XgEhCHdAMfkwxCiDSRU0ALrt9c1MfC0iDROGRiTRnLdzmbGJ6h_Gx9tBS0X25sCrNGqO9jQx7QsdDp7H35zrxWlZcwe7khPi_8utkXqbyz-vm6bDp1ZxyzP2TL5m-moAxHCed2eEc96JB0-nFpN-fdAmalLS3kKib8o1Y",
+        "width": 4995
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114410288519366684132\">Eleonora Martelli</a>"
+        ],
+        "photo_reference": "AfLeUgMVELtVMmdm7qgr62TZ_oweL6dIo6tA38B-gIP_4Ai8lbFXwY6tgX53Z7tWjerRXbIh1QR2fCd5WFsrUk4GwnqImpOHadU0vSwLdse20daooPsUhL_L-lf6HxbV8Qbutl9UOlBdO2Ol64Rs55L84MmxpVRYZ2BHfbwKCc5PqiGhsNtS",
+        "width": 4000
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106332771760263858502\">La Zoccola del Pacioccone</a>"
+        ],
+        "photo_reference": "AfLeUgOpifY0TrPG6cbqwTWkHIxQWGAW4KvhE1xrrbki0v910LhmcKM6bpC17eMoqZcfTZn9gT-ptUC9u94MrHwULObYJ-QXZnhZkMSukOQuuhH11ETW0ccwfeifE76d0ngnAl5cddUqPws6Q9z3Xn_CJ9kCSESBJWnSx63vJzAkqlYgO2qm",
+        "width": 958
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109728180263477457463\">Daniel Seller</a>"
+        ],
+        "photo_reference": "AfLeUgN0uM7q9maQjsYHfegkMpnPqMBrvxrGVvYiGkAPDdVYhZAy0LIOx5wNhYI12dzNohj8r5F-3UsNGiQNSSFPumKOSrK_nDjTU6iywblV6EsviL6fg9UTBzyYdvL2--BB1sqOkqunHf9ZVkN85UPDSr4kxL9jQOdDtjnGD_LFsbF-LH4w",
+        "width": 4032
+      },
+      {
+        "height": 3464,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103535601619091370915\">Marco Schepisi</a>"
+        ],
+        "photo_reference": "AfLeUgPJLduejrL-0C3M09TMVB1LaTboTN4iAtjs1PGwwqodaK1Hmp-JCKUXrRpbVj3slj4VDvlIOLbCVWwIittOrKsNfb3Kg5yP3gkDC3js8Bzg35s-qVODcvrm6Et_Pxl3RoDPkGHlCLyY3gO4yP8zA2L0svqHVWEzbUxvgnuX1RVbD6IA",
+        "width": 4618
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112285114726401693577\">Yousef A. Almubarak</a>"
+        ],
+        "photo_reference": "AfLeUgP_fsiCt7oAqDN0kJi08xA7Szfpw4Xg_CB29xee_Xk8-gCRdmMfqlAdbtNayVNN4vGLStNFK1F09Y-WnjKXkZSnONUll3pnCwwg7lOra0K131DQnA4PMM-7g18r9Zamzc6aUldHC0GR67V1JFjCoEkDrujnzj4DOdrlQG-M56Xo4vf-",
+        "width": 3024
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106803796126063304335\">Izabela Elvert</a>"
+        ],
+        "photo_reference": "AfLeUgN1h1rYCUnwGL3nM9De1lu-yz9yhbo3pi-I_fdSPXtiFrh2CK8sUqt5e6__ckW9QHMRkerwwuS35DHkFTl_CSULiPNyZ1yQ0ma_pO10TaNNlKJe32wg5-u-WfAsRWef6PCGi918aBVgKlzAK85itz0NHpAhBW_RDXAhU9S2gA1oze7i",
+        "width": 2736
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101101214407666956929\">Masoud Jahromi</a>"
+        ],
+        "photo_reference": "AfLeUgPHfBDFDJJpbOoC9XA0nL7gigU5Fi2nUHB2D_UxE8_bTn03qHxGbx2bUbzjdaSRXFAc8kVbSDsyTOT7jFgVxw-wEg-73kWv94E_yfWVKOkKacoRUfti3FN8R-kkRedMUCLH4enDNNr0fj35uyAHIoNLGXzKEj85Lh52NCzZ6klhm9T_",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114412538287569235355\">Fabrizio Della Pace</a>"
+        ],
+        "photo_reference": "AfLeUgPfQvVA9oVSQwIzIGPqOHjDDBjjnHYvOui-sfc5VtU4SqPxhDJdZZtK6gG60N_0m7O8okSAoTvvy-VmzeGUGPievEHMGzMnb8NwXD9shlhanH2j6Nmus6Smytpui33jp0VigqhXTGko7TWFSy_zNH9ebx1rv3TB7sUiVy5uoJmNrpIM",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJG9S3pMcJxkcRd68CCAjwptY",
+    "reservable": true,
+    "companyName": "Pizza Beppe"
+  },
+  "ChIJWw3QMuEJxkcRM7dPcO2Cs44": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
       "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2000" },
-          "open": { "day": 0, "time": "1245" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2359",
+            "truncated": true
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1300"
+          }
         },
         {
-          "close": { "day": 1, "time": "2000" },
-          "open": { "day": 1, "time": "1245" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "0000"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 2, "time": "2000" },
-          "open": { "day": 2, "time": "1245" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "0000"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 3, "time": "2000" },
-          "open": { "day": 3, "time": "1245" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "0000"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 4, "time": "2000" },
-          "open": { "day": 4, "time": "1245" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "0000"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 5, "time": "2000" },
-          "open": { "day": 5, "time": "1245" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "0000"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 6, "time": "2000" },
-          "open": { "day": 6, "time": "1245" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "0000"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1300"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 12:45 – 8:00 PM",
-        "Tuesday: 12:45 – 8:00 PM",
-        "Wednesday: 12:45 – 8:00 PM",
-        "Thursday: 12:45 – 8:00 PM",
-        "Friday: 12:45 – 8:00 PM",
-        "Saturday: 12:45 – 8:00 PM",
-        "Sunday: 12:45 – 8:00 PM"
+        "Monday: 5:00 PM – 12:00 AM",
+        "Tuesday: 5:00 PM – 12:00 AM",
+        "Wednesday: 5:00 PM – 12:00 AM",
+        "Thursday: 5:00 PM – 12:00 AM",
+        "Friday: 5:00 PM – 12:00 AM",
+        "Saturday: 1:00 PM – 12:00 AM",
+        "Sunday: 1:00 PM – 12:00 AM"
       ]
     },
-    "rating": 4.5,
-    "website": "http://www.theredwinedistrict.com/",
-    "company_name": "La Zoccola del Pacioccone"
-  },
-  "ChIJWw3QMuEJxkcRM7dPcO2Cs44": {
     "formatted_address": "Eerste Constantijn Huygensstraat 60, 1054 BR Amsterdam, Netherlands",
     "formatted_phone_number": "020 846 6706",
     "geometry": {
-      "location": { "lat": 52.36410349999999, "lng": 4.8740895 },
+      "location": {
+        "lat": 52.3641538,
+        "lng": 4.8740945
+      },
       "viewport": {
-        "northeast": { "lat": 52.36545248029149, "lng": 4.875438480291503 },
-        "southwest": { "lat": 52.3627545197085, "lng": 4.872740519708498 }
+        "northeast": {
+          "lat": 52.3655190802915,
+          "lng": 4.875508180291503
+        },
+        "southwest": {
+          "lat": 52.3628211197085,
+          "lng": 4.872810219708498
+        }
       }
     },
     "name": "FIKO - Restaurant",
-    "opening_hours": {
+    "photos": [
+      {
+        "height": 1702,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113956015369636353121\">FIKO - Restaurant</a>"
+        ],
+        "photo_reference": "AfLeUgP2MsAQv11FHrOjWXWkWrKXirLyt6BeSSUY8BQU4qaZXvf4_1mSpd1Dblsl4kFSwv6QTd_zBnX9x2ldfkmMRk6wHSk7uJ0CBP6TGTXNNm2tRh0ab0XiRfVxIye7Sxmk71Wa5ePOLUVj9AijQ0qsTr26hyQntaR3j_tlOLOgCws9Jaor",
+        "width": 3024
+      },
+      {
+        "height": 6720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113956015369636353121\">FIKO - Restaurant</a>"
+        ],
+        "photo_reference": "AfLeUgMKD-NUr_mhbqhn0U4BukUoRysrfLpW77dxLu9doEmKKZzHgGh3T0uKmjrnKbPd3KqDTzgZaknlku_QYqtzULhh-qCPDoGJOK67YVXQN8hVS-7-otmvnxYlxnSbrrIEKX1YSbqQ25WqbUf0-Kh6-vdFvyI6iGePzwbMVOcUJhJ0VVEa",
+        "width": 4480
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110577472306616944004\">Theo Mulder</a>"
+        ],
+        "photo_reference": "AfLeUgP_zY0qU_cmToqrX95armGOk6Re00AIbRTHhv5Pn9vf0yXuNmvAxdk0Shi-WJ48cATegmISTbug6YxXv4vymy-yazIj74Krqy5uiErfd2McjUUqBhYIiD-AnddYxqpGmfYWyS1Q6F23-hSqcv4TvVVKalXvPjFD7ar2m5zEmttZkJQM",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117962149477209178485\">VOW DESIGN</a>"
+        ],
+        "photo_reference": "AfLeUgPJvyxA4LZCnt60SG_1Uk6l_1fVuj9dtu-zDhjbU-eDUowVmcwJdpNk0Ct-rZb8U3oXTJ4hnHqtCZyVqk5P2LeoG9x96lGmaeZcljlzbo8AO1zVUcbV1sAsXpesv2_4eC2tsHQU9bsXTMWiHWkYEoqJjQgDlGCsfKycnBAL2w52ICQq",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104970293766723462127\">Gonzalo Beviglia</a>"
+        ],
+        "photo_reference": "AfLeUgO9qRL7VjD0f4uLwqVDR-WfFmQYm0uEHsZpzurJfI8K1WK71aWxQWMzRTBYAZST75G11U07y5f8Qev-DBixq62I4Ei7JB4t4ixA81AR2YJ2hQp8L--ElQthUuJejEMyXSSl-ltJ8k28teyHX_z4qsDG5sr6SHFjBYaJw4SuuFmS0GZD",
+        "width": 3024
+      },
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116710451443452010200\">From Bari With Love</a>"
+        ],
+        "photo_reference": "AfLeUgN1YAY0nuWk3p5lv3VFKwMMhLvcu1CehM2mqojRuni35jxpEBpgmkuN9Zm5kqGevBFvwGiMZwHgvrjZJwCQ8jzahjEOkIJezfcX50FKmmKh4Ct-BU-gu9_3up18GZfasw0QfkheJubLLvFXs7NocVruNJ5kW9fNrCSE8jAyEn6bdOum",
+        "width": 1440
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108708307328394054789\">Jill Focus</a>"
+        ],
+        "photo_reference": "AfLeUgOZxApWMOY9hglpPdEuyuUxUj5NEEAF4uGaVvONWqb0imDEjwI774oUVGmFih_fdDdyKfhG8KpxfgGtt_FsCaYFEfjWhJq-4BIsz2t_YTZ9tPiEEM0Ko5mECH-jSQfLZBsittCKWNqRRMOMGNxRUlBs2r2grE9wSOvc0x739HCjrKPY",
+        "width": 3000
+      },
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113717344865942574212\">James Trek</a>"
+        ],
+        "photo_reference": "AfLeUgPcAznPsGAabTVXENK7L25i34MEQmB4ksQ3ItgmiiU-XuYmdCxe3OMy5hjc3rVwonKcA34RJjQZktC7oltf8IlfKeX1TpucB0borMlq3FYqCDFvyxww3LZ0MA7qjjZTZ0UY6xJYKV1RRqkRjHD_QQOczrFz9YvK-qhW4DYYL0qmoevA",
+        "width": 2048
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104285715973323223407\">Fernando de la Fuente</a>"
+        ],
+        "photo_reference": "AfLeUgNuYY9tgnjQkLbVoHCaNSpTApX9mmPSf7e-WgO7Xd50O9Oq2TJE4gA_1679AQpWcXzAsC8znAqpgaTWifzW4pOS_86DGHydin9FzC_6HpYcQbV_oZASfb7CTSWbTQ45i_0xWrLUN_vclmX7vdqwdvavrKq08mhau257p-0eKOTTEFIQ",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100145976643138388206\">Thiago Peres</a>"
+        ],
+        "photo_reference": "AfLeUgNVHmMI7AqjyuS1yPvX9vN8QYNYGtskI7WR5bd1mLKlZpXD5K1qy0I46CFUvP11MkZ6CQtdTK0JFj8ruI5fAxDqprUabgQGiG-5WmmylXZwzIbkjA3ZXcYau_cpoYccfqkNUyPrvgggFEk-CD8ITckanInCiA_Wdu57TbZnbNiy0YQo",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJWw3QMuEJxkcRM7dPcO2Cs44",
+    "reservable": true,
+    "companyName": "FIKO"
+  },
+  "ChIJuYcxewTixUcRuae9Q323nik": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
       "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2000" },
-          "open": { "day": 0, "time": "1300" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 1, "time": "2000" },
-          "open": { "day": 1, "time": "1300" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 2, "time": "2000" },
-          "open": { "day": 2, "time": "1300" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 3, "time": "2000" },
-          "open": { "day": 3, "time": "1300" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 4, "time": "2000" },
-          "open": { "day": 4, "time": "1300" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 5, "time": "2000" },
-          "open": { "day": 5, "time": "1300" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2300"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 6, "time": "2000" },
-          "open": { "day": 6, "time": "1300" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2300"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1700"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 1:00 – 8:00 PM",
-        "Tuesday: 1:00 – 8:00 PM",
-        "Wednesday: 1:00 – 8:00 PM",
-        "Thursday: 1:00 – 8:00 PM",
-        "Friday: 1:00 – 8:00 PM",
-        "Saturday: 1:00 – 8:00 PM",
-        "Sunday: 1:00 – 8:00 PM"
+        "Monday: 5:00 – 10:00 PM",
+        "Tuesday: 5:00 – 10:00 PM",
+        "Wednesday: 5:00 – 10:00 PM",
+        "Thursday: 5:00 – 10:00 PM",
+        "Friday: 5:00 – 11:00 PM",
+        "Saturday: 5:00 – 11:00 PM",
+        "Sunday: 5:00 – 10:00 PM"
       ]
     },
-    "rating": 4.4,
-    "website": "http://www.fikoamsterdam.com/",
-    "company_name": "FIKO"
-  },
-  "ChIJuYcxewTixUcRuae9Q323nik": {
     "formatted_address": "Amstelveenseweg 89, 1075 VW Amsterdam, Netherlands",
     "formatted_phone_number": "020 223 9000",
     "geometry": {
-      "location": { "lat": 52.3529424, "lng": 4.856294999999999 },
+      "location": {
+        "lat": 52.3529424,
+        "lng": 4.856294999999999
+      },
       "viewport": {
-        "northeast": { "lat": 52.3542654802915, "lng": 4.857536330291501 },
-        "southwest": { "lat": 52.3515675197085, "lng": 4.854838369708498 }
+        "northeast": {
+          "lat": 52.3542658802915,
+          "lng": 4.857536030291501
+        },
+        "southwest": {
+          "lat": 52.3515679197085,
+          "lng": 4.854838069708498
+        }
       }
     },
     "name": "SOTTO Pizza",
-    "opening_hours": {
-      "open_now": false,
+    "photos": [
+      {
+        "height": 1362,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110154461927198753653\">SOTTO Pizza</a>"
+        ],
+        "photo_reference": "AfLeUgPjm7W5wgYiYxZywX1ma3TdZ5j2Co2sPhqOuLCqDNhfjvvCCXSifOjj5u2PXWXITyLF7WKkJARdS149ZlGoPZwQW1-zPA6UQBuZMvdyAHZjUPwUbZBBft9d59CeKv38p8m7gXAFJJqWxuutVoVnySVAxCrK9mjc5x3nn7gcZIDzJ0F7",
+        "width": 2048
+      },
+      {
+        "height": 3397,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110154461927198753653\">SOTTO Pizza</a>"
+        ],
+        "photo_reference": "AfLeUgMGSCIkzvxAMz4qTqDfv6xO2RgDqYCU8y4uD4e2f62UCj-ySnlNnNzew-uqzLcOcizN1gB5oxpGT-58dm8j59nxAqVUIV1Le6Pm3TH6ySjWllnP4Geik17CzYJkBqK_UGG__zFE9j4KyiKfqN4gu-OS8AcmCBKZ6dO20LJIRGQND1-1",
+        "width": 5095
+      },
+      {
+        "height": 2736,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112575330711992183578\">Anne B</a>"
+        ],
+        "photo_reference": "AfLeUgMdJ8hI7AJCEdllJqfmN7OIgGgGytggQLAfOC6AVidsjLXw3XZJrU_Rr0GP58kDFr2li5gYFjNAW859WGX35xAMomcCQy85CqBAIcG7pi_YjqaVwMDz5xuGlQqLFrXMjrC0agKM04XzelVasXCh71P6wsiNB_F1SMFHiOAI3hcUKfLa",
+        "width": 3648
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106664532371470696822\">Dee Smith</a>"
+        ],
+        "photo_reference": "AfLeUgMzMMvbzpRconBHy75I4GKDH7ceKAzF4xr1l9yVpnNXSNzCQp4vTq-Bey94qeyYdOrDE2xiLjt_TbHDnvzdWhdxwb9NPmbKGp1uFu_HnV28MT0qSBaNq3CWXnW1grbQaVpn2VHXtzaYxGL4qya5hbFJ8zR0EsMyxKA9ThpnRBiX6dUH",
+        "width": 4000
+      },
+      {
+        "height": 2604,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113106151008883656138\">Leandro. S</a>"
+        ],
+        "photo_reference": "AfLeUgOAoZ83C9GX0MavoiKnHnKEn-vfQf8boiY9e1oYDByc3rXnCnzUtPS6H_9l_xjopcn18MuA4zvbdklQ5itgNPjhaZTWgZJ5rfNNyON1OGiS_rsASrv2C_4omEv8ioGsZMVdYM-sWvAfGSXR7V6LK-sA6W_2G0HZXhXNGnmsu7UM2xsz",
+        "width": 4624
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107092375253238015185\">Peter Paul</a>"
+        ],
+        "photo_reference": "AfLeUgPLO0g9hJJuYuNXnXwvoz_a0j06zxHx4kMrKP2jQY5a27rn1q8brAPeP6P2lXWNrJuVWj0uTfy0GNRHEGS_kHyxCdHiZV0OKCHuNrkCmdFJK7T8INggWTpVzv_pAG34muHtgGgVzhae5a9FEm3HU4CsJnbuo9FTXtUXZU1OUI2OUHgX",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113513734592597300248\">GERHARD BURGER</a>"
+        ],
+        "photo_reference": "AfLeUgOkPojyMXDNJ-c4v6Bt37RIW4d3jVPKQxl_P1AQ-Out9AOkFdVj2jmxPjr_46O6JBUqCz4VkgC_4oCNCHEolTjZuEoM6kVa1VXh9UkptTSbYEABUDa5tVra0tCtYSQu6UPHR6p9ekfZYdIqToE6N1rLmDQaNWD6olpiDsHDV-AK77na",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107092375253238015185\">Peter Paul</a>"
+        ],
+        "photo_reference": "AfLeUgPhI6Us0ypbj5BXw1Pwep4B6a6CC8gH9KB18wLXrt0HJH-gaGRs1_FHV7SYFS-qljFy5mE9DSCVU8TLL8seLsnVEQKyDksnVjPZ5-AfFzZBS8HqylFHmPtGV714vh3wNY4OYOYjEwjeGaZA7XZ7LIBk__RIvLWJ2bJk6x3RZOBESn8d",
+        "width": 3024
+      },
+      {
+        "height": 2604,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113106151008883656138\">Leandro. S</a>"
+        ],
+        "photo_reference": "AfLeUgOWYob-j79SuwCEtaL8CNBCsKvjkC0AoVoGAh2INDFY7FTl-ZOGNuOIirMAOJkCFVKdBtdK14xGnTlgyNlvflYMYEX1rxIS3uTUY8gMcDmfAISBytd_Zc14ViaDiXK86J3aL6e6PI1MetqB22rzDOCSum-g4VIBm1voq4syMz27q2mu",
+        "width": 4624
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107092375253238015185\">Peter Paul</a>"
+        ],
+        "photo_reference": "AfLeUgPascYn2Q20GLzKXbRT03ajpp9z9DyL-WeA9Plbp1s9wZIXTyQmd4OF93HPQGNrhyREl8mOYSsf7tL7srG7YSUfWpHhfxH6WXYCSmxiJ_BomSJf8kkDlS4Vp4o-WQgAIzJXROKZ3dNp9KWkZdJDHZb_yPztyH5AuqUvXWOiFT2M0L1i",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJuYcxewTixUcRuae9Q323nik",
+    "reservable": true,
+    "companyName": "SOTTO Pizza"
+  },
+  "ChIJhVyan6MJxkcRFvIRVY9pEIs": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1700" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 1, "time": "2200" },
-          "open": { "day": 1, "time": "1700" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1700" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1700" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1700" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 5, "time": "2300" },
-          "open": { "day": 5, "time": "1700" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2300"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
         },
         {
-          "close": { "day": 6, "time": "2300" },
-          "open": { "day": 6, "time": "1700" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2300"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1700"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 5:00 – 10:00 PM",
-        "Tuesday: 5:00 – 10:00 PM",
-        "Wednesday: 5:00 – 10:00 PM",
-        "Thursday: 5:00 – 10:00 PM",
-        "Friday: 5:00 – 11:00 PM",
-        "Saturday: 5:00 – 11:00 PM",
-        "Sunday: 5:00 – 10:00 PM"
+        "Monday: 5:00 – 10:00 PM",
+        "Tuesday: 5:00 – 10:00 PM",
+        "Wednesday: 5:00 – 10:00 PM",
+        "Thursday: 5:00 – 10:00 PM",
+        "Friday: 5:00 – 11:00 PM",
+        "Saturday: 5:00 – 11:00 PM",
+        "Sunday: 5:00 – 10:00 PM"
       ]
     },
-    "rating": 4.3,
-    "website": "http://www.sottopizza.nl/",
-    "company_name": "SOTTO Pizza"
-  },
-  "ChIJhVyan6MJxkcRFvIRVY9pEIs": {
     "formatted_address": "Kadijksplein 4, 1018 AB Amsterdam, Netherlands",
     "formatted_phone_number": "020 773 3120",
     "geometry": {
-      "location": { "lat": 52.37, "lng": 4.911944399999999 },
+      "location": {
+        "lat": 52.37,
+        "lng": 4.911944399999999
+      },
       "viewport": {
-        "northeast": { "lat": 52.3713904802915, "lng": 4.913264480291502 },
-        "southwest": { "lat": 52.3686925197085, "lng": 4.910566519708498 }
+        "northeast": {
+          "lat": 52.3714060802915,
+          "lng": 4.913274430291502
+        },
+        "southwest": {
+          "lat": 52.3687081197085,
+          "lng": 4.910576469708498
+        }
       }
     },
     "name": "SOTTO Pizza Kadijksplein",
-    "opening_hours": {
+    "photos": [
+      {
+        "height": 1800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101927502792934983168\">À manger et à voir</a>"
+        ],
+        "photo_reference": "AfLeUgNpmwV1AFGBlbuL3lHYh29QI4An1D5hA9qL0JLsq6JfTwqvks8C_Wr1jN-UgVCUL56ylr5tukzdZDaxF5RSzVTsWSO50vqf6PBigL6R4kgRi2bwCHSJKHEdlm9NdWAKCvRSTwZdl_Q0JuhWZW4jLSy-eok-Mz6Mh_t1cjsOdbYDFP3W",
+        "width": 1440
+      },
+      {
+        "height": 640,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106022098485166196915\">SOTTO Pizza Kadijksplein</a>"
+        ],
+        "photo_reference": "AfLeUgNcqe-RwXTqcs3rtl7biGPdCQvf1KfJM0ldjQfdNs2d82GeoRO7f2vL-Ynmym0QL_lDMux2KK9p4SGlPW3s5gECCeb4b_2Nivuqbbj4d5iLQGce_K5iTmIGg4aaS4o-hD_gFyJ2kkpDO9AERu0wiwyIUPlKtwJpYrQK5UABuOJ7BkzP",
+        "width": 960
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114407118994763695462\">Sach</a>"
+        ],
+        "photo_reference": "AfLeUgNnC8Mo-4ZqMHVe6YBxMKybQG4QOxzpOf7Wz4t-WcNHd1w8xSbOCKwmDWG2qO9U50R1O69oamBxHqrE6K5F8jwBjdwubGvfep72KO4Pud8jNXYCy5DxaB2qDJ_h5fiHsXHtkEHtpvaAmBDf4A375_bJlBo9K0ElVIXEpoNb33Sd_Ktn",
+        "width": 4032
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113767637906438647069\">Jonathan Hancock (Element)</a>"
+        ],
+        "photo_reference": "AfLeUgPuaURVya9M9jvhp-xgoSRiVM1p_XtHsKEvCqjBt_9UukpQUXJZElkT3DXzWg9THFGrMZ6bbIrpOJD3GL4HvPgAlmcEqOWVIpY4xLz7xUj5wMeMel62ZVLLLokddd1ovjfptRIIiTvncUKaaGj2IuB0BbR6XHndf8OsxHgYdEUfdOqf",
+        "width": 4080
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113054793326731906903\">Shirley Tan</a>"
+        ],
+        "photo_reference": "AfLeUgMW7dESLMfnsGklnS9_vdKuZ_kt3EoubL6dz8ZKW9IFgupcK7lv4NyNC0JXw4qmYjE7Eh6cFHemnRyAtkh3l5eSvc3UBAp6_1aki4v2ZC3DCByqbuU8Xw9h34tYgjRJsS5hQzoVBTgMU0qtADAJXDNDZCUGA_Rz7aFeF5vwlRf3Bfmu",
+        "width": 3000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107855379035306278615\">Luna Herrero</a>"
+        ],
+        "photo_reference": "AfLeUgOi3kVi4EfH647fBqtFgIWrIFhaugVBgXSIaNs2Pp7SSoD_njNqNQloRZKo-ILXU1OrUGQ5qr_D90FAO04fIxUipFs-lCY0i6G3Mw7khn6ikhNVAuBUVywjA5i-7T_oM00SKg42gERoq3j5HP1P6eALVwtPRjaRv9yJCVRUenux4MZP",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104776593838204609189\">shota davlasheridze</a>"
+        ],
+        "photo_reference": "AfLeUgOy-sTizKFvWRfBYHsxOSMk65Ht6VPpEwZI7T1KfhHTmN7Cf81-2aYQBjqLNHWQ2AdV6cqEpsHYqMssl6p4Y8A1_gqG2LHKpMkg974qDb1dPnqFEvemwtUwkYymeFH62GY-8_FWymiU4Ecoqptb_24lvcHjXuYhjm6pjb97DougBtY5",
+        "width": 4032
+      },
+      {
+        "height": 1267,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100380480775961666858\">Tiago DSP</a>"
+        ],
+        "photo_reference": "AfLeUgOoFHDCjMp6SlPjV6XSBQ9cgQWgAprBaUSZdkobOX9Vq42rbEKConFveJNNf5W0c5MC4bw5ewd4slESg9U9rwSsPKh127NXWOGmoH6Si3LpCLtljlSh4QP4Wf7DtzGID8U3exkdUZgL0hK4dWACwYWxjlQkclMq-Qxl5usURxK9ZIUC",
+        "width": 1284
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116075171548740704041\">Dennis Schichtl</a>"
+        ],
+        "photo_reference": "AfLeUgMKdB558u4DQMvtyOw9J4zzLD4sCo8euIcpu2JsN1al57KowbJPDIqsNspdtu9-59di9vXUsnsOiutiUj8P3pcA7y9ruJvLIZW_36959hxRxYM6SSdAzq5uoJv8IQGcP697KpT_XkzL1WUwkVGw5vedWmI_bANnGrsg2prp41_GnASE",
+        "width": 3072
+      },
+      {
+        "height": 3072,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113767637906438647069\">Jonathan Hancock (Element)</a>"
+        ],
+        "photo_reference": "AfLeUgNxvzHsVv9-f77bUFmwQm5JNezdrx4t2uzwVMXfGX2ACvhWRboKQAOnspfuyeCeIyijA2LwSEDl74FepNX3x_3DEs1d0Atxncb6pRO5gHM8KuH3rYQrRB7kaAQtC6T57WmA6ZFTEk-QE7tAnqTsKqxTohMC8cJtooHQ9N_sxtXhLvVC",
+        "width": 4080
+      }
+    ],
+    "place_id": "ChIJhVyan6MJxkcRFvIRVY9pEIs",
+    "reservable": true,
+    "companyName": "SOTTO Pizza"
+  },
+  "ChIJ3cFzwd4JxkcRgU2hANz2i1s": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
       "open_now": true,
       "periods": [
         {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1200" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1500"
+          }
         },
         {
-          "close": { "day": 1, "time": "2200" },
-          "open": { "day": 1, "time": "1700" }
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1500"
+          }
         },
         {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1700" }
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1500"
+          }
         },
         {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1700" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1500"
+          }
         },
         {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1700" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1500"
+          }
         },
         {
-          "close": { "day": 5, "time": "2300" },
-          "open": { "day": 5, "time": "1200" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1500"
+          }
         },
         {
-          "close": { "day": 6, "time": "2300" },
-          "open": { "day": 6, "time": "1200" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1500"
+          }
         }
       ],
       "weekday_text": [
-        "Monday: 5:00 – 10:00 PM",
-        "Tuesday: 5:00 – 10:00 PM",
-        "Wednesday: 5:00 – 10:00 PM",
-        "Thursday: 5:00 – 10:00 PM",
-        "Friday: 12:00 – 11:00 PM",
-        "Saturday: 12:00 – 11:00 PM",
-        "Sunday: 12:00 – 10:00 PM"
+        "Monday: 3:00 – 10:00 PM",
+        "Tuesday: 3:00 – 10:00 PM",
+        "Wednesday: 3:00 – 10:00 PM",
+        "Thursday: 3:00 – 10:00 PM",
+        "Friday: 3:00 – 10:00 PM",
+        "Saturday: 3:00 – 10:00 PM",
+        "Sunday: 3:00 – 10:00 PM"
       ]
     },
-    "rating": 4.4,
-    "website": "http://www.sottopizza.nl/",
-    "company_name": "SOTTO Pizza"
-  },
-  "ChIJ3cFzwd4JxkcRgU2hANz2i1s": {
     "formatted_address": "De Clercqstraat 12, 1052 NC Amsterdam, Netherlands",
     "formatted_phone_number": "020 612 4309",
     "geometry": {
-      "location": { "lat": 52.3717471, "lng": 4.8732903 },
+      "location": {
+        "lat": 52.3717471,
+        "lng": 4.8732903
+      },
       "viewport": {
-        "northeast": { "lat": 52.3730640302915, "lng": 4.874707430291503 },
-        "southwest": { "lat": 52.3703660697085, "lng": 4.872009469708498 }
+        "northeast": {
+          "lat": 52.3730640302915,
+          "lng": 4.874707430291503
+        },
+        "southwest": {
+          "lat": 52.3703660697085,
+          "lng": 4.872009469708498
+        }
       }
     },
     "name": "Fuoco Vivo",
-    "opening_hours": {
-      "open_now": true,
-      "periods": [
-        {
-          "close": { "day": 0, "time": "2000" },
-          "open": { "day": 0, "time": "1500" }
-        },
-        {
-          "close": { "day": 1, "time": "2000" },
-          "open": { "day": 1, "time": "1500" }
-        },
-        {
-          "close": { "day": 2, "time": "2000" },
-          "open": { "day": 2, "time": "1500" }
-        },
-        {
-          "close": { "day": 3, "time": "2000" },
-          "open": { "day": 3, "time": "1500" }
-        },
-        {
-          "close": { "day": 4, "time": "2000" },
-          "open": { "day": 4, "time": "1500" }
-        },
-        {
-          "close": { "day": 5, "time": "2000" },
-          "open": { "day": 5, "time": "1500" }
-        },
-        {
-          "close": { "day": 6, "time": "2000" },
-          "open": { "day": 6, "time": "1500" }
-        }
-      ],
-      "weekday_text": [
-        "Monday: 3:00 – 8:00 PM",
-        "Tuesday: 3:00 – 8:00 PM",
-        "Wednesday: 3:00 – 8:00 PM",
-        "Thursday: 3:00 – 8:00 PM",
-        "Friday: 3:00 – 8:00 PM",
-        "Saturday: 3:00 – 8:00 PM",
-        "Sunday: 3:00 – 8:00 PM"
-      ]
-    },
-    "rating": 4.5,
-    "website": "http://www.fuocovivo.nl/",
-    "company_name": "Fuoco vivo"
+    "photos": [
+      {
+        "height": 767,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113544860936777484106\">Fuoco Vivo</a>"
+        ],
+        "photo_reference": "AfLeUgNnCqo2H1RnTbVh5nrLCtUalWBjUfEr01kpCI9uBjH7BPo9ttyNo1JZZBRtWoSzFgxEA0yE76cqqyaYpi7X9br-1_o3xfKQbq8N5X3yXaCfOVVLMc9J2ZFquHeyQc79srBRMC6FiusW1tWrV1JOQoyJDUdm5Kzk01XkFX2yF9h7GZ2h",
+        "width": 1024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108302911023125567693\">Mauro Caravel</a>"
+        ],
+        "photo_reference": "AfLeUgOoBFw5NtXoFswvgVniawXAb0_T_mbUTN2-s7LWLUgrFEFZpY7JdxtR9PEEfY0YC9hC7sYhrA5h-dlFmEU04YOs9apX6u-52vCtmvfj5QWhnzq0kZRKPrLFJ0nRGQu06TCOJDIZSX2yIZkujEfwwp-Zc-Rme6dGWaPoLNlw9wrfAT1I",
+        "width": 4000
+      },
+      {
+        "height": 3472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115193384710314396337\">Mary Bello Ruiz</a>"
+        ],
+        "photo_reference": "AfLeUgNZwEw9A4SczcwP2LE5Y_W84zwpARiOURL0JV7Tff3geUplXt5QkOAPkIAognMIs2eay2RfjK0f_hlTG5qH7_OAJUBbvHPD3voQSmTkUcfsZGzzfLDkoNSdBBxb7Rxc2OQ66SzsAGgFXa8y4iK5rjMm0GhKHycDPyiBU95GnBWSZj5x",
+        "width": 4640
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100191305055696922848\">R G</a>"
+        ],
+        "photo_reference": "AfLeUgPF3by4UQM04rfpKqy4-F3Nvh-upF4gSxXg_UIp-TFqwEKtB8MfScHWS8X3mZIL3TPjltvPxORMOX-oCV7FM8l6x_YZED9Dtb3mcYsQrpezMvS52rz_fz3hzNbB5eNcgmDPZ0ssjpa6-OCmkk9BxSJRGZ6fSH9X3vrv6jbN3qVVNn8E",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112858140567131560478\">Shahin Shahkarami</a>"
+        ],
+        "photo_reference": "AfLeUgPy1PzyrOgVWbVq0oRQql55PefvyMjxQAcKKQftXOs3uQtfJwIsKCWnkt9eofnuElbUTyorv8PC7dQOCXcSY1Ay-y1I0MyxwdSW1YbtXcNH6zTbLk7mKSkBylsVZZoHmk3BpsEHMCL-Bvn6KYP2_FqHaheVgbjp_dxeLqwv24Z13TUc",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117601180157989637815\">Stone</a>"
+        ],
+        "photo_reference": "AfLeUgNfMg4BkIbrUH2QzKBWdQ7NF8TV8IBddBqmC14XTdkiD0e0ELUSAswTYL1KQpCGTnE4UB6wSX-6wLX2rdg_Obkk1Oz4P38Y03VOZneTp6HEWSM4a90ZvgPIZIzlWuZUtz_KfxMNe7yoNqkMxBDhE8wfRrkfZbRqyPmNSgIwp8isx7U2",
+        "width": 3024
+      },
+      {
+        "height": 3472,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115193384710314396337\">Mary Bello Ruiz</a>"
+        ],
+        "photo_reference": "AfLeUgOlMw2pukfvSYNKvgO4bf-Kr0aJQAotfCSNFltKnJYG8iO04shggc_2wYXmuTvAP9J0vJX-49EjhNS6o3Dg1gTZjWFvJiB1ysseF_58tpT1b4uRzm-IcgvjKMLxvJzvuw9niKSlpOQc1aDwgaeLHpmR9PONVjCUhglMB0MVUmL2N3Jj",
+        "width": 4640
+      },
+      {
+        "height": 2988,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108564896477516172605\">Goker Celik</a>"
+        ],
+        "photo_reference": "AfLeUgNNMkrmx0E6q74908ASXXJcurRxVnlPX4F-odcGaeTk4m_2g5iH4N_Oe3k71l2lPRywwL2FY4X8iuyeNy4Obr3MKbcApmZ3c3J7DvM7TtrbLLMg5HwHupYNUlCBJYBQw1w3SK8BydihdqOJ2w6E8zc5CG2N6I5nnbmMXe4sPdQ0Np4i",
+        "width": 5312
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116146577775922977148\">tabas shuja</a>"
+        ],
+        "photo_reference": "AfLeUgOk1zMA16VEoFfN182aCUJD5RaKFOXNbHzCJ4GEYFCPme0KnvcYAWH9Wk-HhekTWrgJ7E6g8NzTw5TbLIpkKUGL0k4C94i9LIIFU9As-Ci14hHPKSLuy49h68T69AhhM5idJyablyLQhxFxjKdlgz7g3GRfgwr-3dzb4n4PYgY4hxY",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106028042476450552184\">edda mar</a>"
+        ],
+        "photo_reference": "AfLeUgMWZOEKfuPeC9DRST0KNu8njhVqV8ly5TO0NaD3EWlUTxbgHR75tWWE6fAfGK3QsgfwEfMVM-YM8rW8_SwLmqBxqQX_U8UiLFls9sE5f3Gdgv1lO93VK4fuE6opxIa8jgGRb5FKLRuh12B4bSPme-x1loO43YW5CO0phsfyNUSV3rB_",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ3cFzwd4JxkcRgU2hANz2i1s",
+    "reservable": true
   },
   "ChIJKRnveGAJxkcRjARJuZnA-Bs": {
+    "business_status": "CLOSED_TEMPORARILY",
     "formatted_address": "Spijkerkade 31, 1021 JS Amsterdam, Netherlands",
-    "formatted_phone_number": "020 244 1510",
     "geometry": {
-      "location": { "lat": 52.38465590000001, "lng": 4.921481900000001 },
+      "location": {
+        "lat": 52.3846541,
+        "lng": 4.9214779
+      },
       "viewport": {
-        "northeast": { "lat": 52.38599428029151, "lng": 4.922743130291503 },
-        "southwest": { "lat": 52.38329631970851, "lng": 4.920045169708498 }
-      }
-    },
-    "name": "Di Luca Pizza",
-    "opening_hours": {
-      "open_now": true,
-      "periods": [
-        {
-          "close": { "day": 0, "time": "2200" },
-          "open": { "day": 0, "time": "1600" }
+        "northeast": {
+          "lat": 52.3859813302915,
+          "lng": 4.922744480291501
         },
-        {
-          "close": { "day": 2, "time": "2200" },
-          "open": { "day": 2, "time": "1600" }
-        },
-        {
-          "close": { "day": 3, "time": "2200" },
-          "open": { "day": 3, "time": "1600" }
-        },
-        {
-          "close": { "day": 4, "time": "2200" },
-          "open": { "day": 4, "time": "1600" }
-        },
-        {
-          "close": { "day": 5, "time": "1400" },
-          "open": { "day": 5, "time": "1200" }
-        },
-        {
-          "close": { "day": 5, "time": "2200" },
-          "open": { "day": 5, "time": "1600" }
-        },
-        {
-          "close": { "day": 6, "time": "2200" },
-          "open": { "day": 6, "time": "1600" }
+        "southwest": {
+          "lat": 52.3832833697085,
+          "lng": 4.920046519708498
         }
-      ],
-      "weekday_text": [
-        "Monday: Closed",
-        "Tuesday: 4:00 – 10:00 PM",
-        "Wednesday: 4:00 – 10:00 PM",
-        "Thursday: 4:00 – 10:00 PM",
-        "Friday: 12:00 – 2:00 PM, 4:00 – 10:00 PM",
-        "Saturday: 4:00 – 10:00 PM",
-        "Sunday: 4:00 – 10:00 PM"
-      ]
-    },
-    "rating": 4.6,
-    "website": "http://www.diluca.nl/",
-    "company_name": "Di Luca"
-  },
-  "ChIJ2wd-LUQJxkcRP_EibBV--2g": {
-    "formatted_address": "Rozengracht 160, 1016 NJ Amsterdam, Netherlands",
-    "formatted_phone_number": "020 779 9070",
-    "geometry": {
-      "location": { "lat": 52.3729484, "lng": 4.8782438 },
-      "viewport": {
-        "northeast": { "lat": 52.3742477802915, "lng": 4.879626780291502 },
-        "southwest": { "lat": 52.37154981970851, "lng": 4.876928819708498 }
       }
     },
-    "name": "Paradise Bar",
-    "opening_hours": {
+    "name": "Di Luca",
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117653848546269982890\">Di Luca</a>"
+        ],
+        "photo_reference": "AfLeUgN5ruYZF4zXdIaa8UD9Vf_IP6JB-riDoOiQ9LEsVc22HtQqBGHnKFxMAYrxGOe07E4692ROR9X6c-eBgUyooTAqIvdNgxnK_87fbvbuCJOp_b8Z3yShUqlnlZ2YpwX5ObVI6Da6ouXkEQMFzFLZVh6ZfKuVPhc6iCEjHEOzEMaltH5W",
+        "width": 6000
+      },
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117653848546269982890\">Di Luca</a>"
+        ],
+        "photo_reference": "AfLeUgOBgJfSEHrGgWIJGF9ZbMbSLX7uHHKpoumXgpMikclMbRMKWrLoQcitSEEsbZJXlwjmOtNVnNb6PJiqB0fuVPowRAunkLylCBPz-ObcBGB2dGf3amMrmfsJUG32Ut4eNddWxPc9_p_5XCxgAxEAyjvzsXYvrMS52NQkBkmpnAHpbSht",
+        "width": 2048
+      },
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117653848546269982890\">Di Luca</a>"
+        ],
+        "photo_reference": "AfLeUgPfNmW2OE4xa4qqaZQew3d_SvFWEPTJ0G7Qtg0ildfVJY0R36j0p82GLVa_Jagg6lJcgRfY_ZWmtDBXpUu9xQbHE16Ap3WqJj5mqksCDMR6NaSn4cq8ZYnBqJvfPWpZ9fqH-6oc3r4DupG_ObmftDJxlA4aH07daKOjmQ_Dm31TEoIH",
+        "width": 1024
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103157994297665962090\">Leelo Rand</a>"
+        ],
+        "photo_reference": "AfLeUgMQkd6zkRtRBwjQBYb0zXk-ajsj4227n8qCLCbE8XK29kj4R7r8JlfLCrO6zMJhl4wbbLlK-OX_52_G83D7XZiKwx_lCneYvLfY_2VFGKn9Pf_8eC1MIXI__6Xrnrlu-NFuDgmI4tRSmdqdWAxM8JldvLNtwyb_9M1ROIDJdNaPV9ss",
+        "width": 2736
+      },
+      {
+        "height": 5792,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108278912505644105181\">Martijn van Manen</a>"
+        ],
+        "photo_reference": "AfLeUgNgQ7npExadHKtKrHY912V3Xq_OJ7_-VLwwXUAUwWvHCml6EVT1IPn8WY24mOxjDbQdYwHR3-xYWGbhJ3BMCkG_Di5hLTSplazVy59QojnHxV2TxM_ek8mXxj_owOnXXhTkL3uxzyKFSUZ-8ylCUoYMhIkozYqKiZAmkXotJiuobjAD",
+        "width": 4344
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106100825452736815185\">Lorene Faivre</a>"
+        ],
+        "photo_reference": "AfLeUgMA7e3ohOuJXbaHzvscUm7By6WfXnGc1l5ECpiLapWH8dtUNGyluWRhrDkZy4Rfwh3ESIzfrJhbddpW2AXcq_xXSRwjGMUVgCYdu80n9b5TGlM5D3rw1VD_CsBkfwQN1oVgZYj4VcH2MjaPbuCe7XpBKEdjQhmJWn_13lSroDJN8EGY",
+        "width": 4032
+      },
+      {
+        "height": 3508,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117653848546269982890\">Di Luca</a>"
+        ],
+        "photo_reference": "AfLeUgOVcLKcE_H9cYpC9eyWPb9ECfvMgoY_GmxsdOyP0byZGyH6ohf15WZWLPvh5sKh8n5H-avKDI7FYdmT1vsBkX0LyrG3Wpoo9RbuSShNcMSDSPptPlD00pFmw_NR1TXAnWttjwBQ5mC0ezMldUmGsJlBdH2C4Rlo4MqqGdK6g82WvuIO",
+        "width": 5256
+      },
+      {
+        "height": 720,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117562375774132304394\">oncu</a>"
+        ],
+        "photo_reference": "AfLeUgPCyOLSnkesMPHlVY8huiAbWz0m_fI3bK1cW2kvO_ChXYpyDkYktJqDBIHL_gWXAHJJXaxog0MbK87mdmsXQQE0f4g3GNsSUZbsv4-20zWdhVM6pwhGrH3WZJxhlu7yCEHS1QfyU0QoMWzfI7Fx5lYYDxmgT4_LGWKVRsEqs1ZW6abx",
+        "width": 960
+      },
+      {
+        "height": 1920,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105700955316503655385\">Vincenzo Galluccio</a>"
+        ],
+        "photo_reference": "AfLeUgMeN3CJuBln-DZ8eH2U3saWT8t9QqLL6mK5x-wp8SxnypS0Iy324SKR3b7xF3pjAPoF8HXO3QTX38iSrtfH2gk1V2XW-V9rPz8pSWgVeFOkmRaoDmY-YHufKGsTxYyruPyanm9B2hSXZEsGpcjSljwSlEveY68HPbwXaKvmHPvLHk1G",
+        "width": 1080
+      },
+      {
+        "height": 1908,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111295181179144166100\">Francy V</a>"
+        ],
+        "photo_reference": "AfLeUgPY8vwmQoz4-hjen8dE2IEFEqtSnLRQOmgsSpt_Ln1YGz2TjVup0hEyPEJTTZzxs29bOC0NdR3M-VGGo-9Qxr3cwixDRCOZ3neDiQNxm4Ao9pa7h8nHxj3N4mgEvqH1cTotC8Zdm5BqaKQ2UQdBnlzZat5YrZ6I95wPHnsDmFPaeSMU",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJKRnveGAJxkcRjARJuZnA-Bs",
+    "reservable": true
+  },
+  "ChIJ1QH_1NUJxkcRj8R73zr4tLw": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
       "open_now": false,
       "periods": [
         {
-          "close": { "day": 0, "time": "2000" },
-          "open": { "day": 0, "time": "1700" }
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1730"
+          }
         },
         {
-          "close": { "day": 3, "time": "2000" },
-          "open": { "day": 3, "time": "1700" }
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1730"
+          }
         },
         {
-          "close": { "day": 4, "time": "2000" },
-          "open": { "day": 4, "time": "1700" }
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1730"
+          }
         },
         {
-          "close": { "day": 5, "time": "2000" },
-          "open": { "day": 5, "time": "1700" }
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1730"
+          }
         },
         {
-          "close": { "day": 6, "time": "2000" },
-          "open": { "day": 6, "time": "1700" }
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2230"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1730"
+          }
         }
       ],
       "weekday_text": [
         "Monday: Closed",
         "Tuesday: Closed",
-        "Wednesday: 5:00 – 8:00 PM",
-        "Thursday: 5:00 – 8:00 PM",
-        "Friday: 5:00 – 8:00 PM",
-        "Saturday: 5:00 – 8:00 PM",
-        "Sunday: 5:00 – 8:00 PM"
+        "Wednesday: 5:30 – 10:30 PM",
+        "Thursday: 5:30 – 10:30 PM",
+        "Friday: 5:30 – 10:30 PM",
+        "Saturday: 5:30 – 10:30 PM",
+        "Sunday: 5:30 – 10:30 PM"
       ]
     },
-    "rating": 4.6,
-    "website": "http://www.paradisebar.nl/",
-    "company_name": "Paradise Bar"
+    "formatted_address": "Bentinckstraat 26, 1051 GL Amsterdam, Netherlands",
+    "formatted_phone_number": "020 488 0599",
+    "geometry": {
+      "location": {
+        "lat": 52.38380129999999,
+        "lng": 4.874181399999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 52.3851355802915,
+          "lng": 4.875576330291501
+        },
+        "southwest": {
+          "lat": 52.3824376197085,
+          "lng": 4.872878369708497
+        }
+      }
+    },
+    "name": "Bella Storia",
+    "photos": [
+      {
+        "height": 9000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115143490891127907584\">Calum Gray</a>"
+        ],
+        "photo_reference": "AfLeUgNqC1bIiDNNR9RyIIiv62NQe__xQUkjwUxDZ-2GVjARBf7aEwGmSvQ9ABOCyEPNWk5DTHuQD3Jujq9c8CuWuK67fPITiGyuVn4brNBjX-dEpwi98Mz4Yi7KkJgTWNS024rC_2xjNi0nexRpqB80mCR6xt-pKLpD95oO5n0ZG8ZMnIPF",
+        "width": 12000
+      },
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107077772764904035894\">Ruben Groen</a>"
+        ],
+        "photo_reference": "AfLeUgPzaBZP4i1vCtAog-W-CVBJZ41Snb7TsQo3SF9Qk3tawXmIlR180dhY88OZGMvh0pnnD3_5Apa6pm9EYuNlEm9M6-fnAQdo24nFsto56Rn387y2RPo-YfN0LFh7OOV99f3GXFCB3rhCEB43kKlYu47dOL7p2M44dJIxmIBbyEQM-lEg",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107506885747606709717\">Jack Sacali</a>"
+        ],
+        "photo_reference": "AfLeUgN0KII8QOkk0sONgWzicV9ZgZtlKDO96NMpn3abMYnuUX7WxYgq9gAVSE9xpsl7-3R7HX-bwR2Osi7cHm2pF2hBPGOZZpZeuk_GhIMeEc4dyP-NDKQrrnVwuhuSoyJdQf8TonMFh6CD6mvjXJGssT_OXUQWWN0hRZepmZK1hTfPHNpU",
+        "width": 4032
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109496686296945978250\">Lisa Dhoop</a>"
+        ],
+        "photo_reference": "AfLeUgM_E0xXrPHwq0Ots95_97a-kVy0fz0y3rnAWX37nzP4UI-UafUMnU9Qmi8Ro3TGSo37W4uS6n-90Q5p08-A7vvw2bSfl8zZHPawAcwnUaYdUa89804tjsj3l62VgZQnRDIAAMzIerlkBP5qUO992T1_-fsyzMLflTOARpNoL9yhsv5H",
+        "width": 3472
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112207931556591894923\">Erin L</a>"
+        ],
+        "photo_reference": "AfLeUgPWZfapWV6r7e8UtfJHIbMq755j7RjGM3bnJgJvjb6HYv9l13IsrNNYJ1ezPWjtodDQPQJz_2J_lHysmg9hbmg2O59XsWHRB75L0rPWUMQ6WDgpJ1wI7oHcT-WJ7aACQY2jhBsaWnKhAAOhEV47av3QTY5tLWLFOkh3qJBKU5N_yRHK",
+        "width": 3024
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103204377238208419128\">Sam Rogers</a>"
+        ],
+        "photo_reference": "AfLeUgMOruFkRwg05uHbM6RNwhuwffAJhP8iEm_fUj2cpnfHPMHWyp5Dc8JU5RZMI7Go6cs-sQwcjGZtSy0-aBn0UtRHN-g76LzmOwlps8GfEgZWV6OVBXi5yBTjbG7fv56InefSoGhBLiS6TZaG-zOlVypbk-qqGV1dPnqSXEqKRe0BLj4H",
+        "width": 4032
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116118312736551950867\">Devinda Karalliadde</a>"
+        ],
+        "photo_reference": "AfLeUgMHK7KaLqZ3fM6cl1omqN4RtNDZmu2M09p6RwDMA57j9kDUPnoD9tIc4DyNpzlPK0JnaxMnqxzptAQdBtcx0XCHkk2o2f90cKCJ7W47siFwOHFi24_ZmiVxCAbT9hRR3hj3-LRmxIomxna68DmNEvf9hpDxlU4mTk1a5c0W7Pnid02V",
+        "width": 2592
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100558695397450493723\">Si Haddad</a>"
+        ],
+        "photo_reference": "AfLeUgPhP23CmUWQp1Q1OywWd6RHfC33KCUsvkZQS2Yp5jBkuDGryusNPCFT30InS8M1k_DwZ85Fu2_qprjVojh5DXAsf7JsXl0G6qEpp4DXrU1I7dP9ntixpyxg71aZPT64zSdfsNbB9Tp66eUmDkrhy-J0OQxypIZOstQOBXqEWIcmzK6R",
+        "width": 4032
+      },
+      {
+        "height": 2048,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113213187000976477662\">Julen H</a>"
+        ],
+        "photo_reference": "AfLeUgOA1-REYEuOxEgWq4iMbUdLphfYL2xvXKEDV-q0VoIPVhB9wPoJjdPuHOT8HN5hOvrh7DjkyoKeDr6pkoluZasmHwv9ZkOUCP0xeJbHO6wGE5A5kEMOE5d8MgF_sKICq1LUsfj72lciQamtk9llxrW4bKMrrvpZAqWm_iAEsseP3JCy",
+        "width": 1536
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100162142736394624421\">Massimo Izzillo</a>"
+        ],
+        "photo_reference": "AfLeUgNl5ZEm55j3CTXEZaCx7wqpb3_yZ36MoIpNr4oE03UkqSlEDpgCz-VoUH_LMHacXf0oOqAqKnbVORZ4SKriZw5M3X1iS4_Rt-X2ivBH5Q5_TYP7id27vs6_zWVuclbSICtW1SZyrjScstmHSS-EDapelHMz2gYrJoGmmX9youWukHib",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ1QH_1NUJxkcRj8R73zr4tLw",
+    "reservable": true,
+    "companyName": "Bella storia"
+  },
+  "ChIJ9anoHB3jxUcRJdvwBvYVHfM": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2359",
+            "truncated": true
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "0100"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "0000",
+            "truncated": true
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "0100"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "0100"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "0100"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "0100"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "0300"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1700"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "0300"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 5:00 PM – 1:00 AM",
+        "Tuesday: 5:00 PM – 1:00 AM",
+        "Wednesday: 5:00 PM – 1:00 AM",
+        "Thursday: 5:00 PM – 1:00 AM",
+        "Friday: 5:00 PM – 3:00 AM",
+        "Saturday: 5:00 PM – 3:00 AM",
+        "Sunday: 5:00 PM – 1:00 AM"
+      ]
+    },
+    "formatted_address": "Admiraal de Ruijterweg 79, 1057 JZ Amsterdam, Netherlands",
+    "formatted_phone_number": "020 235 7174",
+    "geometry": {
+      "location": {
+        "lat": 52.3713208,
+        "lng": 4.8597144
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 52.3727314302915,
+          "lng": 4.860901030291502
+        },
+        "southwest": {
+          "lat": 52.3700334697085,
+          "lng": 4.858203069708497
+        }
+      }
+    },
+    "name": "Volare",
+    "photos": [
+      {
+        "height": 3916,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106316871352256583969\">Volare</a>"
+        ],
+        "photo_reference": "AfLeUgMJoeqt4mvVD9HIj2fkXJoRQvhkM2tvJfYh1uesk5_9vj9HwC92-K2vfLQ2I8QRIbT97_gNsKcnmkK-3X79dh-FHA0y2UojqkbrP745i__HHYuG4N0JiYvCkDtlaxSzicuQYe2PjsqjmXnx4YE4AEP3olw_yTHzgAcgqiMXkrEnGIQj",
+        "width": 5866
+      },
+      {
+        "height": 6016,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106316871352256583969\">Volare</a>"
+        ],
+        "photo_reference": "AfLeUgNcV4bnGGn-Eo9npQP61FMx4ncfKJoHeoTGx9JbuWrrPFWe1PNXVHvFj85CC3MxUT9cDO9pDcpixKEeeMtseipKPWfRImU8RMkZGKYYUYqX-wLrxrzh65UoYA9IUmckxDqgpF0igHeTQgSP9Y9JniA99WKWpXsH71LKuByqbmAAbih8",
+        "width": 4016
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106316871352256583969\">Volare</a>"
+        ],
+        "photo_reference": "AfLeUgPldFRtsPRly2Ats_2xiFtBLlGPjUZ34aBl78aCbn7SnTT6WHiy3RRVapXOU-HkmSyg4CWphBo3xvyibsRNEshgw5M66uyrMf5S89pPea-VnWTo5kQTVyzjJwnTYebvoUTh9UDpDUfnVg_SMW1AxAprOoDNfq1uzkhY5m2gNy2Legst",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106473491220615469059\">Daan Niehof</a>"
+        ],
+        "photo_reference": "AfLeUgP3WhhCTcJXqnxvgXcwMzezES0d3Q6Pd7V88WG2A_jS4XF_CvvTdINYw40QLcw7E73ot5nWSXOa06z_oYA8Rqp-IsiznYsggkkroVi7eB0LLQM70DB3jL2oXpZXgbKIGqfpYMQ1OEu-bjz2Z3DSYJDSdRHyMZ_WMirv1yjsDEL313-c",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102750870245212792551\">Divya Chawla</a>"
+        ],
+        "photo_reference": "AfLeUgO4-kMxgOxlU-uMwxVvAohX13ta3bS4X5dtnyFxuyeSIP9DJx4xDrvVmo1yh8_wobhm90mOF_U9UbGAIWEUtrNv2CMx9VDGTKT_BxKGFsBSDuRV_nxMdGF_jkTKCfEm0yAo9kjQvBcO1LeyIDbkg_Tpoeg3GntvG0aZx_DBSnf1DsuG",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102726697410836589875\">itsick azran</a>"
+        ],
+        "photo_reference": "AfLeUgPzs1fHruTgAr--HWkstGLZFInSBQkMJ6hnk6dH1zS9t6fcuGQoYR60TUnd5Y_i_rYnxedhGVjSgduoI5XgEqP3CYTKr4x7dXoQcSc_BcM0zSatv2VMbg3f1eWzhV2ncS_jFnC15MbZ9gq2VNJwVvp5u8UHxKVGlDQ_p1snJBwy2ADe",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116315683453057192726\">Yoëlle Haurissa</a>"
+        ],
+        "photo_reference": "AfLeUgME3u-YA3dugk0I5WbwoUQCCH-nuAbVPiWLqr-0v-ucku6zEczR5YuZa5TFTk67npnS6j_mETZe_rdEDcTy6-iWqomx9yVQqlZvG3cNSYQ-0pmF4mw_8yhPG-PhrRrEkoK2XDX-d3qINTX94fSpWbMCwpAA5qiVeXlzdL1nkwjuJKlk",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101645526221148406977\">Sean Yau</a>"
+        ],
+        "photo_reference": "AfLeUgNZUUM-CIerdIhTi4EmzqdX7Y_k0ocgUDzZGPnkTv7_aNtkVn0NbD5kbAYam5JiAtkNQH3U8IFF4l0bI6MT7OfSiydY_9mYsidQeZqItelF3aktMitC6zUp3GJ4PoM1Hm2fxqUu7Cdj-N4Cp3iSWjlYxrMP01rqoS-KGy8WKJlMSfNc",
+        "width": 3024
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102726697410836589875\">itsick azran</a>"
+        ],
+        "photo_reference": "AfLeUgN5hDkh0lNStdhBQFuq4abgCswpivf8Ckqn0ymcZ_c_K-X2Zz-753cB8jLcw1nJQHj1VrN95vQP0mflyGhmQjqOBaKgcsXcB4ShM6QngsvtX3pDyqumUuv3sEXxDHKzA8RgGBz5Pb7McACjZUwafzfOilWdkuI8ghCJZTe97qbSdKtz",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100631309885421405475\">Jessy SNY</a>"
+        ],
+        "photo_reference": "AfLeUgPJAc5gqgXxOnmnrO_L7y3xc0_TuLom_Gn6SBVeMCGDp5erKTTHQwIc6PFxxoT_t_arJ09EDqSicIbYwUFvCqmebvB2ESIL3asFkpADpMQsxBJ_AM7HmVfhYCJSRRDxilePUALokrmy91PgUUsDzDytiuz_gwFyLdYf2hqONcLBTWMt",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ9anoHB3jxUcRJdvwBvYVHfM",
+    "reservable": true,
+    "companyName": "Volare"
+  },
+  "ChIJ6Yy2JfMJxkcReou7IRCH-e0": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 3:00 – 10:00 PM",
+        "Tuesday: 3:00 – 10:00 PM",
+        "Wednesday: 11:30 AM – 10:00 PM",
+        "Thursday: 11:30 AM – 10:00 PM",
+        "Friday: 11:30 AM – 10:00 PM",
+        "Saturday: 11:30 AM – 10:00 PM",
+        "Sunday: 11:30 AM – 10:00 PM"
+      ]
+    },
+    "formatted_address": "Ferdinand Bolstraat 107, 1072 LE Amsterdam, Netherlands",
+    "formatted_phone_number": "020 363 8737",
+    "geometry": {
+      "location": {
+        "lat": 52.35309650000001,
+        "lng": 4.8912201
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 52.3543105302915,
+          "lng": 4.892503280291502
+        },
+        "southwest": {
+          "lat": 52.3516125697085,
+          "lng": 4.889805319708498
+        }
+      }
+    },
+    "name": "Sugo",
+    "photos": [
+      {
+        "height": 2367,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103406090339932855051\">SUGO Pizza Amsterdam Pijp</a>"
+        ],
+        "photo_reference": "AfLeUgP5uqwAG100mXqiMi6DA4cX1RGI2dK7UTRqAANq0qe1QQLt5PAZvR8990oLbsLsFRPUEoDXSuULxK3cfERRFSTAzgFcdVIpSzrwvph0MCMF9c_MSwKev-D6OL7rK788R_1WFMxfwYvN5M-aV-4TlAyfCCRgB_Zjh3tXAb0ppG_V6cSS",
+        "width": 3500
+      },
+      {
+        "height": 1192,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103406090339932855051\">SUGO Pizza Amsterdam Pijp</a>"
+        ],
+        "photo_reference": "AfLeUgMV3f6YyaunY_MdSprwXy5hhxhB5ma2--KZtWEX84-jH5D7cLD_KkHtqZ8jMYmyJkCmrU6UsbIbALT7cNQgEeKoCnmWArf8Q9rEkMk7x05iH5MHpGjr9364BKXm9VmBx_hqyVcNESJWJNgQYBsROKHq4zYPjZiqhGUJHaHe_snxs4h5",
+        "width": 1759
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106570773050385380121\">Luvina B</a>"
+        ],
+        "photo_reference": "AfLeUgMiH72o9WXaNE8d2DdvSYSqV_Blnv2G-lAC4IL33rOOYhjMQybFHi9pyHUCoXHM8J-YC3HncZeA7pFdFEUrqlejtNnA3J0P6q0h6evY2CnmQ21DTfl7VBjmDNCstRGwrK3avAPviVgxMIvgDe2o6ZcTw1e94eI-3zm3OKDCTTN8fHz8",
+        "width": 4032
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103193807455169739034\">Daniel Rinehart</a>"
+        ],
+        "photo_reference": "AfLeUgNkgA7BvOe0vzlXYKAz2QP-Z-jzU9CIANe51qBYYdgJBqARWsYAwEz-7EfWrXN8yeyPe3a0X161OWL0Jb9w1KcvTWm4wD_4qjuEwjYksko3OlGPLKSSLGU5nWa3i2ShH2a--ojd3wHJ9zfm1mN1wOODTSTQRrTFYVmr66Tblhxwx02N",
+        "width": 4032
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115740079457071304094\">Julie G</a>"
+        ],
+        "photo_reference": "AfLeUgPCu0RStzw_514Of7NUWGMCC5cOOs4p7CEgG8jead-h_GoqRAVL4CQIDuxdsVFAsR7u3QxjKuRP2F6mXvzeqHVj9qFdAIAo1xhRSyhxfczerzev6k85yJI4NkDGDGwT3UtJ0ZUxfvbARujfo3Nu201KzMGx4PFzoRa7hpe7PEBBqlgP",
+        "width": 3024
+      },
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104589424078659759401\">fox tom</a>"
+        ],
+        "photo_reference": "AfLeUgNRPYqFESl33_I3d6nmTLZMsffgEPbSv4DR2cQBaj0uddC3A_13ax6gqVRdgiSySFWtzg5svE9A1snPhfBZLrR6hgESWiQ2fjrMuzkJ1MqMw4sonnRZRGAggF0XVl6Po6Px4x6p-WFgwHbT1xVD6rb6nK92SPv9sPoGX5EwLbZMCnO9",
+        "width": 3456
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114832944407369895578\">Anky N.</a>"
+        ],
+        "photo_reference": "AfLeUgPXlepMNlPmN95nhq7vgCogGrN6MALhm3hxcPjoIRsQM4Xsba36S1QFiJDivLL7-BJiUadjwcj3WHR8waEj0iHXAjhSH6Re65bgLb5Dz0ceBr6IdZDvDfmkpLO5-cTry_VSH4iSgGUdT63kmsnzeUaZmrREfNuFlv3WwLqbsWqym-G7",
+        "width": 3024
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108193247237639390038\">Molly</a>"
+        ],
+        "photo_reference": "AfLeUgNZwHPu4pXmM3-hq_vGagFrhh21ajnXfyeW-iTYxjD-WgNYQozS5QobxJVXCIO2V7_Wimz_APAL_iTB9Hmnz1xrj3kIuavJxX_c-WQwHpO90L--5u-rtyPbfHFQr7yApZqVRQLH2DTuKBQwSYXFqpq-866ccCVExhp-ZF5RKAgCPXyT",
+        "width": 3468
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104628455158521835731\">Mahsa</a>"
+        ],
+        "photo_reference": "AfLeUgO1aZXU4OYYVLGNhaGsYJ6rQBmDPZnBAaOM2WYroyeFWzsawxYRP5B_zy5Fa86VmJR_YmYwF6nP6a9DU94E0rILs-VG0XSddAv0f4dLKdyoCkmwG13T9jx5mEpBGb43qVvCbSkRITGOBoPOuzwJwqXE9B6OlC7_o44-pnKOhfm5dGRc",
+        "width": 4032
+      },
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103406090339932855051\">SUGO Pizza Amsterdam Pijp</a>"
+        ],
+        "photo_reference": "AfLeUgPWiLGZuin4RGOlY5A7CwnseNg7557lTodb1Cda0LwhL9kdtmbFgNwseUD3xDY03h4Z1aaFPr8kJFJn7_21thb0_Ufrs2OQgB2kHOH0T_VrBnIsczdAKjNO7Ir50XuP3dTFPlluiNjIs3D84S6YkMdLlFpQnoE6gCgsuPh_nqyxCRmK",
+        "width": 5472
+      }
+    ],
+    "place_id": "ChIJ6Yy2JfMJxkcReou7IRCH-e0",
+    "reservable": true,
+    "companyName": "Sugo"
+  },
+  "ChIJ5_anjosJxkcRjvYio2XdENU": {
+    "business_status": "OPERATIONAL",
+    "current_opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "date": "2023-01-29",
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "date": "2023-01-23",
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "date": "2023-01-24",
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "2100"
+          },
+          "open": {
+            "date": "2023-01-25",
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "date": "2023-01-26",
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "date": "2023-01-27",
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "date": "2023-01-28",
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00 – 9:00 PM",
+        "Tuesday: 12:00 – 9:00 PM",
+        "Wednesday: 12:00 – 9:00 PM",
+        "Thursday: 12:00 – 9:00 PM",
+        "Friday: 12:00 – 9:00 PM",
+        "Saturday: 12:00 – 9:00 PM",
+        "Sunday: 12:00 – 9:00 PM"
+      ]
+    },
+    "formatted_address": "Reguliersdwarsstraat 4H, 1017 BM Amsterdam, Netherlands",
+    "formatted_phone_number": "085 004 8917",
+    "geometry": {
+      "location": {
+        "lat": 52.3668032,
+        "lng": 4.8892016
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 52.36823023029149,
+          "lng": 4.890505530291502
+        },
+        "southwest": {
+          "lat": 52.3655322697085,
+          "lng": 4.887807569708499
+        }
+      }
+    },
+    "name": "Sugo Pizza | Amsterdam Koningsplein",
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114936551742889652319\">Marco Hueg</a>"
+        ],
+        "photo_reference": "AfLeUgOLKgb_sDeaCSKu73ErgloyMTYLPzJiHX-K5gFSR2u_yuRaLwl2vNtY1okYTBP1T3Kv8nHYO412S_UgYzU_i6se04oCQDPkbvSZ0dDHv-y_OnHcIslb8YfLLfroHqc3dvI97pMNtUAg8UophiokbfLfcTboGgd0agLfy4M6tJM5FOpJ",
+        "width": 3025
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117400027901914992235\">Sibby S</a>"
+        ],
+        "photo_reference": "AfLeUgO1UHVLsNdYxFTSawdpXtFx23tFpE0SXlP_geJK99ymoqlyCUvoIAbjZusa8_y56tLqGQUy2oGSmM2FCEGG1ogom318hsf2skELOIY84r7XDRm_Q3oQqyN_MAb-ZLTZbQCboGBO8hmCoDXiJNFLDKZIQSBVvxdLSXNJqqEm0OJBiaHE",
+        "width": 4000
+      },
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112451457213134931894\">Miauw</a>"
+        ],
+        "photo_reference": "AfLeUgOvVyokmSNWOwhaFaEixGzaq9TgIdC_u-giSzcCbQW0Dd0ghEXrYsO3FT4nCrx7nQ06evyI98GFmhwiAKb9jrozith1AKJYBhPY5OnUEM80R7-93fjaFdq0p43YAWHATyVD_hDc2rNwRTgRe1iu7V7RsXKlT-lTeSU-ZmRR0ZpDJM3v",
+        "width": 2851
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116697924864465141132\">Adrian Kamp</a>"
+        ],
+        "photo_reference": "AfLeUgPFKu9G3MhE-nnSQBFUHreM-VaZh2Xah4Q4NYuYzva4N_JJVC-JMNNsAMLugxQEjkIDekM0pCzcf363aah7eS7rSKA6VNtHszMeGI0dJt5RBNnbsOHWCMfCRY4A8bhykKp9YxM1J1O_ThKJi10rVojnlw1rLucfGkI3mX-cvcnXXQgR",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110855737780474173474\">Simon Lemhöfer</a>"
+        ],
+        "photo_reference": "AfLeUgMbrfaNK-Fpf1FPvksd1MtUPjC2MMUufumz5DlfFY5gPSl-bi4HuYOHc_wt9-9X3J9upvVV0MbnFDmh196ePoFdcZ3N12repwDr_nNgrsaVyjagAVWf-8JLqIuHPMvdPzXvZMu7Mc-lR-Il-8qxwGzrk28j-IprXEZkxyYzCzOqbmwg",
+        "width": 3024
+      },
+      {
+        "height": 1440,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112451457213134931894\">Miauw</a>"
+        ],
+        "photo_reference": "AfLeUgNQbL8nLz4K41VlK9oPo4Oy7HVRwyu7i_Sj2hkX__vOQbLL8TtVpZ7v-aZKiI10o5r7PvtYedT3If34-J04VSxsqEa76gbV_5XD0k8ZTorqcwSLj9WpeP1Hw8w3mfJhVHKw8P71N__HnXM9H4f02rWLNachsazmoNONWUQvvsHuBmBu",
+        "width": 1911
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114694976466044445611\">lachachi nazim (JazzAyear)</a>"
+        ],
+        "photo_reference": "AfLeUgPoEcH9aaK2H4oL2ErnS-WDj5K2dQidm_ULzggN4980pawmw5XqjdTR28EW0u2Hkzp0byC4zQMQTQP2GD9OziRLe9EUM1-hC9BKpMoV3VzcEMJ5KeBHz4n9Wa4x1YNqXe__xpn2CbwQdEs8xuu7JCCtFGRtAoAUzhWrqtZg8s0WAU8j",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114894044570299138382\">Angel Santos</a>"
+        ],
+        "photo_reference": "AfLeUgNNl_mCheHNYSIGLErFLu-LSKG78J8Nc2cCWlRFDJ-NyRvlXxxgsqfkH4MiwZRxrwTdcm4sRee1kNjr6-9S0vK1I5ZJP2KVaam9dIKEjwJv_7JEcjZCpsmx48ExzjSCIkFB3uOuRs_jT1aL5wAVpP2nmbR16O1qEpPGPMxOqtZAqR_J",
+        "width": 3024
+      },
+      {
+        "height": 2637,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112451457213134931894\">Miauw</a>"
+        ],
+        "photo_reference": "AfLeUgMVAl7jcwEhAxUxv_f6NNyUoP8_8ifgOh0b9JowzG_Yj7cCnw5PSlpyBg2ctIfNapLiGaGGxR3iFrsMvtDHs6sZcApMNPM20jSq6FarY4k49aQuSmnzSM0LwPBiDB76bXweMRwR-Y34oFcbiU02eoaAhM_0i1igCvllihciQqHmvgEt",
+        "width": 1682
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115296548085307205222\">Eui-Hyun Jeong</a>"
+        ],
+        "photo_reference": "AfLeUgMD9CyGxMBZJkQ4kLK2XujAYWCKgGTwHc7mS592YBZoDiPOHdcNiXA8zx99ACkurUBdqmRzWVPip6dEUXHJvzaOYlwZeipBdZ3ExBCIHNyQmygmUbUhEiDuuQWEAfPLVnv-PzFZ0-Lu6Zw4nSFoiJP6FQ6cXFbkOuIz4R3Vm2owwjM9",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ5_anjosJxkcRjvYio2XdENU",
+    "companyName": "Sugo"
   }
 }

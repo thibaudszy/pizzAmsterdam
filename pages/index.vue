@@ -197,6 +197,7 @@ h1 {
 
 .site-container {
   height: 100vh;
+  max-height: 100vh;
   overflow-y: auto;
   width: 100vw;
   display: flex;
@@ -206,7 +207,7 @@ h1 {
 }
 .body {
   display: flex;
-  overflow-y: auto;
+  overflow-y: hidden;
   width: 100%;
   background: var(--off-white);
   border-top: 10px solid var(--theme-color);
